@@ -547,7 +547,7 @@
         .slider-frame {
             background: url(../../images/bg/slider-main-bg.png);
             background-position: top center;
-            background-size: contain;
+            background-size: 100% 100%;
             background-repeat: no-repeat;
             padding: 70px;
             padding-bottom: 42px;
@@ -555,7 +555,9 @@
             z-index: 3;
             margin-top: 60px;
             overflow: hidden;
-            position: relative;
+            aspect-ratio: auto;
+            width: 100%;
+            height: auto;
 
             @media #{$md-layout, $lg-layout} {
                 padding: 40px;
@@ -575,6 +577,7 @@
                 left: 50%;
                 transform: translateX(-50%);
                 background: url(../../images/bg/main-banner-bg-shape.png);
+                background-size: 100% 100%;
                 z-index: -5;
             }
         }

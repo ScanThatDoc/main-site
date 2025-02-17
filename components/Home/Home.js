@@ -31,6 +31,8 @@ import Testimonial from "../Testimonials/Testimonial";
 import BrandTwo from "../Brands/Brand-Two";
 import CtaTwo from "../CallToActions/Cta-Two";
 import { useAppContext } from "@/context/Context";
+import imageLight from "@/public/images/HomeLite.png";
+import imageDark from "@/public/images/HomeDark.png";
 
 const Home = () => {
   const [visibleIndex, setVisibleIndex] = useState(0);
@@ -59,7 +61,7 @@ const Home = () => {
             <div className="col-lg-12">
               <div className="inner text-center mt--140">
                 <h1 className="title display-one">
-                  Examine the Potential of
+                Automate Invoice Processing with AI
                   <br />{" "}
                   <span className="header-caption">
                     <span className="cd-headline rotate-1">
@@ -71,7 +73,7 @@ const Home = () => {
                               : "is-hidden theme-gradient"
                           }
                         >
-                          AI Chating
+                          Extraction
                         </b>
                         <b
                           className={
@@ -80,7 +82,7 @@ const Home = () => {
                               : "is-hidden theme-gradient"
                           }
                         >
-                          AI Writing
+                          Process
                         </b>
                         <b
                           className={
@@ -89,27 +91,27 @@ const Home = () => {
                               : "is-hidden theme-gradient"
                           }
                         >
-                          AI Chating
+                          Populate
                         </b>
                       </span>
                     </span>
                   </span>{" "}
-                  AI Hack
+                   All in One Place
                 </h1>
                 <p className="description">
-                  Unleash Brainwave's AI potential. Use the open AI <br />{" "}
-                  conversation app Rainbow theme
+                No More Manual Data Entry <br />{" "}
+                Let AI Handle Your Invoices in Seconds
                 </p>
-                <div className="form-group">
-                  <textarea
+                <div >
+                  {/* <textarea
                     name="text"
                     id="slider-text-area"
                     cols="30"
                     rows="2"
                     placeholder="Enter a prompt, for example: a fundraising deck to a mobile finance app called Intuitive"
-                  ></textarea>
+                  ></textarea> */}
                   <Link className="btn-default " href="/text-generator">
-                    Start with AI
+                    Take A Demo Now 
                   </Link>
                 </div>
                 <div className="inner-shape">
@@ -144,11 +146,12 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-11 col-xl-11 justify-content-center">
+            <div className="col-lg-11 col-xl-11 justify-content-center ">
               <div className="slider-frame">
                 <Image
-                  className="slider-image-effect"
-                  src={isLightTheme ? bannerImg : bannerWhiteImg}
+                  className=""
+                  // src={isLightTheme ? bannerImg : bannerWhiteImg}
+                  src={!isLightTheme ? imageLight : imageDark}
                   width={1055}
                   height={898}
                   alt="Banner Images"
