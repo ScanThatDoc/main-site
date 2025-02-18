@@ -8,8 +8,10 @@ import appleApp from "../../public/images/cta-img/apple-app.png";
 import viewImg from "../../public/images/cta-img/view-img.png";
 import bgShape from "../../public/images/cta-img/bg-shape.png";
 import bgLight from "../../public/images/bg/bg-shape-tree.png";
+import cta from "../../public/images/CTA.jpeg";
+import ctaLight from "../../public/images/CTAlight.jpeg";
 
-const CtaTwo = () => {
+const CtaTwo = ({isLightTheme}) => {
   useEffect(() => {
     Sal();
   }, []);
@@ -41,7 +43,10 @@ const CtaTwo = () => {
                   </p>
                 </div>
                 <div className="app-store-btn">
-                  <Link className="store-btn" href="#">
+                <Link className="btn-default " href="/">
+                    Try Now for Free
+                  </Link>
+                  {/* <Link className="store-btn" href="#">
                     <Image
                       src={playApp}
                       width={157}
@@ -56,13 +61,13 @@ const CtaTwo = () => {
                       height={55}
                       alt="Apple Store Button"
                     />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="content-right">
                 <div className="img-right">
                   <Image
-                    src={viewImg}
+                    src={!isLightTheme ? ctaLight : cta}
                     width={449}
                     height={499}
                     alt="Mobile View"

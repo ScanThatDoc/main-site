@@ -456,7 +456,7 @@ const Home = () => {
 
       <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big">
         <div className="container">
-          <CtaTwo />
+          <CtaTwo isLightTheme={isLightTheme}/>
         </div>
       </div>
     </>
