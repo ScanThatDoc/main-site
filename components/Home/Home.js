@@ -215,11 +215,11 @@ const Home = () => {
               >
                 <h4 className="subtitle">
                   <span className="theme-gradient">
-                    RAINBOW UNLOCKS THE POTENTIAL ai
+                    Scan The Docs unlock the potential AI
                   </span>
                 </h4>
                 <h2 className="title mb--0">
-                  Generative AI made for <br /> creators.
+                  Effortless Invoice processing <br /> just as you want.
                 </h2>
               </div>
             </div>
@@ -239,10 +239,10 @@ const Home = () => {
                 data-sal-delay="150"
               >
                 <h4 className="subtitle">
-                  <span className="theme-gradient">Assisting individuals</span>
+                  <span className="theme-gradient">Assisting Orginizations</span>
                 </h4>
                 <h2 className="title mb--60">
-                  Chat Smarter, Not <br /> Harder with
+                  Maintain Invoices Smarter, Not <br /> Harder with
                 </h2>
               </div>
             </div>

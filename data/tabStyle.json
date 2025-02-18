@@ -1,122 +1,75 @@
 {
   "TabStyleOne": [
+    
     {
-      "title": "Video generating AI refers to artificial intelligence.",
-      "img": "/images/generator-img/chat-export-vedio.png",
-      "imgLight": "/images/light/generator-img/chat-export-audio.png",
-      "menuId": "video-generator",
-      "text": "Vedio Generator",
-      "target": "video-generate",
-      "iconImg": "/images/icons/video-g.png",
-      "isSelect": false,
-      "subItem": [
-        {
-          "text": "Transformer Models"
-        },
-        {
-          "text": "Conditional Generative Models"
-        },
-        {
-          "text": "Pre-trained Models"
-        },
-        {
-          "text": "Variational Autoencoders"
-        }
-      ]
-    },
-    {
-      "title": "Audio generating AI refers to artificial intelligence.",
-      "img": "/images/generator-img/chat-export-audio.png",
-      "imgLight": "/images/light/generator-img/chat-export-audio.png",
-      "menuId": "audio-generator",
-      "text": "Audio Generator",
-      "target": "audio-generate",
-      "iconImg": "/images/icons/audio-g.png",
-      "isSelect": true,
-      "subItem": [
-        {
-          "text": "Transformer Models"
-        },
-        {
-          "text": "Conditional Generative Models"
-        },
-        {
-          "text": "Pre-trained Models"
-        },
-        {
-          "text": "Variational Autoencoders"
-        }
-      ]
-    },
-    {
-      "title": "Photo generating AI refers to artificial intelligence.",
-      "img": "/images/generator-img/chat-export-photo.png",
-      "imgLight": "/images/light/generator-img/chat-export-audio.png",
+      "title": "Seamless Whatsapp Integration – Smart, Fast, and Reliable!",
+      "img": "/images/whatsappAutomation.jpeg",
+      "imgLight": "/images/whatsappAutomationLightTheme.jpeg",
       "menuId": "photo-generator",
-      "text": "Photo Generator",
+      "text": "Automation using Whatsapp",
       "target": "photo-generate",
       "iconImg": "/images/icons/photo-g.png",
       "isSelect": false,
       "subItem": [
         {
-          "text": "Transformer Models"
+          "text": "Fetch Invoices Instantly"
         },
         {
-          "text": "Conditional Generative Models"
+          "text": "AI-Powered Data Extraction"
         },
         {
-          "text": "Pre-trained Models"
+          "text": "Real-Time Data Access"
         },
         {
-          "text": "Variational Autoencoders"
+          "text": "Secure & Scalable"
         }
       ]
     },
     {
-      "title": "Text generating AI refers to artificial intelligence.",
-      "img": "/images/generator-img/chat-export.png",
-      "imgLight": "/images/light/generator-img/chat-export-audio.png",
+      "title": "Seamless Email Integration – Smart, Fast, and Reliable!",
+      "img": "/images/emailAutomated.jpeg",
+      "imgLight": "/images/emailAutomatedLightTheme.jpeg",
       "menuId": "text-generator",
-      "text": "Text Generator",
+      "text": "Automation using Email",
       "target": "text-generate",
       "iconImg": "/images/icons/text-g.png",
       "isSelect": false,
       "subItem": [
         {
-          "text": "Transformer Models"
+          "text": "Fetch Invoices Instantly"
         },
         {
-          "text": "Conditional Generative Models"
+          "text": "AI-Powered Data Extraction"
         },
         {
-          "text": "Pre-trained Models"
+          "text": "Real-Time Data Access"
         },
         {
-          "text": "Variational Autoencoders"
+          "text": "Secure & Scalable"
         }
       ]
     },
     {
-      "title": "Code generating AI refers to artificial intelligence.",
-      "img": "/images/generator-img/chat-export-code.png",
-      "imgLight": "/images/light/generator-img/chat-export-audio.png",
+      "title": "Manually Upload Invoice and get processed instantly",
+      "img": "/images/manualDark.png",
+      "imgLight": "/images/manualLight.png",
       "menuId": "code-generator",
-      "text": "Code Generator",
+      "text": "Manual Uploads",
       "target": "code-generate",
       "iconImg": "/images/icons/code-g.png",
       "isSelect": false,
       "subItem": [
         {
-          "text": "Transformer Models"
+          "text": "No More Manual Entry"
         },
         {
-          "text": "Conditional Generative Models"
+          "text": "AI-Powered Data Extraction"
         },
         {
-          "text": "Pre-trained Models"
+          "text": "Real-Time Data Access"
         },
         {
-          "text": "Variational Autoencoders"
+          "text": "Secure & Scalable"
         }
       ]
     }
@@ -126,41 +79,41 @@
       "tabId": "home",
       "target": "home-tab",
       "isSelect": true,
-      "menuText": "Connect with AI",
+      "menuText": "Sign Up",
       "img": "/images/split/split-1.png",
       "subTitle": "How it work",
-      "title": "Connect with Al chatbot",
-      "desc": "Dentify the platform or interface through which you can access the chatbot. This could be a website, a messaging app, or a dedicated application."
+      "title": "Seemless Onboarding with a simple Sign Up",
+      "desc": "The moment you sign in using Email or Mobile number, our system automatically connects to the respective API, linking your account securely. Once connected, the application is ready to receive invoices instantly—no extra setup required."
     },
     {
       "tabId": "profile",
       "target": "profile-tab",
       "isSelect": false,
-      "menuText": "Streamline Workflow",
+      "menuText": "Recieve Invoices",
       "img": "/images/split/split-4.png",
-      "subTitle": "Exploring Efficiency",
-      "title": "Streamline Your Workflow",
-      "desc": "Discover tools and techniques to optimize your workflow, making your tasks more efficient and manageable."
+      "subTitle": "Effortless Invoice Collection",
+      "title": "Receive Invoices Instantly",
+      "desc": "Stop worrying about gathering invoices manually! Simply receive your invoices via WhatsApp or Email, and our system will automatically fetch them using secure API integrations."
     },
     {
       "tabId": "contact",
       "target": "contact-tab",
       "isSelect": false,
-      "menuText": "Cybersecurity",
+      "menuText": "AI Processing",
       "img": "/images/split/split-3.png",
-      "subTitle": "Navigating Cybersecurity",
-      "title": "Protecting Your Digital Presence",
-      "desc": "Gain insights into cybersecurity measures and strategies to safeguard your online identity and sensitive information."
+      "subTitle": "Smart Automation at Its Best",
+      "title": "AI Powered Processing   Accurate, Fast, and Efficient",
+      "desc": "Harness the power of AI-driven OCR technology to extract, analyze, and structure invoice data with lightning speed. Our intelligent system automatically recognizes and processes invoices from WhatsApp, Email, and multiple file formats."
     },
     {
       "tabId": "contact",
       "target": "contact-tab",
       "isSelect": false,
-      "menuText": "Data Analysis",
+      "menuText": "View Dashboard",
       "img": "/images/split/split-5.png",
-      "subTitle": "Mastering Data Analysis",
-      "title": "Demystifying Data Analytics",
-      "desc": "Learn the fundamentals of data analysis, including tools and methodologies, to extract meaningful insights from raw data."
+      "subTitle": "Stay in Control of Your Invoices",
+      "title": "View Your Dashboard",
+      "desc": "Get a clear and organized view of all your invoices in one centralized dashboard. Track incoming invoices, monitor processing status, and access structured data in real time."
     }
   ]
 }
