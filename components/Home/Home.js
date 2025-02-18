@@ -276,8 +276,8 @@ const Home = () => {
                   <span className="theme-gradient">AI Collaboration</span>
                 </h4>
                 <h2 className="title mb--20">
-                  AI Chat app for seamless
-                  <br /> collaboration
+                  AI Invoice Processing platform for seamless
+                  <br /> Reconcilliation
                 </h2>
                 <Link
                   className="btn-default btn-large color-blacked"

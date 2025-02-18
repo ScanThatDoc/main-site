@@ -80,7 +80,7 @@
       "target": "home-tab",
       "isSelect": true,
       "menuText": "Sign Up",
-      "img": "/images/split/split-1.png",
+      "img": "/images/AdvancedTab1.png",
       "subTitle": "How it work",
       "title": "Seemless Onboarding with a simple Sign Up",
       "desc": "The moment you sign in using Email or Mobile number, our system automatically connects to the respective API, linking your account securely. Once connected, the application is ready to receive invoices instantly—no extra setup required."
@@ -110,7 +110,7 @@
       "target": "contact-tab",
       "isSelect": false,
       "menuText": "View Dashboard",
-      "img": "/images/split/split-5.png",
+      "img": "/images/AdvancedTab4.png",
       "subTitle": "Stay in Control of Your Invoices",
       "title": "View Your Dashboard",
       "desc": "Get a clear and organized view of all your invoices in one centralized dashboard. Track incoming invoices, monitor processing status, and access structured data in real time."

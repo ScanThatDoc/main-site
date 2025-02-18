@@ -31,7 +31,7 @@ const CtaOne = () => {
                 data-sal-delay="300"
               >
                 Meet and learn from 80+ creators & companies who share how thay
-                use AI to create better content at lightning speed.
+                use AI to automate their workflow at lightning speed.
               </p>
             </div>
           </div>
