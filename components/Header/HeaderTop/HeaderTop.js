@@ -17,7 +17,7 @@ const HeaderTop = () => {
                   <div className="content">
                     <span className="rainbow-badge">Limited Time Offer</span>
                     <span className="news-text">
-                      Intro price. Get AiWave for Big Sale -95% off.
+                      Intro price. Get Scan The Doc for FREE today.
                     </span>
                   </div>
                   <div className="right-button">

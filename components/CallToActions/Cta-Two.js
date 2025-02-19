@@ -30,16 +30,18 @@ const CtaTwo = ({isLightTheme}) => {
                 >
                   <h4 className="subtitle">
                     <span className="theme-gradient">
-                      Get Started with Rainbow
+                      Get Started with Scan The Doc
                     </span>
                   </h4>
-                  <h2 className="title w-600 mb--20">
-                    Experience Products in AI
+                  <h2 className="title w-600 mb--5">
+                    Experience Invoice Automation with AI
                   </h2>
                   <p className="description b1">
-                    Based on the conversation with the AI chatbot, you will
-                    receive <br />
-                    personalized recommendations.
+                    Automates Invoice processing by fetching files from WhatsApp and Gmail,<br />
+                    using OCR technology to extract data dynamically.<br />
+                    Then stores and displays the structured data in the Dashboard,<br />
+                    eliminating manual effort and streamlining workflows.
+                    
                   </p>
                 </div>
                 <div className="app-store-btn">
