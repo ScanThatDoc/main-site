@@ -1,0 +1,54 @@
+{
+  "serviceOne": [
+    {
+      "img": "/images/icons/service-icon-03.svg",
+      "title": "Ligntning Fast Processing",
+      "desc": "Speed matters when handling invoices, and our AI-powered system ensures you never have to wait."
+    },
+    {
+      "img": "/images/icons/service-icon-03.svg",
+      "title": "WhatsApp and Gmail API Integrations",
+      "desc": "Simply forward invoices from your preferred platform, and our system will automatically fetch, process, and extract the data in real time."
+    },
+    {
+      "img": "/images/icons/service-icon-01.svg",
+      "title": "24*7 On Call Assistance",
+      "desc": "We understand that your business never stops, and neither do we! Our dedicated support team is available 24/7."
+    },
+    {
+      "img": "/images/icons/service-icon-01.svg",
+      "title": "Safe and Secured with Clerk Authentication",
+      "desc": "Security is our top priority. With Clerk Authentication, your data remains protected with industry-leading security protocols, ensuring only authorized users can access sensitive information."
+    },
+    {
+      "img": "/images/icons/service-icon-02.svg",
+      "title": "Multiple User Option",
+      "desc": "Our platform supports multiple users, allowing your team members to access, review, and manage invoices effortlessly."
+    },
+    {
+      "img": "/images/icons/service-icon-02.svg",
+      "title": "Connect everywhere",
+      "desc": "Stay connected and manage invoices from anywhere, anytime! With seamless integrations across WhatsApp, Gmail, and your web portal, you can access, process, and track invoices on the go."
+    }
+  ],
+  "serviceTwo": [
+    {
+      "img": "/images/service/service-icon-03.png",
+      "imgLight": "/images/light/service/service-icon-03.png",
+      "title": "Free Unlimited",
+      "desc": "As a Launching Offer, Its completly free until an undecided period."
+    },
+    {
+      "img": "/images/service/service-icon-01.png",
+      "imgLight": "/images/light/service/service-icon-01.png",
+      "title": "100%  Money Back Guarantee!",
+      "desc": "Refunds will be issued within period of 14 days from the purchase date"
+    },
+    {
+      "img": "/images/service/service-icon-02.png",
+      "imgLight": "/images/light/service/service-icon-02.png",
+      "title": "Upgrade or Cancel Anytime",
+      "desc": "No hidden charges on Upgrade or Downgrade subscription plans."
+    }
+  ]
+}

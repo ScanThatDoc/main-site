@@ -1,0 +1,119 @@
+{
+  "TabStyleOne": [
+    
+    {
+      "title": "Seamless Whatsapp Integration – Smart, Fast, and Reliable!",
+      "img": "/images/whatsappAutomation.jpeg",
+      "imgLight": "/images/whatsappAutomationLightTheme.jpeg",
+      "menuId": "photo-generator",
+      "text": "Automation using Whatsapp",
+      "target": "photo-generate",
+      "iconImg": "/images/icons/photo-g.png",
+      "isSelect": false,
+      "subItem": [
+        {
+          "text": "Fetch Invoices Instantly"
+        },
+        {
+          "text": "AI-Powered Data Extraction"
+        },
+        {
+          "text": "Real-Time Data Access"
+        },
+        {
+          "text": "Secure & Scalable"
+        }
+      ]
+    },
+    {
+      "title": "Seamless Email Integration – Smart, Fast, and Reliable!",
+      "img": "/images/emailAutomated.jpeg",
+      "imgLight": "/images/emailAutomatedLightTheme.jpeg",
+      "menuId": "text-generator",
+      "text": "Automation using Email",
+      "target": "text-generate",
+      "iconImg": "/images/icons/text-g.png",
+      "isSelect": false,
+      "subItem": [
+        {
+          "text": "Fetch Invoices Instantly"
+        },
+        {
+          "text": "AI-Powered Data Extraction"
+        },
+        {
+          "text": "Real-Time Data Access"
+        },
+        {
+          "text": "Secure & Scalable"
+        }
+      ]
+    },
+    {
+      "title": "Manually Upload Invoice and get processed instantly",
+      "img": "/images/manualDark.png",
+      "imgLight": "/images/manualLight.png",
+      "menuId": "code-generator",
+      "text": "Manual Uploads",
+      "target": "code-generate",
+      "iconImg": "/images/icons/code-g.png",
+      "isSelect": false,
+      "subItem": [
+        {
+          "text": "No More Manual Entry"
+        },
+        {
+          "text": "AI-Powered Data Extraction"
+        },
+        {
+          "text": "Real-Time Data Access"
+        },
+        {
+          "text": "Secure & Scalable"
+        }
+      ]
+    }
+  ],
+  "advanceTab": [
+    {
+      "tabId": "home",
+      "target": "home-tab",
+      "isSelect": true,
+      "menuText": "Sign Up",
+      "img": "/images/AdvancedTab1.png",
+      "subTitle": "How it work",
+      "title": "Seemless Onboarding with a simple Sign Up",
+      "desc": "The moment you sign in using Email or Mobile number, our system automatically connects to the respective API, linking your account securely. Once connected, the application is ready to receive invoices instantly—no extra setup required."
+    },
+    {
+      "tabId": "profile",
+      "target": "profile-tab",
+      "isSelect": false,
+      "menuText": "Recieve Invoices",
+      "img": "/images/split/split-4.png",
+      "subTitle": "Effortless Invoice Collection",
+      "title": "Receive Invoices Instantly",
+      "desc": "Stop worrying about gathering invoices manually! Simply receive your invoices via WhatsApp or Email, and our system will automatically fetch them using secure API integrations."
+    },
+    {
+      "tabId": "contact",
+      "target": "contact-tab",
+      "isSelect": false,
+      "menuText": "AI Processing",
+      "img": "/images/split/split-3.png",
+      "subTitle": "Smart Automation at Its Best",
+      "title": "AI Powered Processing   Accurate, Fast, and Efficient",
+      "desc": "Harness the power of AI-driven OCR technology to extract, analyze, and structure invoice data with lightning speed. Our intelligent system automatically recognizes and processes invoices from WhatsApp, Email, and multiple file formats."
+    },
+    {
+      "tabId": "contact",
+      "target": "contact-tab",
+      "isSelect": false,
+      "menuText": "View Dashboard",
+      "img": "/images/AdvancedTab4.png",
+      "subTitle": "Stay in Control of Your Invoices",
+      "title": "View Your Dashboard",
+      "desc": "Get a clear and organized view of all your invoices in one centralized dashboard. Track incoming invoices, monitor processing status, and access structured data in real time."
+    }
+  ]
+}
