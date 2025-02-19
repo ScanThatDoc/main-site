@@ -61,7 +61,7 @@ const Home = () => {
             <div className="col-lg-12">
               <div className="inner text-center mt--140">
                 <h1 className="title display-one">
-                Automate Invoice Processing with ABCD
+                Automate Invoice Processing with EFGH
                   <br />{" "}
                   <span className="header-caption">
                     <span className="cd-headline rotate-1">
