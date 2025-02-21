@@ -63,6 +63,7 @@ const Home = () => {
                 <h1 className="title display-one">
                 Automate Invoice Processing with AI
                   <br />{" "}
+                  <p className="d-block d-lg-inline">
                   <span className="header-caption">
                     <span className="cd-headline rotate-1">
                       <span className="cd-words-wrapper">
@@ -96,6 +97,7 @@ const Home = () => {
                       </span>
                     </span>
                   </span>{" "}
+                  </p>
                    All in One Place
                 </h1>
                 <p className="description">
@@ -111,7 +113,7 @@ const Home = () => {
                     placeholder="Enter a prompt, for example: a fundraising deck to a mobile finance app called Intuitive"
                   ></textarea> */}
                   <Link className="btn-default " href="/text-generator">
-                    Take A Demo Now 
+                    Try Now
                   </Link>
                 </div>
                 <div className="inner-shape">
@@ -179,7 +181,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="rainbow-brand-area rainbow-section-gap">
+      {/* <div className="rainbow-brand-area rainbow-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -201,7 +203,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="rainbow-service-area rainbow-section-gap">
         <div className="container">
@@ -314,11 +316,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="rainbow-rn-cta">
+      {/* <div className="rainbow-rn-cta">
         <div className="container">
           <CtaOne />
         </div>
-      </div>
+      </div> */}
 
       <div className="aiwave-pricing-area wrapper rainbow-section-gap-big">
         <div className="container">
@@ -411,7 +413,7 @@ const Home = () => {
         <Testimonial />
       </div>
 
-      <div className="rainbow-brand-area rainbow-section-gap">
+      {/* <div className="rainbow-brand-area rainbow-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -452,7 +454,7 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big">
         <div className="container">

@@ -79,41 +79,39 @@
       "tabId": "home",
       "target": "home-tab",
       "isSelect": true,
-      "menuText": "Sign Up",
-      "img": "/images/AdvancedTab1.png",
-      "subTitle": "How it work",
-      "title": "Seemless Onboarding with a simple Sign Up",
-      "desc": "The moment you sign in using Email or Mobile number, our system automatically connects to the respective API, linking your account securely. Once connected, the application is ready to receive invoices instantly—no extra setup required."
-    },
+      "menuText": "AI-Powered OCR Technology",
+      "img": "/images/ocrDark.jpeg",
+      "subTitle": "Say Goodbye to Manual Data Entry",
+      "title": "Extract Invoice Data with AI Precision",
+      "desc": "Tired of entering invoice details manually? Our advanced AI-powered OCR technology scans and extracts key information instantly, reducing errors and saving time. Simply upload an invoice, and let AI do the work for you."},
     {
       "tabId": "profile",
       "target": "profile-tab",
       "isSelect": false,
-      "menuText": "Recieve Invoices",
-      "img": "/images/split/split-4.png",
-      "subTitle": "Effortless Invoice Collection",
-      "title": "Receive Invoices Instantly",
-      "desc": "Stop worrying about gathering invoices manually! Simply receive your invoices via WhatsApp or Email, and our system will automatically fetch them using secure API integrations."
+      "menuText": "Smart Data Structuring",
+      "img": "/images/sortingDark.jpeg",
+      "subTitle": "Turn Unstructured Invoices into Organized Data",
+      "title": "Every Invoice, Perfectly Sorted",
+      "desc": "Our AI-powered system automatically organizes invoice data into a structured format, making it easy to analyze and search. No more messy spreadsheets!"
     },
     {
       "tabId": "contact",
       "target": "contact-tab",
       "isSelect": false,
-      "menuText": "AI Processing",
-      "img": "/images/split/split-3.png",
-      "subTitle": "Smart Automation at Its Best",
-      "title": "AI Powered Processing   Accurate, Fast, and Efficient",
-      "desc": "Harness the power of AI-driven OCR technology to extract, analyze, and structure invoice data with lightning speed. Our intelligent system automatically recognizes and processes invoices from WhatsApp, Email, and multiple file formats."
+      "menuText": "Mobile & Web Accessibility",
+      "img": "/images/responsiveDark.jpeg",
+      "subTitle": "Manage Invoices from Anywhere",
+      "title": "Your Data, Always at Your Fingertips",
+      "desc": "Stay in control, whether you're at the office or on the go. Our web and mobile-friendly platform ensures you can upload, review, and manage invoices from any device, giving you the flexibility to work from anywhere"
     },
     {
       "tabId": "contact",
       "target": "contact-tab",
       "isSelect": false,
-      "menuText": "View Dashboard",
-      "img": "/images/AdvancedTab4.png",
-      "subTitle": "Stay in Control of Your Invoices",
-      "title": "View Your Dashboard",
-      "desc": "Get a clear and organized view of all your invoices in one centralized dashboard. Track incoming invoices, monitor processing status, and access structured data in real time."
-    }
+      "menuText": "Seamless Integration",
+      "img": "/images/erpDark.jpeg",
+      "subTitle": "Comming soon!",
+      "title": "Connect Your Accounting & ERP Tools",
+      "desc": "No more scattered invoice details! Our system intelligently organizes extracted data, making it searchable, structured, and ready for export. Whether you need CSV, Excel, or API integration, your data is always in the right format."}
   ]
 }
