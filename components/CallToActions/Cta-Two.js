@@ -46,7 +46,7 @@ const CtaTwo = ({isLightTheme}) => {
                 </div>
                 <div className="app-store-btn">
                 <Link className="btn-default " href="/">
-                    Try Now for Free
+                    Try with WhatsApp Now
                   </Link>
                   {/* <Link className="store-btn" href="#">
                     <Image
