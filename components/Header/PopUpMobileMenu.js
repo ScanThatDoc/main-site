@@ -59,7 +59,7 @@ const PopupMobileMenu = () => {
 
             <div className="rbt-sm-separator"></div>
             <div className="rbt-default-sidebar-wrapper">
-              <SmallNav />
+              {/* <SmallNav /> */}
             </div>
           </div>
           <div className="header-btn d-block d-md-none">
@@ -68,7 +68,7 @@ const PopupMobileMenu = () => {
               target="_blank"
               href="/text-generator"
             >
-              Get Started Free
+              Try with WhatsApp Now
             </Link>
           </div>
         </div>

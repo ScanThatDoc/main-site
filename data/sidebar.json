@@ -1,59 +1,83 @@
 {
   "sidebar": [
     {
-      "id": "getstarted",
-      "text": "Getting started",
-      "isShow": true,
+      "id": "whatsapp-integration",
+      "text": "Using WhatsApp",
+      "isShow": false,
       "list": [
         {
-          "id": "text-generator-sec",
-          "text": "Connect with AI text generator"
+          "id": "whatsapp-walkthrough-video",
+          "text": "Walkthrough video"
         },
         {
-          "id": "pernalized-sec",
-          "text": "Get Personalized advices"
+          "id": "scan-qr-code",
+          "text": "Scan the QR Code"
         },
         {
-          "id": "engage-sec",
-          "text": "Explore and engage"
+          "id": "send-invoice",
+          "text": "Send Your Invoice"
+        },
+        {
+          "id": "ai-extracts",
+          "text": "AI Extracts & Uploads Data"
+        },
+        {
+          "id": "get-instant",
+          "text": "Get Instant Access"
         }
       ]
     },
     {
-      "id": "pricing",
-      "text": "Getting started",
+      "id": "email-integration",
+      "text": "Using Email",
       "isShow": false,
       "list": [
         {
-          "id": "example1",
-          "text": "Connect with AI text generator"
+          "id": "email-walkthrough-video",
+          "text": "Walkthrough video"
         },
         {
-          "id": "example2",
-          "text": "Get Personalized advices"
+          "id": "connect-email",
+          "text": "Connect Your Email"
         },
         {
-          "id": "example3",
-          "text": "Get Personalized advices"
+          "id": "detect-download",
+          "text": "Detect & Download Attachments"
+        },
+        {
+          "id": "email-ai-extracts",
+          "text": "AI Extracts & Uploads Data"
+        },
+        {
+          "id": "email-get-instant",
+          "text": "Get Instant Access"
         }
       ]
     },
     {
-      "id": "corefeature",
-      "text": "Core Feature's",
+      "id": "manual-upload",
+      "text": "Upload Invoice through ScanTheDoc",
       "isShow": false,
       "list": [
         {
-          "id": "#",
-          "text": "Connect with AI text generator"
+          "id": "manual-upload-walkthrough-video",
+          "text": "Walkthrough video"
         },
         {
-          "id": "#",
-          "text": "Get Personalized advices"
+          "id": "log-in-scan-the-doc",
+          "text": "Log-in to ScanTheDoc"
         },
         {
-          "id": "#",
-          "text": "Get Personalized advices"
+          "id": "upload-invoice",
+          "text": "Upload Your Invoice"
+        },
+        {
+          "id": "manual-ai-extracts",
+          "text": "AI Extracts & Uploads Data"
+        },
+        {
+          "id": "manual-access-data",
+          "text": "Access & Manage Data"
         }
       ]
     }

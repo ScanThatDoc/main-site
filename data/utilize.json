@@ -1,120 +1,214 @@
 {
   "utilize": [
     {
-      "id": "getstarted_two",
-      "title": "Getting started",
+      "id": "whatsapp-integration",
+      "title": "Using WhatsApp",
       "body": [
         {
-          "id": "text-generator-sec",
-          "title": "Connect with AI text generator",
-          "subTitle": "Deep Learning and Transformers",
-          "img": "/images/utilize-img/ut-image-01.png",
-          "desc": "All you have to do to register for an account on Rainbow - AI chat app is provide your name, email address, and password. You can begin examining the app's features as soon as you've registered. Chatting with friends, family, and even new acquaintances is made simple with the Rainbow",
+          "id": "whatsapp-walkthrough-video",
+          "title": "",
+          "img": "/images/utilize-img/ut-image-01.png"
+        },
+        {
+          "id": "scan-qr-code",
+          "title": "Scan the QR Code",
+          "subTitle": "",
+          "desc": "To get started, simply scan the QR code using your WhatsApp camera. This quick and hassle-free step instantly establishes a connection between the user and our system.",
           "list": [
             {
-              "text": "Around 2013, the use of deep learning, especially transformer architectures, revolutionized NLP."
+              "text": "Once the QR code is scanned, a chat with our automated system opens in WhatsApp. This allows users to seamlessly submit invoices without the need for additional app installations or complex setup processes."
             },
             {
-              "text": "Transformer models, like OpenAI's GPT (Generative Pre-trained Transformer) series, became"
-            },
-            {
-              "text": "AI text generators, including GPT-3, have found applications in chatbots, content creation"
+              "text": "By integrating directly with WhatsApp, users can leverage a familiar and convenient platform to digitize their invoices with minimal effort."
             }
           ]
         },
         {
-          "id": "pernalized-sec",
-          "title": "Get Personalized advices",
-          "subTitle": "Deep Learning and Transformers",
-          "img": "/images/utilize-img/ut-image-02.png",
-          "desc": "All you have to do to register for an account on Rainbow - AI chat app is provide your name, email address, and password. You can begin examining the app's features as soon as you've registered. Chatting with friends, family, and even new acquaintances is made simple with the Rainbow",
+          "id": "send-invoice",
+          "title": "Send Your Invoice",
+          "subTitle": "",
+          "desc": "Once the WhatsApp chat is set up, users can send invoices as PDFs or images directly in the conversation. This eliminates the need for manual uploads, making the process quick and hassle-free.",
           "list": [
             {
-              "text": "Around 2013, the use of deep learning, especially transformer architectures, revolutionized NLP."
+              "text": "As soon as the document is sent, our system automatically fetches and processes it in real-time. There’s no need for additional steps—just drop your invoice in the chat, and let the system handle the rest."
             },
             {
-              "text": "Transformer models, like OpenAI's GPT (Generative Pre-trained Transformer) series, became"
-            },
-            {
-              "text": "AI text generators, including GPT-3, have found applications in chatbots, content creation"
+              "text": "This seamless approach ensures that users can submit invoices anytime, anywhere, without switching between different platforms or dealing with complex procedures."
             }
           ]
         },
         {
-          "id": "engage-sec",
-          "title": "Explore and engage",
-          "subTitle": "Deep Learning and Transformers",
-          "img": "/images/utilize-img/ut-image-03.png",
-          "desc": "All you have to do to register for an account on Rainbow - AI chat app is provide your name, email address, and password. You can begin examining the app's features as soon as you've registered. Chatting with friends, family, and even new acquaintances is made simple with the Rainbow",
+          "id": "ai-extracts",
+          "title": "AI Extracts & Uploads Data",
+          "subTitle": "",
+          "desc": "Once the invoice is received, our system utilizes powerful OCR (Optical Character Recognition) technology to extract key details with precision. It identifies crucial information such as invoice number, date, amount, and vendor details automatically.",
           "list": [
             {
-              "text": "Around 2013, the use of deep learning, especially transformer architectures, revolutionized NLP."
+              "text": "The extracted data is then structured and stored securely within the ScanTheDoc portal. This eliminates manual data entry and ensures that all information is neatly organized for easy access."
             },
             {
-              "text": "Transformer models, like OpenAI's GPT (Generative Pre-trained Transformer) series, became"
+              "text": "With AI-driven automation, users can trust that their invoices are processed quickly, accurately, and efficiently, streamlining their workflow with minimal effort."
+            }
+          ]
+        },
+        {
+          "id": "get-instant",
+          "title": "Get Instant Access",
+          "subTitle": "",
+          "desc": "After the invoice has been processed, users receive a secure login link directly in the WhatsApp chat. This allows them to access their extracted invoice data instantly without needing to navigate through multiple steps.",
+          "list": [
+            {
+              "text": "First time user also recieve login credentials to the ScanTheDoc portal."
             },
             {
-              "text": "AI text generators, including GPT-3, have found applications in chatbots, content creation"
+              "text": "By clicking the link, users are redirected to the ScanTheDoc portal, where they can review, manage, and download their invoice details effortlessly. The intuitive interface ensures that all processed invoices are easily accessible."
+            },
+            {
+              "text": "This seamless access mechanism enhances convenience, security, and efficiency, enabling users to retrieve their data anytime with just a single click."
             }
           ]
         }
       ]
     },
     {
-      "id": "pricing_two",
-      "title": "Getting started",
+      "id": "email-integration",
+      "title": "Using Email",
       "body": [
         {
-          "id": "example1",
-          "title": "Connect with AI text generator",
-          "subTitle": "Deep Learning and Transformers",
-          "img": "/images/utilize-img/ut-image-01.png",
-          "desc": "All you have to do to register for an account on Rainbow - AI chat app is provide your name, email address, and password. You can begin examining the app's features as soon as you've registered. Chatting with friends, family, and even new acquaintances is made simple with the Rainbow",
+          "id": "email-walkthrough-video",
+          "title": "",
+          "img": "/images/utilize-img/ut-image-01.png"
+        },
+        {
+          "id": "connect-email",
+          "title": "Connect Your Email",
+          "subTitle": "",
           "list": [
             {
-              "text": "Around 2013, the use of deep learning, especially transformer architectures, revolutionized NLP."
+              "text": "Easily integrate your Gmail account with the system to enable automated invoice processing. With a one-time setup, the system gains secure access to incoming emails, ensuring a hands-free experience."
             },
             {
-              "text": "Transformer models, like OpenAI's GPT (Generative Pre-trained Transformer) series, became"
-            },
-            {
-              "text": "AI text generators, including GPT-3, have found applications in chatbots, content creation"
+              "text": "Once connected, the system continuously monitors your inbox for new emails containing invoice attachments. This eliminates the need for manual uploads, making invoice management faster, more efficient, and completely automated."
             }
           ]
         },
         {
-          "id": "example2",
-          "title": "Connect with AI text generator",
-          "subTitle": "Deep Learning and Transformers",
-          "img": "/images/utilize-img/ut-image-02.png",
-          "desc": "All you have to do to register for an account on Rainbow - AI chat app is provide your name, email address, and password. You can begin examining the app's features as soon as you've registered. Chatting with friends, family, and even new acquaintances is made simple with the Rainbow",
+          "id": "detect-download",
+          "title": "Detect & Download Attachments",
+          "subTitle": "",
+          "desc": "Once your email is connected, the system actively monitors incoming messages in real time. Each email is carefully analyzed to identify whether it contains any relevant attachments, ensuring that no invoice is overlooked.",
           "list": [
             {
-              "text": "Around 2013, the use of deep learning, especially transformer architectures, revolutionized NLP."
-            },
-            {
-              "text": "Transformer models, like OpenAI's GPT (Generative Pre-trained Transformer) series, became"
-            },
-            {
-              "text": "AI text generators, including GPT-3, have found applications in chatbots, content creation"
+              "text": "When an invoice in PDF or image format is detected, the system automatically downloads the file for processing. This eliminates the need for manual checks and allows invoices to be collected effortlessly, reducing time-consuming tasks."
             }
           ]
         },
         {
-          "id": "example3",
-          "title": "Connect with AI text generator",
-          "subTitle": "Deep Learning and Transformers",
-          "img": "/images/utilize-img/ut-image-03.png",
-          "desc": "All you have to do to register for an account on Rainbow - AI chat app is provide your name, email address, and password. You can begin examining the app's features as soon as you've registered. Chatting with friends, family, and even new acquaintances is made simple with the Rainbow",
+          "id": "email-ai-extracts",
+          "title": "AI Extracts & Uploads Data",
+          "subTitle": "",
+          "desc": "Once the invoice is downloaded, the system utilizes powerful OCR (Optical Character Recognition) technology to extract key details with precision. It scans the document to identify important information such as invoice number, date, amount, and vendor details, ensuring accuracy in data extraction.",
           "list": [
             {
-              "text": "Around 2013, the use of deep learning, especially transformer architectures, revolutionized NLP."
+              "text": "The extracted information is then structured and categorized for easy access. Instead of manually sorting through invoices, users can rely on the system to automatically organize the data, reducing errors and saving valuable time."
             },
             {
-              "text": "Transformer models, like OpenAI's GPT (Generative Pre-trained Transformer) series, became"
+              "text": "After processing, the structured data is securely uploaded to the ScanTheDoc portal, where users can review and manage their invoices effortlessly. This ensures that all invoice details are stored in a centralized location, ready for quick retrieval whenever needed."
+            }
+          ]
+        },
+        {
+          "id": "email-get-instant",
+          "title": "Get Instant Access",
+          "subTitle": "",
+          "list": [
+            {
+              "text": "The portal provides a user-friendly interface, allowing users to review, manage, and export their invoice data effortlessly. With a structured layout and intuitive navigation, accessing important invoice details becomes quick and hassle-free."
             },
             {
-              "text": "AI text generators, including GPT-3, have found applications in chatbots, content creation"
+              "text": "By centralizing invoice management, the system ensures that users can retrieve their data anytime, from anywhere, streamlining workflow efficiency and eliminating the need for time-consuming manual tracking."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manual-upload",
+      "title": "Upload Invoice through ScanTheDoc",
+      "body": [
+        {
+          "id": "manual-upload-walkthrough-video",
+          "title": "",
+          "img": "/images/utilize-img/ut-image-01.png"
+        },
+        {
+          "id": "log-in-scan-the-doc",
+          "title": "Log-in to ScanTheDoc",
+          "desc": "To begin the manual upload process, users must log in to the ScanTheDoc portal using their registered credentials. The portal provides a secure and user-friendly interface, ensuring that only authorized users can access and manage invoices.",
+          "list": [
+            {
+              "text": "Once logged in, users are directed to Documents tab, where they can view previously uploaded invoices, track processing status, and manage extracted data. This centralized hub simplifies document handling by keeping all invoice-related information organized in one place."
+            }
+          ]
+        },
+        {
+          "id": "upload-invoice",
+          "title": "Upload Your Invoice",
+          "list": [
+            {
+              "text": "Users can navigate to the Documents tab from the left-side menu to begin the upload process. This section provides a streamlined interface for managing and submitting invoices effortlessly."
+            },
+            {
+              "text": "To upload an invoice, users simply click on the Upload File button and select the invoice from their device storage. Supported formats include PDF and image files, ensuring flexibility in document submission."
+            },
+            {
+              "text": "After selecting the file, clicking the Upload button instantly sends the document for processing. The system ensures secure and efficient handling, eliminating the need for manual data entry and paperwork."
+            }
+          ]
+        },
+        {
+          "id": "manual-ai-extracts",
+          "title": "AI Extracts & Uploads Data",
+          "desc": "Once the invoice is uploaded, the system leverages advanced OCR (Optical Character Recognition) technology to extract key details with precision. It scans the document to identify crucial information such as invoice number, date, amount, and vendor details, ensuring accuracy in data retrieval.",
+          "list": [
+            {
+              "text": "The extracted information is then structured and categorized within the ScanTheDoc portal. This eliminates the need for manual data entry, allowing users to quickly access and manage their invoices without sorting through paperwork."
+            },
+            {
+              "text": "After processing, the structured data is securely stored in the portal, where users can review, verify, and export their invoices as needed. This automated and efficient approach ensures seamless document handling and improves overall workflow productivity."
+            }
+          ]
+        },
+        {
+          "id": "manual-access-data",
+          "title": "Access & Manage Data",
+          "desc": "Once the invoice has been processed, users can conveniently access their extracted data through the ScanTheDoc portal. The system organizes all invoices in a structured format, making it easy to search, filter, and retrieve specific documents when needed.",
+          "list": [
+            {
+              "text": "Within the portal, users have the flexibility to review, edit, and validate extracted invoice details to ensure accuracy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "help-and-support",
+      "title": "Help and support",
+      "body": [
+        {
+          "id": "help-section",
+          "title": "Reach Out to Our Support Team",
+          "subTitle": "Support Availability & Response Time",
+          "desc": "We understand that you may have questions or run into issues while using ScanTheDoc. Our dedicated support team is available to assist you with any concerns, whether it's about connecting your email, uploading invoices, or accessing your data.",
+          "list": [
+            {
+              "text": "Email Us on: hello@soulput.com"
+            },
+            {
+              "text": "Our support team operates during business hours, ensuring timely responses to queries. We strive to address most issues within 24 hours and provide urgent assistance for critical concerns."
+            },
+            {
+              "text": "For immediate assistance, users can contact our support team via email or phone. We prioritize customer satisfaction and are dedicated to providing the best possible assistance."
             }
           ]
         }
