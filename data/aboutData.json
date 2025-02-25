@@ -1,0 +1,75 @@
+{
+    "data": [
+        {
+            "title": "Revolutionizing Document Processing with AI",
+            "desc": [
+                {
+                    "description": "In today’s fast-paced digital world, businesses handle countless invoices and documents daily. At ScanTheDoc, we simplify this process by automating data extraction, reducing manual effort, and ensuring speed, accuracy, and efficiency."
+                },
+                {
+                    "description": "Our advanced AI-powered OCR technology reads invoices in various formats, extracts key details, and seamlessly organizes them in your portal. Whether invoices arrive via WhatsApp, Gmail, or direct upload, our system processes them effortlessly, so you can focus on what matters most—growing your business."
+                }
+            ]
+        },
+        {
+            "title": "Our Mission",
+            "subTitle": "At ScanTheDoc, our mission is simple:",
+            "desc": [
+                {
+                    "description": "We believe that document management should be effortless. That’s why we built a system that integrates with your existing workflows and helps you save time, cut costs, and increase productivity."
+                }
+            ],
+            "list": [
+                {
+                    "item": "Eliminate manual data entry and reduce human errors."
+                },
+                {
+                    "item": "Automate invoice processing for businesses of all sizes."
+                },
+                {
+                    "item": "Enhance efficiency through AI-driven solutions."
+                },
+                {
+                    "item": "Ensure data security with seamless and encrypted document handling."
+                }
+            ]
+        },
+        {
+            "title": "Why Choose ScanTheDoc?",
+            "list": [
+                {
+                    "item": "Multi-Platform Integration, Works with WhatsApp, Gmail, and direct uploads"
+                },
+                {
+                    "item": "Advanced AI & OCR Technology, Extracts high-precision data from various invoice formats."
+                },
+                {
+                    "item": "Secure & Reliable, Your documents are protected with industry-standard encryption."
+                },
+                {
+                    "item": "Time-Saving Automation, Say goodbye to manual data entry and human errors."
+                },
+                {
+                    "item": "User-Friendly Interface, Simple, intuitive, and designed for efficiency."
+                }
+            ]
+        },
+        {
+            "title": "Our Vision",
+            "desc": [
+                {
+                    "description": "We envision a future where businesses no longer struggle with paperwork and data entry. With AI-driven automation, we aim to transform how organizations handle invoices and documents, making workflows smarter, faster, and more efficient."
+                }
+            ]
+        },
+        {
+            "title": "Join Us in Automating Invoice Management",
+            "desc": [
+                {
+                    "description": "Let ScanTheDoc take care of your invoices while you focus on growing your business. Experience the power of AI-driven document processing today."
+                }
+            ]
+            
+        }
+    ]
+}

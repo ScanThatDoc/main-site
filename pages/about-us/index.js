@@ -10,6 +10,8 @@ import Footer from "@/components/Footers/Footer";
 import Copyright from "@/components/Footers/Copyright";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import BackToTop from "../backToTop";
+import About from "@/components/About/about";
+import aboutData from "@/data/aboutData.json";
 
 const AboutPage = () => {
   return (
@@ -29,7 +31,7 @@ const AboutPage = () => {
             title="About ScanTheDoc"
             text="About Us"
           />
-
+          <About aboutData={aboutData} />
           <BackToTop />
           <Footer />
           <Copyright />

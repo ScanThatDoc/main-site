@@ -52,7 +52,7 @@
     {
       "title": "Manually Upload Invoice and get processed instantly",
       "img": "/images/manualDark.png",
-      "imgLight": "/images/manualLight.png",
+      "imgLight": "/images/manual.gif",
       "menuId": "code-generator",
       "text": "Manual Uploads",
       "target": "code-generate",
