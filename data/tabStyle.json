@@ -9,7 +9,7 @@
       "text": "Automation using Whatsapp",
       "target": "photo-generate",
       "iconImg": "/images/icons/photo-g.png",
-      "isSelect": false,
+      "isSelect": true,
       "subItem": [
         {
           "text": "Fetch Invoices Instantly"

@@ -153,7 +153,7 @@ const Home = () => {
                 <Image
                   className=""
                   // src={isLightTheme ? bannerImg : bannerWhiteImg}
-                  src={!isLightTheme ? imageLight : imageDark}
+                  src={isLightTheme ? imageLight : imageDark}
                   width={1055}
                   height={898}
                   alt="Banner Images"
@@ -295,7 +295,7 @@ const Home = () => {
             <div className="col-lg-12 mt--60">
               <div className="collabration-image-section">
                 <Image
-                  src={isLightTheme ? SplitImg : DarkSplitImg}
+                  src={isLightTheme ? DarkSplitImg : SplitImg}
                   width={1305}
                   height={712}
                   alt="collabration-image"
@@ -303,7 +303,7 @@ const Home = () => {
                 <div className="logo-section">
                   <div className="center-logo">
                     <Image
-                      src={isLightTheme ? SplitLogo : DarkSplitLogo}
+                      src={isLightTheme ? DarkSplitLogo : SplitLogo}
                       width={104}
                       height={143}
                       alt="Small Logo"

@@ -34,10 +34,10 @@ const Context = ({ children }) => {
 
   useEffect(() => {
     if (isLightTheme) {
-      document.body.classList.remove("active-dark-mode");
+      document.body.classList.add("active-dark-mode");
       localStorage.setItem("aiwave-theme", "light");
     } else {
-      document.body.classList.add("active-dark-mode");
+      document.body.classList.remove("active-dark-mode");
       localStorage.setItem("aiwave-theme", "dark");
     }
   }, [isLightTheme]);

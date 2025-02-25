@@ -134,14 +134,14 @@ const Testimonial = () => {
                     <div className="bg-shape">
                       <Image
                         className="bg"
-                        src={isLightTheme ? data.img : darkBg}
+                        src={isLightTheme ? darkBg : data.img}
                         width={415}
                         height={287}
                         alt=""
                       />
                       <Image
                         className="bg-hover"
-                        src={isLightTheme ? data.imgHover : darkBgHover}
+                        src={isLightTheme ? darkBgHover : data.imgHover}
                         width={415}
                         height={287}
                         alt=""

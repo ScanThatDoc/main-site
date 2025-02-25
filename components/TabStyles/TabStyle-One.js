@@ -90,7 +90,7 @@ const TabStyleOne = () => {
                             <div className="inner-without-padding">
                               <div className="export-img img-bg-shape">
                                 <Image
-                                  src={isLightTheme ? tab.img : tab.imgLight}
+                                  src={isLightTheme ? tab.imgLight : tab.img}
                                   width={569}
                                   height={483}
                                   alt="Chat example Image"

@@ -88,14 +88,14 @@ const ServiceStyleOne = () => {
                       </div>
                       <div className="bg-shaped">
                         <Image
-                          src={isLightTheme ? bg : darkBg}
+                          src={isLightTheme ? darkBg : bg}
                           width={415}
                           height={344}
                           alt="shape"
                           className="bg"
                         />
                         <Image
-                          src={isLightTheme ? bgHover : darkBgHover}
+                          src={isLightTheme ? darkBgHover : bgHover}
                           width={415}
                           height={344}
                           alt="shape"
