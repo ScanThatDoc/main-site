@@ -29,7 +29,7 @@ const ContactPage = () => {
           <PopupMobileMenu />
           <Breadcrumb
             title="Get Started with a free quotation"
-            text="Contact"
+            text="Contact Us"
           />
 
           <Contact />
