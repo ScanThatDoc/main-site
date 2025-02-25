@@ -85,10 +85,13 @@
           "subTitle": "",
           "list": [
             {
-              "text": "Easily integrate your Gmail account with the system to enable automated invoice processing. With a one-time setup, the system gains secure access to incoming emails, ensuring a hands-free experience."
+              "text": "When you first sign up, you'll receive a dedicated ScanTheDoc email address that you can use to forward your invoices to our system."
             },
             {
-              "text": "Once connected, the system continuously monitors your inbox for new emails containing invoice attachments. This eliminates the need for manual uploads, making invoice management faster, more efficient, and completely automated."
+              "text": "Simply compose a new email or forward an existing invoice email to your dedicated ScanTheDoc email address."
+            },
+            {
+              "text": "Now the system continuously monitors for new emails containing attachments. This eliminates the need for manual uploads, making invoice management faster, more efficient, and completely automated."
             }
           ]
         },
