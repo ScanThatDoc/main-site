@@ -1,0 +1,14 @@
+.responsive-box {
+    width: 100%;
+    margin: 0 auto 2rem auto;
+  }
+  
+  @media (min-width: 992px) {
+    .responsive-box {
+      width: 60%;
+    }
+  }
+
+.subtitle-spacing {
+  margin: 2rem 0;  /* This is equivalent to mt-3 mb-3 in Bootstrap */
+}
