@@ -112,7 +112,41 @@ const Home = () => {
                     rows="2"
                     placeholder="Enter a prompt, for example: a fundraising deck to a mobile finance app called Intuitive"
                   ></textarea> */}
-                  <Link className="btn-default " href="/text-generator">
+                  <Link 
+                    className="btn-default"
+                    href="https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20ScanTheDoc"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      // Show popup with bullet points
+                      const popup = document.createElement('div');
+                      popup.style.cssText = `
+                        position: fixed;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background: white;
+                        padding: 120px;
+                        border-radius: 8px;
+                        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                        z-index: 1000;
+                        font-size: 30px;
+                        font-weight: 600;
+                      `;
+                      popup.innerHTML = `
+                        Redirecting you to WhatsApp...
+                        <ul>
+                          <li>Say something to get started</li>
+                          <li>Follow the instructions received on whatsapp</li>
+                        </ul>
+                      `;
+                      document.body.appendChild(popup);
+                      
+                      setTimeout(() => {
+                        document.body.removeChild(popup);
+                        window.location.href = "https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20ScanTheDoc";
+                      }, 4000);
+                    }}
+                  >
                     Try Now
                   </Link>
                 </div>
