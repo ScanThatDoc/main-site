@@ -30,7 +30,7 @@ const Copyright = () => {
                 <p className="copyright-text">
                   Copyright © 2025{" "}
                   <Link
-                    href="https://themeforest.net/user/rainbow-themes"
+                    href="#"
                     className="btn-read-more"
                   >
                     <span>Soulputs Technologies Pvt. Ltd.</span>
