@@ -1,95 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 
-const ContactForm = ({ handleFormSubmit}) => {
-  const [formData, setFormData] = useState({
-    fname: "",
-    lname: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    handleFormSubmit(formData);
-    setFormData({
-      fname: "",
-      lname: "",
-      email: "",
-      phone: "",
-      message: "",
-    });
-  }
-
+const ContactForm = () => {
 
   return (
     <>
-      <form className="rbt-profile-row rbt-default-form row row--15" onSubmit={handleSubmit}>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-          <div className="form-group">
-            <label htmlFor="firstname1">First Name</label>
-            <input 
-              id="firstname1" 
-              type="text" 
-              placeholder="First Name" 
-              value={formData.fname} 
-              onChange={(e) => setFormData({ ...formData, fname: e.target.value })}/>
-          </div>
+      <div className="col-12 mt--20">
+        <div className="form-group mb--0">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" style={{ width: '24px', height: '24px' }}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+          </svg>
+          <p className="text-gray-600 mb-6">
+            Have something in mind? Schedule a 15-minute free consultation to discuss how we can help bring your ideas to life.
+          </p>
         </div>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-          <div className="form-group">
-            <label htmlFor="lastname1">Last Name</label>
-            <input 
-              id="lastname1" 
-              type="text" 
-              placeholder="Last Name" 
-              value={formData.lname} 
-              onChange={(e) => setFormData({ ...formData, lname: e.target.value })}/>
-          </div>
+      </div>
+      <div className="col-12 mt--20">
+        <div className="form-group mb--0">
+          <button className="btn-default">
+            <a className="text-white" target="_blank" href="https://calendly.com/amanabhay2/30min/">
+              Book a Meeting
+            </a>
+          </button>
         </div>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-          <div className="form-group">
-            <label htmlFor="username1">Email</label>
-            <input 
-              id="username1" 
-              type="text" 
-              placeholder="sample@sample.com" 
-              value={formData.email} 
-              onChange={(e) => setFormData({ ...formData, email: e.target.value })}/>
-          </div>
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-          <div className="form-group">
-            <label htmlFor="phonenumber1">Phone Number</label>
-            <input 
-              id="phonenumber1" 
-              type="tel" 
-              placeholder="+1-202-555-0174" 
-              value={formData.phone} 
-              onChange={(e) => setFormData({ ...formData, phone: e.target.value })}/>
-          </div>
-        </div>
-        <div className="col-12">
-          <div className="form-group">
-            <label htmlFor="bio1">Tell Us More About Your Query</label>
-            <textarea
-              id="bio1"
-              cols="20"
-              rows="5"
-              placeholder="Enter your message here…"
-              value={formData.message}
-              onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-            ></textarea>
-          </div>
-        </div>
-        <div className="col-12 mt--20">
-          <div className="form-group mb--0">
-            <button className="btn-default" type="submit">
-            Send Inquiry
-            </button>
-          </div>
-        </div>
-      </form>
+      </div>
     </>
   );
 };

@@ -7,24 +7,6 @@ import { useAppContext } from "@/context/Context";
 const Contact = () => {
 
   const { isLightTheme } = useAppContext();
-
-  const handleFormSubmit = async (data) => {
-    console.log(data);
-    try {
-      // TODO: Submit form data to N8N
-      // https://amanabhay2.app.n8n.cloud/webhook-test/4f807040-d8f4-4ff3-af26-63819f9eb457
-      const response = await fetch("https://amanabhay2.app.n8n.cloud/webhook/4f807040-d8f4-4ff3-af26-63819f9eb457", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
-      console.log(response);
-    } catch (error) {
-      console.error("Error submitting form:", error);
-    }
-  }
   
   return (
     <>
@@ -34,7 +16,7 @@ const Contact = () => {
             <div className="row mt--40 row--15">
               <div className="col-lg-8">
                 <div className="contact-details-box">
-                  <h3 className="title">Help us in Helping You</h3>
+                  <h3 className="title">Let's Connect</h3>
 
                   <div className="profile-details-tab">
                     <div className="tab-content">
@@ -42,7 +24,7 @@ const Contact = () => {
                         className="tab-pane fade active show"
                         
                       >
-                        <ContactForm handleFormSubmit={handleFormSubmit} />
+                        <ContactForm />
                       </div>
                     </div>
                   </div>
