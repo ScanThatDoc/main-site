@@ -7,7 +7,7 @@
         {
           "id": "whatsapp-walkthrough-video",
           "title": "",
-          "img": "/images/utilize-img/ut-image-01.png"
+          "img": "https://www.youtube.com/embed/q0hyYWKXF0Q"
         },
         {
           "id": "scan-qr-code",
@@ -77,7 +77,7 @@
         {
           "id": "email-walkthrough-video",
           "title": "",
-          "img": "/images/utilize-img/ut-image-01.png"
+          "img": "https://www.youtube.com/embed/q0hyYWKXF0Q"
         },
         {
           "id": "connect-email",
@@ -142,7 +142,7 @@
         {
           "id": "manual-upload-walkthrough-video",
           "title": "",
-          "img": "/images/utilize-img/ut-image-01.png"
+          "img": "https://www.youtube.com/embed/q0hyYWKXF0Q"
         },
         {
           "id": "log-in-scan-the-doc",
