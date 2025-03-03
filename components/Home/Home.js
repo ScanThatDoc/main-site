@@ -329,7 +329,7 @@ const Home = () => {
             <div className="col-lg-12 mt--60">
               <div className="collabration-image-section">
                 <Image
-                  src={isLightTheme ? DarkSplitImg : SplitImg}
+                  src={isLightTheme ? "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/split-light-2.png" : "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/split-dark-2.png"}
                   width={1305}
                   height={712}
                   alt="collabration-image"
