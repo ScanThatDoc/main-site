@@ -7,7 +7,7 @@ const HeaderTop = () => {
   return (
     <>
       <div
-        className={`header-top-news bg-image1 ${toggleTop ? "" : "deactive"}`}
+        className={`header-top-news border-bottom border-gray-300 ${toggleTop ? "" : "deactive"}`}
       >
         <div className="wrapper">
           <div className="container">
