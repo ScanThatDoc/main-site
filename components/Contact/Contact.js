@@ -1,13 +1,26 @@
 import React from "react";
 import Link from "next/link";
 import ContactForm from "./ContactForm";
+import CtaTwo from "@/components/CallToActions/Cta-Two";
+import { useAppContext } from "@/context/Context";
 
 const Contact = () => {
+
+  const { isLightTheme } = useAppContext();
 
   const handleFormSubmit = async (data) => {
     console.log(data);
     try {
       // TODO: Submit form data to N8N
+      // https://amanabhay2.app.n8n.cloud/webhook-test/4f807040-d8f4-4ff3-af26-63819f9eb457
+      const response = await fetch("https://amanabhay2.app.n8n.cloud/webhook/4f807040-d8f4-4ff3-af26-63819f9eb457", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+      console.log(response);
     } catch (error) {
       console.error("Error submitting form:", error);
     }
@@ -67,6 +80,12 @@ const Contact = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      
+      <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big">
+        <div className="container">
+          <CtaTwo isLightTheme={isLightTheme}/>
         </div>
       </div>
     </>

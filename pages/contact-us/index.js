@@ -11,7 +11,6 @@ import Copyright from "@/components/Footers/Copyright";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import BackToTop from "../backToTop";
 import Contact from "@/components/Contact/Contact";
-import CtaTwo from "@/components/CallToActions/Cta-Two";
 
 const ContactPage = () => {
   return (
@@ -33,12 +32,6 @@ const ContactPage = () => {
           />
 
           <Contact />
-
-          <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big">
-            <div className="container">
-              <CtaTwo />
-            </div>
-          </div>
 
           <BackToTop />
           <Footer />

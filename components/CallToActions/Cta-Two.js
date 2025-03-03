@@ -69,7 +69,7 @@ const CtaTwo = ({isLightTheme}) => {
               <div className="content-right">
                 <div className="img-right">
                   <Image
-                    src={isLightTheme ? ctaLight : cta}
+                    src={isLightTheme ? "https://dev-docscanner.s3.ap-south-1.amazonaws.com/Main+Site+Image/CTAlight.jpeg" : "https://dev-docscanner.s3.ap-south-1.amazonaws.com/Main+Site+Image/CTA.jpeg"}
                     width={449}
                     height={499}
                     alt="Mobile View"
