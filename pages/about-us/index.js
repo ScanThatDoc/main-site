@@ -1,8 +1,6 @@
 import React from "react";
 import Context from "@/context/Context";
-
 import PageHead from "../Head";
-
 import HeaderTop from "@/components/Header/HeaderTop/HeaderTop";
 import Header from "@/components/Header/Header";
 import PopupMobileMenu from "@/components/Header/PopUpMobileMenu";
@@ -11,7 +9,6 @@ import Copyright from "@/components/Footers/Copyright";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import BackToTop from "../backToTop";
 import About from "@/components/About/about";
-import aboutData from "@/data/aboutData.json";
 
 const AboutPage = () => {
   return (
@@ -31,7 +28,7 @@ const AboutPage = () => {
             title="About ScanTheDoc"
             text="About Us"
           />
-          <About aboutData={aboutData} />
+          <About />
           <BackToTop />
           <Footer />
           <Copyright />
