@@ -1,7 +1,6 @@
 import React from "react";
-import styles from './about.module.css';
 
-const About = ({ aboutData }) => {
+const About = () => {
   return (
     <>
       <div className="rbt-main-content mb--0">

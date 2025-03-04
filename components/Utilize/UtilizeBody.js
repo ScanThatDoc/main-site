@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const UtilizeBody = ({ utilize }) => {
@@ -37,14 +36,6 @@ const UtilizeBody = ({ utilize }) => {
                       {inner.list.map((item, itemIndex) => (
                         <li key={itemIndex}>{item.text}</li>
                       ))}
-                      {/* <li>
-                        Transformer models, like OpenAI's GPT (Generative
-                        Pre-trained Transformer) series, became
-                      </li>
-                      <li>
-                        AI text generators, including GPT-3, have found
-                        applications in chatbots, content creation
-                        </li> */}
                       </ul>
                     )}
                   </div>

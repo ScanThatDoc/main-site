@@ -2,15 +2,9 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Sal from "sal.js";
-
 import PricingData from "../../data/pricing.json";
-
-import SplitImg from "../../public/images/split/split-dark-2.png";
 import SplitLogo from "../../public/images/split/split-2-logo.png";
-import DarkSplitImg from "../../public/images/light/split/split-light-2.png";
 import DarkSplitLogo from "../../public/images/light/split/split-2-logo.png";
-import bannerImg from "../../public/images/bg/slider-main-image.png";
-import bannerWhiteImg from "../../public/images/light/bg/slider-main-image.png";
 import shapeOne from "../../public/images/bg/icon-shape/icon-shape-one.png";
 import shapeTwo from "../../public/images/bg/icon-shape/icon-shape-two.png";
 import shapeThree from "../../public/images/bg/icon-shape/icon-shape-three.png";
@@ -18,17 +12,12 @@ import shapeFour from "../../public/images/bg/icon-shape/icon-shape-four.png";
 import bgShape from "../../public/images/bg/split-bg-shape.png";
 import bgShapeOne from "../../public/images/bg/bg-shape-four.png";
 import bgShapeTwo from "../../public/images/bg/bg-shape-five.png";
-import bgShapeThree from "../../public/images/bg/bg-shape-two.png";
-
-import BrandList from "../Brands/BrandList";
 import TabStyleOne from "../TabStyles/TabStyle-One";
 import ServiceStyleOne from "../Services/ServiceStyle-One";
 import AdvanceTab from "../TabStyles/AdvanceTab";
-import CtaOne from "../CallToActions/Cta-One";
 import Pricing from "../Pricing/Pricing";
 import ServiceTwo from "../Services/Service-Two";
 import Testimonial from "../Testimonials/Testimonial";
-import BrandTwo from "../Brands/Brand-Two";
 import CtaTwo from "../CallToActions/Cta-Two";
 import { useAppContext } from "@/context/Context";
 import imageLight from "@/public/images/HomeLite.png";
@@ -105,13 +94,6 @@ const Home = () => {
                 Let AI Handle Your Invoices in Seconds
                 </p>
                 <div >
-                  {/* <textarea
-                    name="text"
-                    id="slider-text-area"
-                    cols="30"
-                    rows="2"
-                    placeholder="Enter a prompt, for example: a fundraising deck to a mobile finance app called Intuitive"
-                  ></textarea> */}
                   <Link 
                     className="btn-default"
                     href="https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20ScanTheDoc"
@@ -214,30 +196,6 @@ const Home = () => {
           />
         </div>
       </div>
-
-      {/* <div className="rainbow-brand-area rainbow-section-gap">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="section-title rating-title text-center sal-animate"
-                data-sal="slide-up"
-                data-sal-duration="700"
-                data-sal-delay="100"
-              >
-                <p className="b1 mb--0 small-title">
-                  truest 800,000+ HIGHLY PRODUCTIVE Company
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12 mt--10">
-              <BrandList />
-            </div>
-          </div>
-        </div>
-      </div> */}
 
       <div className="rainbow-service-area rainbow-section-gap">
         <div className="container">
@@ -350,12 +308,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="rainbow-rn-cta">
-        <div className="container">
-          <CtaOne />
-        </div>
-      </div> */}
-
       <div className="aiwave-pricing-area wrapper rainbow-section-gap-big">
         <div className="container">
           <div className="row">
@@ -446,49 +398,6 @@ const Home = () => {
         </div>
         <Testimonial />
       </div>
-
-      {/* <div className="rainbow-brand-area rainbow-section-gap">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="section-title rating-title text-center sal-animate"
-                data-sal="slide-up"
-                data-sal-duration="700"
-                data-sal-delay="100"
-              >
-                <div className="rating">
-                  <a href="#rating">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                  </a>
-                  <a href="#rating">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                  </a>
-                  <a href="#rating">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                  </a>
-                  <a href="#rating">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                  </a>
-                  <a href="#rating">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                  </a>
-                </div>
-                <p className="subtitle mb--0">Based on 20,000+ reviews on</p>
-              </div>
-            </div>
-          </div>
-          <BrandTwo />
-          <div className="bg-shape-left">
-            <Image
-              src={bgShapeThree}
-              width={688}
-              height={1055}
-              alt="Bg shape"
-            />
-          </div>
-        </div>
-      </div> */}
 
       <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big">
         <div className="container">

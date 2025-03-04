@@ -2,14 +2,8 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Sal from "sal.js";
-
-import playApp from "../../public/images/cta-img/play-app.png";
-import appleApp from "../../public/images/cta-img/apple-app.png";
-import viewImg from "../../public/images/cta-img/view-img.png";
 import bgShape from "../../public/images/cta-img/bg-shape.png";
 import bgLight from "../../public/images/bg/bg-shape-tree.png";
-import cta from "../../public/images/CTA.jpeg";
-import ctaLight from "../../public/images/CTAlight.jpeg";
 
 const CtaTwo = ({isLightTheme}) => {
   useEffect(() => {
@@ -48,22 +42,6 @@ const CtaTwo = ({isLightTheme}) => {
                 <Link className="btn-default " href="/">
                     Try with WhatsApp Now
                   </Link>
-                  {/* <Link className="store-btn" href="#">
-                    <Image
-                      src={playApp}
-                      width={157}
-                      height={55}
-                      alt="Play Store Button"
-                    />
-                  </Link>
-                  <Link className="store-btn" href="#">
-                    <Image
-                      src={appleApp}
-                      width={157}
-                      height={55}
-                      alt="Apple Store Button"
-                    />
-                  </Link> */}
                 </div>
               </div>
               <div className="content-right">

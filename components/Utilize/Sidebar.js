@@ -39,16 +39,6 @@ const Sidebar = ({ sidebar }) => {
                       </div>
                     </li>
                   ))}
-                {/* <li>
-                  <a href="#">
-                    <span>Roadmap</span>
-                  </a>
-                </li> */}
-                {/* <li>
-                  <a href="#">
-                    <span>Enhanced Features</span>
-                  </a>
-                </li> */}
                 <li>
                   <a href="#help-and-support">
                     <span>Help and support</span>
