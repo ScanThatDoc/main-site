@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
 import { useAppContext } from "@/context/Context";
-
 import logo from "../../public/images/logo/logo.png";
 import logoDark from "../../public/images/light/logo/logo-dark.png";
 import Nav from "./Nav";

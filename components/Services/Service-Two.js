@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-
 import Sal from "sal.js";
-
 import ServiceData from "../../data/serviceStyle.json";
 import { useAppContext } from "@/context/Context";
 
