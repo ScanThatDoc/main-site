@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 
 const TermsPolicy = () => {
@@ -7,11 +6,6 @@ const TermsPolicy = () => {
       <div className="rbt-main-content mb--0">
         <div className="rbt-daynamic-page-content center-width">
           <div className="rbt-dashboard-content rainbow-section-gap">
-            {/* <div className="banner-area">
-              <div className="settings-area">
-                <h3 className="title">Terms And Condition</h3>
-              </div>
-            </div> */}
             <div className="content-page">
               <div className="chat-box-list">
                 <div className="content rbt-terms-content">

@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Sal from "sal.js";
-
 import AdvanceTabData from "../../data/tabStyle.json";
 
 const AdvanceTab = () => {

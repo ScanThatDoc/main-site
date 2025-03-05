@@ -2,12 +2,9 @@ import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useAppContext } from "@/context/Context";
-
 import logoLight from "../../public/images/logo/logo.png";
 import logoDark from "../../public/images/light/logo/logo-dark.png";
-
 import Nav from "./Nav";
-import SmallNav from "./SmallNav";
 
 const PopupMobileMenu = () => {
   const { activeMobileMenu, setActiveMobileMenu, isLightTheme } =

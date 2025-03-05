@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-
+import React, { useState } from "react";
 import PricingData from "../../data/pricing.json";
 
 const Pricing = ({ start, end, parentClass, isBadge,gap }) => {

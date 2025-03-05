@@ -1,13 +1,9 @@
-import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import Slider from "react-slick";
-
 import ServiceData from "../../data/serviceStyle.json";
-
 import bg from "../../public/images/service/bg.png";
 import bgHover from "../../public/images/service/bg-hover.png";
-
 import darkBg from "../../public/images/light/service/bg.png";
 import darkBgHover from "../../public/images/light/service/bg-hover.png";
 import { useAppContext } from "@/context/Context";
@@ -78,12 +74,6 @@ const ServiceStyleOne = () => {
                         <div className="description centered-shape">
                           <h5 className="title">{data.title}</h5>
                           <p className="desc">{data.desc}</p>
-                          {/* <Link className="read-more-btn" href="#">
-                            Explore More{" "}
-                            <span>
-                              <i className="fa-sharp fa-solid fa-arrow-right"></i>
-                            </span>
-                          </Link> */}
                         </div>
                       </div>
                       <div className="bg-shaped">

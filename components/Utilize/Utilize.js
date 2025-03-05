@@ -1,9 +1,7 @@
 import React from "react";
 import Sidebar from "./Sidebar";
-
 import SidebarData from "../../data/sidebar.json";
 import UtilizeData from "../../data/utilize.json";
-
 import UtilizeBody from "./UtilizeBody";
 
 const Utilize = () => {

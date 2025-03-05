@@ -6,11 +6,6 @@ const PrivacyPolicy = () => {
       <div className="rbt-main-content mb--0">
         <div className="rbt-daynamic-page-content center-width">
           <div className="rbt-dashboard-content rainbow-section-gap">
-            {/* <div className="banner-area">
-              <div className="settings-area">
-                <h3 className="title">Privacy Policy</h3>
-              </div>
-            </div> */}
             <div className="content-page pb--50 rbt-terms-content">
               <div className="chat-box-list">
                 <div className="content">
