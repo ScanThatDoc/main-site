@@ -14,12 +14,12 @@
               "text": "How to use"
             },
             {
-              "link": "/about",
+              "link": "/about-us",
               "text": "About Us"
             },
             {
-              "link": "/contact",
-              "text": "Contact"
+              "link": "/contact-us",
+              "text": "Contact Us"
             }
           ]
         }
@@ -29,15 +29,15 @@
           "title": "Services",
           "innerItem": [
             {
-              "link": "/image-generator",
+              "link": "/",
               "text": "WhatsApp Integration"
             },
             {
-              "link": "/vedio-generator",
+              "link": "/",
               "text": "Email Integration"
             },
             {
-              "link": "/text-generator",
+              "link": "/",
               "text": "ERP Integration (Coming Soon)"
             }
           ]

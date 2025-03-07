@@ -12,10 +12,10 @@ const PrivacyPolicy = () => {
                 <ol style={{ listStyle: "none" }}>
                     <li>Last Updated: 28 Feb 2025</li>
                     <li>
-                    At ScanTheDoc, we prioritize the privacy and security of our users. 
+                    At RapidScan.Ai, we prioritize the privacy and security of our users. 
                     This Privacy Policy outlines how we collect, store, use, and protect 
                     your personal and invoice-related data when you access our services. 
-                    By using ScanTheDoc, you consent to the collection and processing of 
+                    By using RapidScan.Ai, you consent to the collection and processing of 
                     your data in accordance with this policy. If you do not agree with 
                     any part of this Privacy Policy, please discontinue using our services immediately.
                     </li>
@@ -24,7 +24,7 @@ const PrivacyPolicy = () => {
                   <h4>Information We Collect</h4>
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
-                    When you use ScanTheDoc, we collect certain information to provide 
+                    When you use RapidScan.Ai, we collect certain information to provide 
                     and improve our services. This includes personal details such as 
                     your name, email address, and login credentials, which are required 
                     to create and manage your account. Additionally, we collect 
@@ -49,7 +49,7 @@ const PrivacyPolicy = () => {
                     all aimed at improving our services and providing you with 
                     a seamless experience. Your personal details are used to 
                     create and manage user accounts, while invoice data is processed 
-                    to extract relevant details for easy access within the ScanTheDoc portal. 
+                    to extract relevant details for easy access within the RapidScan.Ai portal. 
                     We also use collected data to enhance our AI-powered OCR technology, 
                     ensuring accurate document scanning and improved automation.
                     </li>
@@ -77,7 +77,7 @@ const PrivacyPolicy = () => {
                     Although we take strong precautions, no system can be completely 
                     immune to cyber threats. Users are encouraged to keep their login 
                     credentials confidential and report any suspicious activity immediately. 
-                    ScanTheDoc is not responsible for security breaches resulting 
+                    RapidScan.Ai is not responsible for security breaches resulting 
                     from user negligence or weak password management.
                     </li>
                   </ol>
@@ -86,7 +86,7 @@ const PrivacyPolicy = () => {
 
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
-                    ScanTheDoc does not sell, trade, or rent your personal data to 
+                    RapidScan.Ai does not sell, trade, or rent your personal data to 
                     third parties. Your information is used strictly for providing 
                     and enhancing our services. However, we may share certain data 
                     with trusted third-party service providers, such as cloud storage 
@@ -99,7 +99,7 @@ const PrivacyPolicy = () => {
                     law enforcement agencies, regulatory bodies, or legal proceedings. 
                     This includes cases where we must comply with legal obligations, 
                     prevent fraudulent activities, or protect the rights and safety 
-                    of ScanTheDoc and its users.
+                    of RapidScan.Ai and its users.
                     </li>
                   </ol>
 
@@ -109,7 +109,7 @@ const PrivacyPolicy = () => {
                     <li>
                     We retain your information only for as long as necessary to fulfill
                      the purposes outlined in this Privacy Policy. Invoice data and 
-                     personal details remain stored within the ScanTheDoc portal for 
+                     personal details remain stored within the RapidScan.Ai portal for 
                      user accessibility and service continuity. If you wish to delete 
                      your account, you may request a complete data deletion through 
                      your account settings or by contacting our support team.
@@ -126,7 +126,7 @@ const PrivacyPolicy = () => {
 
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
-                    ScanTheDoc uses cookies and similar tracking technologies to enhance user 
+                    RapidScan.Ai uses cookies and similar tracking technologies to enhance user 
                     experience and improve platform functionality. Cookies help us remember user 
                     preferences, optimize page loading speeds, and analyze website traffic. 
                     By using our website, you consent to our use of cookies.
@@ -142,7 +142,7 @@ const PrivacyPolicy = () => {
 
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
-                    ScanTheDoc may contain links to external websites, third-party tools, 
+                    RapidScan.Ai may contain links to external websites, third-party tools, 
                     or integrated services that operate independently from our platform. 
                     While we strive to partner with trusted service providers, we do not 
                     control or take responsibility for their privacy policies or security practices. 
@@ -154,7 +154,7 @@ const PrivacyPolicy = () => {
 
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
-                    We believe in user transparency and control over personal data. As a ScanTheDoc user, you have the right to:
+                    We believe in user transparency and control over personal data. As a RapidScan.Ai user, you have the right to:
                     <ul>
                       <li>Access and review the personal data stored in your account.</li>
                       <li>Request corrections or updates to inaccurate information.</li>
@@ -168,7 +168,7 @@ const PrivacyPolicy = () => {
                   <h4>Changes to This Privacy Policy</h4>
                   <ol style={{ listStyle: "none" }}>
                     <li>
-                    ScanTheDoc reserves the right to modify or update this Privacy Policy 
+                    RapidScan.Ai reserves the right to modify or update this Privacy Policy 
                     at any time to reflect changes in our services, regulatory requirements, 
                     or security standards. Users will be notified of significant updates 
                     through email notifications or platform announcements. We encourage 
@@ -180,7 +180,7 @@ const PrivacyPolicy = () => {
 
                   <ol style={{ listStyle: "none" }}>
                     <li>
-                    By using ScanTheDoc, you acknowledge that you have read, 
+                    By using RapidScan.Ai, you acknowledge that you have read, 
                     understood, and agreed to the terms of this Privacy Policy. 
                     We remain committed to ensuring your privacy, security, and data 
                     protection while providing a seamless document-processing experience.

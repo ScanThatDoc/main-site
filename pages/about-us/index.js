@@ -25,7 +25,7 @@ const AboutPage = () => {
           />
           <PopupMobileMenu />
           <Breadcrumb
-            title="About ScanTheDoc"
+            title="About RapidScan.Ai"
             text="About Us"
           />
           <About />

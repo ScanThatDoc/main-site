@@ -19,7 +19,7 @@ const About = () => {
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
                     In today’s fast-paced digital world, businesses handle countless 
-                    invoices and documents daily. At ScanTheDoc, we simplify this 
+                    invoices and documents daily. At RapidScan.Ai, we simplify this 
                     process by automating data extraction, reducing manual effort, 
                     and ensuring speed, accuracy, and efficiency.
                     </li>
@@ -42,7 +42,7 @@ const About = () => {
                     and increase productivity.
                     </li>
                     <li>
-                      At ScanTheDoc, our mission is simple:
+                      At RapidScan.Ai, our mission is simple:
                       <ul>
                         <li>Eliminate manual data entry and reduce human errors.</li>
                         <li>Automate invoice processing for businesses of all sizes.</li>
@@ -52,7 +52,7 @@ const About = () => {
                     </li>
                   </ol>
 
-                  <h4>Why Choose ScanTheDoc?</h4>
+                  <h4>Why Choose RapidScan.Ai?</h4>
 
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
@@ -87,7 +87,7 @@ const About = () => {
 
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
-                    Let ScanTheDoc take care of your invoices while you focus on 
+                    Let RapidScan.Ai take care of your invoices while you focus on 
                     growing your business. Experience the power of AI-driven document processing today.
                     </li>
                   </ol>

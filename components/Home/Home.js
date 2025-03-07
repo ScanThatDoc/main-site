@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Sal from "sal.js";
 import PricingData from "../../data/pricing.json";
-import SplitLogo from "../../public/images/split/split-2-logo.png";
-import DarkSplitLogo from "../../public/images/light/split/split-2-logo.png";
+import SplitLogo from "../../public/images/logo/logo-1.png";
+import DarkSplitLogo from "../../public/images/logo/logo-2.png";
 import shapeOne from "../../public/images/bg/icon-shape/icon-shape-one.png";
 import shapeTwo from "../../public/images/bg/icon-shape/icon-shape-two.png";
 import shapeThree from "../../public/images/bg/icon-shape/icon-shape-three.png";
@@ -96,7 +96,7 @@ const Home = () => {
                 <div >
                   <Link 
                     className="btn-default"
-                    href="https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20ScanTheDoc"
+                    href="https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAi"
                     onClick={(e) => {
                       e.preventDefault();
                       // Show popup with bullet points
@@ -113,19 +113,22 @@ const Home = () => {
                         z-index: 1000;
                         font-size: 30px;
                         font-weight: 600;
+                        color: #000;
                       `;
                       popup.innerHTML = `
+                        <span >
                         Redirecting you to WhatsApp...
                         <ul>
                           <li>Say something to get started</li>
                           <li>Follow the instructions received on whatsapp</li>
                         </ul>
+                        </span>
                       `;
                       document.body.appendChild(popup);
                       
                       setTimeout(() => {
                         document.body.removeChild(popup);
-                        window.location.href = "https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20ScanTheDoc";
+                        window.location.href = "https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAi";
                       }, 4000);
                     }}
                   >
@@ -209,7 +212,7 @@ const Home = () => {
               >
                 <h4 className="subtitle">
                   <span className="theme-gradient">
-                    Scan The Docs unlock the potential AI
+                    RapidScan.Ai unlocks the potential AI
                   </span>
                 </h4>
                 <h2 className="title mb--0">
@@ -273,13 +276,13 @@ const Home = () => {
                   AI Invoice Processing platform for seamless
                   <br /> Reconcilliation
                 </h2>
-                <Link
+                {/* <Link
                   className="btn-default btn-large color-blacked"
                   href="/contact"
                 >
                   Try It Now{" "}
                   <i className="fa-sharp fa-light fa-arrow-right ml--5"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

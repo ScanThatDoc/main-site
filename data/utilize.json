@@ -44,7 +44,7 @@
           "desc": "Once the invoice is received, our system utilizes powerful OCR (Optical Character Recognition) technology to extract key details with precision. It identifies crucial information such as invoice number, date, amount, and vendor details automatically.",
           "list": [
             {
-              "text": "The extracted data is then structured and stored securely within the ScanTheDoc portal. This eliminates manual data entry and ensures that all information is neatly organized for easy access."
+              "text": "The extracted data is then structured and stored securely within the RapidScan.Ai portal. This eliminates manual data entry and ensures that all information is neatly organized for easy access."
             },
             {
               "text": "With AI-driven automation, users can trust that their invoices are processed quickly, accurately, and efficiently, streamlining their workflow with minimal effort."
@@ -58,10 +58,10 @@
           "desc": "After the invoice has been processed, users receive a secure login link directly in the WhatsApp chat. This allows them to access their extracted invoice data instantly without needing to navigate through multiple steps.",
           "list": [
             {
-              "text": "First time user also recieve login credentials to the ScanTheDoc portal."
+              "text": "First time user also recieve login credentials to the RapidScan.Ai portal."
             },
             {
-              "text": "By clicking the link, users are redirected to the ScanTheDoc portal, where they can review, manage, and download their invoice details effortlessly. The intuitive interface ensures that all processed invoices are easily accessible."
+              "text": "By clicking the link, users are redirected to the RapidScan.Ai portal, where they can review, manage, and download their invoice details effortlessly. The intuitive interface ensures that all processed invoices are easily accessible."
             },
             {
               "text": "This seamless access mechanism enhances convenience, security, and efficiency, enabling users to retrieve their data anytime with just a single click."
@@ -85,10 +85,10 @@
           "subTitle": "",
           "list": [
             {
-              "text": "When you first sign up, you'll receive a dedicated ScanTheDoc email address that you can use to forward your invoices to our system."
+              "text": "When you first sign up, you'll receive a dedicated RapidScan.Ai email address that you can use to forward your invoices to our system."
             },
             {
-              "text": "Simply compose a new email or forward an existing invoice email to your dedicated ScanTheDoc email address."
+              "text": "Simply compose a new email or forward an existing invoice email to your dedicated RapidScan.Ai email address."
             },
             {
               "text": "Now the system continuously monitors for new emails containing attachments. This eliminates the need for manual uploads, making invoice management faster, more efficient, and completely automated."
@@ -116,7 +116,7 @@
               "text": "The extracted information is then structured and categorized for easy access. Instead of manually sorting through invoices, users can rely on the system to automatically organize the data, reducing errors and saving valuable time."
             },
             {
-              "text": "After processing, the structured data is securely uploaded to the ScanTheDoc portal, where users can review and manage their invoices effortlessly. This ensures that all invoice details are stored in a centralized location, ready for quick retrieval whenever needed."
+              "text": "After processing, the structured data is securely uploaded to the RapidScan.Ai portal, where users can review and manage their invoices effortlessly. This ensures that all invoice details are stored in a centralized location, ready for quick retrieval whenever needed."
             }
           ]
         },
@@ -137,7 +137,7 @@
     },
     {
       "id": "manual-upload",
-      "title": "Upload Invoice through ScanTheDoc",
+      "title": "Upload Invoice through RapidScan.Ai",
       "body": [
         {
           "id": "manual-upload-walkthrough-video",
@@ -146,8 +146,8 @@
         },
         {
           "id": "log-in-scan-the-doc",
-          "title": "Log-in to ScanTheDoc",
-          "desc": "To begin the manual upload process, users must log in to the ScanTheDoc portal using their registered credentials. The portal provides a secure and user-friendly interface, ensuring that only authorized users can access and manage invoices.",
+          "title": "Log-in to RapidScan.Ai",
+          "desc": "To begin the manual upload process, users must log in to the RapidScan.Ai portal using their registered credentials. The portal provides a secure and user-friendly interface, ensuring that only authorized users can access and manage invoices.",
           "list": [
             {
               "text": "Once logged in, users are directed to Documents tab, where they can view previously uploaded invoices, track processing status, and manage extracted data. This centralized hub simplifies document handling by keeping all invoice-related information organized in one place."
@@ -175,7 +175,7 @@
           "desc": "Once the invoice is uploaded, the system leverages advanced OCR (Optical Character Recognition) technology to extract key details with precision. It scans the document to identify crucial information such as invoice number, date, amount, and vendor details, ensuring accuracy in data retrieval.",
           "list": [
             {
-              "text": "The extracted information is then structured and categorized within the ScanTheDoc portal. This eliminates the need for manual data entry, allowing users to quickly access and manage their invoices without sorting through paperwork."
+              "text": "The extracted information is then structured and categorized within the RapidScan.Ai portal. This eliminates the need for manual data entry, allowing users to quickly access and manage their invoices without sorting through paperwork."
             },
             {
               "text": "After processing, the structured data is securely stored in the portal, where users can review, verify, and export their invoices as needed. This automated and efficient approach ensures seamless document handling and improves overall workflow productivity."
@@ -185,7 +185,7 @@
         {
           "id": "manual-access-data",
           "title": "Access & Manage Data",
-          "desc": "Once the invoice has been processed, users can conveniently access their extracted data through the ScanTheDoc portal. The system organizes all invoices in a structured format, making it easy to search, filter, and retrieve specific documents when needed.",
+          "desc": "Once the invoice has been processed, users can conveniently access their extracted data through the RapidScan.Ai portal. The system organizes all invoices in a structured format, making it easy to search, filter, and retrieve specific documents when needed.",
           "list": [
             {
               "text": "Within the portal, users have the flexibility to review, edit, and validate extracted invoice details to ensure accuracy."
@@ -202,7 +202,7 @@
           "id": "help-section",
           "title": "Reach Out to Our Support Team",
           "subTitle": "Support Availability & Response Time",
-          "desc": "We understand that you may have questions or run into issues while using ScanTheDoc. Our dedicated support team is available to assist you with any concerns, whether it's about connecting your email, uploading invoices, or accessing your data.",
+          "desc": "We understand that you may have questions or run into issues while using RapidScan.Ai. Our dedicated support team is available to assist you with any concerns, whether it's about connecting your email, uploading invoices, or accessing your data.",
           "list": [
             {
               "text": "Email Us on: hello@soulput.com"

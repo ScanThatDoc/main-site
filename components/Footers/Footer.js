@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import FooterData from "../../data/footer.json";
-import logo from "../../public/images/logo/logo.png";
+import logo from "../../public/images/logo/logo-2.png";
 import FooterProps from "./FooterProps";
 
 const Footer = () => {
@@ -16,13 +16,19 @@ const Footer = () => {
                 <div className="rainbow-footer-widget">
                   <div className="logo">
                     <Link href="/">
+                      <div className="d-flex align-items-baseline">
                       <Image
                         className="logo-light"
                         src={logo}
                         width={135}
                         height={35}
+                        priority={true}
                         alt="ChatBot Logo"
                       />
+                      <span className="fs-1 ms-2 fw-semibold" style={{ fontFamily: "'Poppins', sans-serif" }}>
+                        RapidScan.Ai
+                      </span>
+                    </div>
                     </Link>
                   </div>
                   <p className="b1 desc-text">
