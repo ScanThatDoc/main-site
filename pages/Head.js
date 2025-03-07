@@ -11,7 +11,7 @@ const PageHead = ({ title }) => {
         <meta property="og:title" content="RapidScan.ai - Invoice Workflow Automation" />
         <meta property="og:description" content="Automate invoice processing with AI-powered OCR technology. Streamline AP workflows and eliminate manual data entry." />
         <meta property="og:type" content="website" />
-        {/* <meta property="og:image" content="https://yourdomain.com/your-image.jpg" /> */}
+        <meta property="og:image" content="/images/logo/logo-2.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="RapidScan.ai - Invoice Workflow Automation" />
         <meta name="twitter:description" content="Automate invoice processing with AI-powered OCR technology. Streamline AP workflows and eliminate manual data entry." />

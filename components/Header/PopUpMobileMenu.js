@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useAppContext } from "@/context/Context";
-import logoLight from "../../public/images/logo/logo.png";
-import logoDark from "../../public/images/light/logo/logo-dark.png";
+import logoLight from "../../public/images/logo/logo-1.png";
+import logoDark from "../../public/images/logo/logo-2.png";
 import Nav from "./Nav";
 
 const PopupMobileMenu = () => {
@@ -40,6 +40,9 @@ const PopupMobileMenu = () => {
                   height={30}
                   alt="Corporate Logo"
                 />
+                <span className="fs-1 ms-2 fw-semibold" style={{ fontFamily: "'Poppins', sans-serif" }}>
+                  RapidScan.Ai
+                </span>
               </Link>
             </div>
             <div className="close-menu">
