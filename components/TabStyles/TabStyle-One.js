@@ -123,7 +123,15 @@ const TabStyleOne = () => {
                         <div className="col-xl-6 mt_md--30 mt_sm--30">
                           <div className="export-img">
                             <div className="inner-without-padding">
-                              <div className="export-img img-bg-shape" style={{ width: 593, height: 362 }}>
+                              <div 
+                                className="export-img img-bg-shape" 
+                                style={{ 
+                                    width: '100%',
+                                    maxWidth: '593px',
+                                    height: 'auto',
+                                    aspectRatio: '593/362'
+                                }}
+                              >
                                 {/* <Image
                                   src={isLightTheme ? tab.imgLight : tab.img}
                                   width={569}
