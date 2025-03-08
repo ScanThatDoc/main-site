@@ -41,7 +41,7 @@ const PopupMobileMenu = () => {
                   alt="Corporate Logo"
                 />
                 <span className="fs-1 ms-2 fw-semibold" style={{ fontFamily: "'Poppins', sans-serif" }}>
-                  RapidScan.Ai
+                  RapidScan.AI
                 </span>
               </Link>
             </div>

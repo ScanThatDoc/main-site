@@ -9,9 +9,6 @@ import shapeOne from "../../public/images/bg/icon-shape/icon-shape-one.png";
 import shapeTwo from "../../public/images/bg/icon-shape/icon-shape-two.png";
 import shapeThree from "../../public/images/bg/icon-shape/icon-shape-three.png";
 import shapeFour from "../../public/images/bg/icon-shape/icon-shape-four.png";
-import bgShape from "../../public/images/bg/split-bg-shape.png";
-import bgShapeOne from "../../public/images/bg/bg-shape-four.png";
-import bgShapeTwo from "../../public/images/bg/bg-shape-five.png";
 import TabStyleOne from "../TabStyles/TabStyle-One";
 import ServiceStyleOne from "../Services/ServiceStyle-One";
 import AdvanceTab from "../TabStyles/AdvanceTab";
@@ -20,8 +17,6 @@ import ServiceTwo from "../Services/Service-Two";
 import Testimonial from "../Testimonials/Testimonial";
 import CtaTwo from "../CallToActions/Cta-Two";
 import { useAppContext } from "@/context/Context";
-import imageLight from "@/public/images/HomeLite.png";
-import imageDark from "@/public/images/HomeDark.png";
 
 const Home = () => {
   const [visibleIndex, setVisibleIndex] = useState(0);
@@ -96,7 +91,7 @@ const Home = () => {
                 <div >
                   <Link 
                     className="btn-default"
-                    href="https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAi"
+                    href="https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAI"
                     onClick={(e) => {
                       e.preventDefault();
                       // Show popup with bullet points
@@ -128,7 +123,7 @@ const Home = () => {
                       
                       setTimeout(() => {
                         document.body.removeChild(popup);
-                        window.location.href = "https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAi";
+                        window.location.href = "https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAI";
                       }, 4000);
                     }}
                   >
@@ -171,8 +166,7 @@ const Home = () => {
               <div className="slider-frame">
                 <Image
                   className=""
-                  // src={isLightTheme ? bannerImg : bannerWhiteImg}
-                  src={isLightTheme ? imageLight : imageDark}
+                  src={isLightTheme ? "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/home-lite-dashboard.png" : "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/home-dark-dashboard.png"}
                   width={1055}
                   height={898}
                   alt="Banner Images"
@@ -187,12 +181,12 @@ const Home = () => {
             className="bg-shape-one"
             width={640}
             height={949}
-            src={bgShapeOne}
+            src="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/bg-shape-four.png"
             alt="Bg Shape"
           />
           <Image
             className="bg-shape-two"
-            src={bgShapeTwo}
+            src="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/bg-shape-five.png"
             width={626}
             height={1004}
             alt="Bg Shape"
@@ -212,7 +206,7 @@ const Home = () => {
               >
                 <h4 className="subtitle">
                   <span className="theme-gradient">
-                    RapidScan.Ai unlocks the potential AI
+                    RapidScan.AI unlocks the potential AI
                   </span>
                 </h4>
                 <h2 className="title mb--0">
@@ -255,7 +249,7 @@ const Home = () => {
           </div>
         </div>
         <div className="bg-shape">
-          <Image src={bgShape} width={630} height={879} alt="Bg Shape" />
+          <Image src="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/split-bg-shape.png" width={630} height={879} alt="Bg Shape" />
         </div>
       </div>
 

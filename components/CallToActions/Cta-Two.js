@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Sal from "sal.js";
 import bgShape from "../../public/images/cta-img/bg-shape.png";
-import bgLight from "../../public/images/bg/bg-shape-tree.png";
 
 const CtaTwo = ({isLightTheme}) => {
   useEffect(() => {
@@ -24,7 +23,7 @@ const CtaTwo = ({isLightTheme}) => {
                 >
                   <h4 className="subtitle">
                     <span className="theme-gradient">
-                      Get Started with RapidScan.Ai
+                      Get Started with RapidScan.AI
                     </span>
                   </h4>
                   <h2 className="title w-600 mb--5">
@@ -96,7 +95,7 @@ const CtaTwo = ({isLightTheme}) => {
               </div>
             </div>
             <div className="bg-shape-inside">
-              <Image src={bgLight} width={968} height={1103} alt="Bg shape" />
+              <Image src="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/bg-shape-tree.png" width={968} height={1103} alt="Bg shape" />
             </div>
           </div>
         </div>

@@ -52,7 +52,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                         alt="Logo"
                       />
                       <span className="fs-1 ms-2 fw-semibold" style={{ fontFamily: "'Poppins', sans-serif" }}>
-                        RapidScan.Ai
+                        RapidScan.AI
                       </span>
                     </div>
                   ) : (
@@ -66,7 +66,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                         alt="ChatBot Logo"
                       />
                       <span className="fs-1 ms-2 fw-semibold" style={{ fontFamily: "'Poppins', sans-serif" }}>
-                        RapidScan.Ai
+                        RapidScan.AI
                       </span>
                     </div>
                   )}

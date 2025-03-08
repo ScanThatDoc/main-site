@@ -12,17 +12,17 @@ const TermsPolicy = () => {
                   <ol style={{ listStyle: "none" }}>
                     <li>Last Updated: 28 Feb 2025</li>
                     <li>
-                      Welcome to RapidScan.Ai! By using our services, including our website, portal,
+                      Welcome to RapidScan.AI! By using our services, including our website, portal,
                       and automated invoice processing system, you agree to comply with the terms outlined in this document.
                       These Terms and Conditions establish the rules and guidelines for using
-                      RapidScan.Ai and define the rights and responsibilities of both the users and the service provider.
+                      RapidScan.AI and define the rights and responsibilities of both the users and the service provider.
                       If you do not agree with any part of these terms, you must discontinue your use of our services immediately.
                     </li>
                   </ol>
                   <h4>Acceptance of Terms</h4>
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
-                      By accessing and using RapidScan.Ai, you confirm that you have read,
+                      By accessing and using RapidScan.AI, you confirm that you have read,
                       understood, and accepted these Terms and Conditions. Your continued
                       use of the platform constitutes your agreement to abide by all
                       applicable rules, policies, and updates that may be implemented in the future.
@@ -35,7 +35,7 @@ const TermsPolicy = () => {
 
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
-                      RapidScan.Ai is designed to help individuals and businesses 
+                      RapidScan.AI is designed to help individuals and businesses 
                       process invoices efficiently using AI-powered document scanning 
                       and data extraction technology. The platform allows users to 
                       upload invoices via various channels, including email and direct 
@@ -51,7 +51,7 @@ const TermsPolicy = () => {
                     maintaining the confidentiality of your login credentials and for 
                     all activities carried out under your account. If you suspect any 
                     unauthorized access or security breaches, you must notify us immediately 
-                    so that appropriate action can be taken. RapidScan.Ai will not be liable 
+                    so that appropriate action can be taken. RapidScan.AI will not be liable 
                     for any loss or damage arising from unauthorized use of your account.
                     </li>
                   </ol>
@@ -60,7 +60,7 @@ const TermsPolicy = () => {
 
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
-                    When you upload invoices to RapidScan.Ai, you grant us permission 
+                    When you upload invoices to RapidScan.AI, you grant us permission 
                     to process these documents using advanced Optical Character 
                     Recognition (OCR) and AI-based technologies. Our system automatically 
                     extracts essential details such as invoice numbers, dates, amounts, 
@@ -71,7 +71,7 @@ const TermsPolicy = () => {
                     for financial or accounting purposes.
                     </li>
                     <li>
-                    RapidScan.Ai securely stores processed invoice data within our portal, 
+                    RapidScan.AI securely stores processed invoice data within our portal, 
                     allowing users to access and manage their documents at any time. 
                     We prioritize data security and confidentiality, ensuring that your 
                     uploaded files and extracted information are not shared, sold, or misused. 
@@ -87,7 +87,7 @@ const TermsPolicy = () => {
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
                     We are committed to protecting your privacy and ensuring that 
-                    your personal and financial data remains secure. RapidScan.Ai 
+                    your personal and financial data remains secure. RapidScan.AI 
                     follows industry-standard security measures to safeguard user 
                     information from unauthorized access, data breaches, or misuse. 
                     By using our services, you acknowledge and consent to the collection, 
@@ -103,7 +103,7 @@ const TermsPolicy = () => {
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
                     While we strive to provide an uninterrupted and seamless experience, 
-                    RapidScan.Ai does not guarantee 100% uptime or error-free service. 
+                    RapidScan.AI does not guarantee 100% uptime or error-free service. 
                     There may be instances where maintenance, technical issues, 
                     or unforeseen circumstances temporarily disrupt access to our platform. 
                     We reserve the right to modify, update, or discontinue any part of 
@@ -117,14 +117,14 @@ const TermsPolicy = () => {
 
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
-                    RapidScan.Ai is provided on an "as is" and "as available" basis. 
+                    RapidScan.AI is provided on an "as is" and "as available" basis. 
                     We do not make any guarantees regarding the accuracy, reliability, 
                     or performance of our service. While we take extensive measures 
                     to ensure smooth operation, we are not responsible for any financial 
                     losses, errors in data extraction, system downtime, or other 
                     inconveniences resulting from the use of our platform. Users assume 
                     full responsibility for verifying extracted data and making informed 
-                    decisions when using the processed information. By using RapidScan.Ai, 
+                    decisions when using the processed information. By using RapidScan.AI, 
                     you agree to indemnify and hold us harmless from any claims, damages, 
                     or liabilities arising from your use of the service.
                     </li>
@@ -134,12 +134,12 @@ const TermsPolicy = () => {
 
                   <ol className="rbt-terms-content" style={{ listStyle: "none" }}>
                     <li>
-                    RapidScan.Ai reserves the right to suspend or terminate accounts 
+                    RapidScan.AI reserves the right to suspend or terminate accounts 
                     that violate these Terms and Conditions. If a user is found engaging 
                     in fraudulent activities, abusing system functionalities, 
                     or breaching security policies, their access to the platform may be 
                     revoked without prior notice. Users who wish to discontinue their 
-                    use of RapidScan.Ai can request account deletion, after which all 
+                    use of RapidScan.AI can request account deletion, after which all 
                     stored data associated with their profile will be permanently removed. 
                     Once an account is deleted, it cannot be restored, and all associated 
                     invoice data will no longer be accessible.
@@ -152,7 +152,7 @@ const TermsPolicy = () => {
                     <li>
                     These Terms and Conditions are governed by the laws of 
                     Maharashtra/ India. Any disputes, claims, or legal matters 
-                    arising from the use of RapidScan.Ai shall be handled in 
+                    arising from the use of RapidScan.AI shall be handled in 
                     accordance with the applicable regulations in the designated jurisdiction. 
                     By using this service, you agree to submit to the legal 
                     framework governing these terms.
@@ -162,7 +162,7 @@ const TermsPolicy = () => {
                   <h4>Acknowledge</h4>
                   <ol style={{ listStyle: "none" }}>
                     <li>
-                    By continuing to use RapidScan.Ai, you acknowledge that you 
+                    By continuing to use RapidScan.AI, you acknowledge that you 
                     have read, understood, and agreed to these Terms and Conditions. 
                     Your acceptance of these terms enables us to provide you with 
                     a secure, efficient, and reliable invoice processing experience.
