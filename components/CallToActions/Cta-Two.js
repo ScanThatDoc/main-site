@@ -38,7 +38,7 @@ const CtaTwo = ({isLightTheme}) => {
                   </p>
                 </div>
                 <div className="app-store-btn">
-                <Link 
+                  <Link 
                     className="btn-default"
                     href="https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAi"
                     onClick={(e) => {

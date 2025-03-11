@@ -11,7 +11,7 @@ const Context = ({ children }) => {
   const [toggleAuth, setToggleAuth] = useState(true);
   const [showItem, setShowItem] = useState(true);
   const [activeMobileMenu, setActiveMobileMenu] = useState(true);
-  const [isLightTheme, setLightTheme] = useState(true);
+  const [isLightTheme, setLightTheme] = useState(false);
 
   const checkScreenSize = () => {
     if (window.innerWidth < 1600) {

@@ -29,15 +29,15 @@
           "title": "Services",
           "innerItem": [
             {
-              "link": "/",
+              "link": "#footer",
               "text": "WhatsApp Integration"
             },
             {
-              "link": "/",
+              "link": "#footer",
               "text": "Email Integration"
             },
             {
-              "link": "/",
+              "link": "#footer",
               "text": "ERP Integration (Coming Soon)"
             }
           ]

@@ -32,11 +32,10 @@ const PopupMobileMenu = () => {
         <div className="inner-popup">
           <div className="header-top">
             <div className="logo">
-              <Link href="/">
+              <Link href="/" className="d-flex align-items-baseline">
                 <Image
                   className="logo-light"
                   src={isLightTheme ? logoLight : logoDark}
-                  width={116}
                   height={30}
                   alt="Corporate Logo"
                 />

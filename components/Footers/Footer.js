@@ -8,7 +8,7 @@ import FooterProps from "./FooterProps";
 const Footer = () => {
   return (
     <>
-      <footer className="rainbow-footer footer-style-default footer-style-3 position-relative">
+      <footer id="footer" className="rainbow-footer footer-style-default footer-style-3 position-relative">
         <div className="footer-top">
           <div className="container">
             <div className="row justify-content-between">
@@ -20,7 +20,6 @@ const Footer = () => {
                       <Image
                         className="logo-light"
                         src={logo}
-                        width={135}
                         height={35}
                         priority={true}
                         alt="ChatBot Logo"
@@ -82,7 +81,7 @@ const Footer = () => {
                               </li>
                               <li>
                                 <i className="contact-icon fa-sharp fa-regular fa-envelope"></i>
-                                <Link href="#">{inner.mail}</Link>
+                                <Link href="mailto:hello@soulputs.com?subject=RapidScan.AI%20-%20Support%20Request&body=Specify%20your%20query%20or%20issue%20here.">{inner.mail}</Link>
                               </li>
                             </ul>
                           </div>
