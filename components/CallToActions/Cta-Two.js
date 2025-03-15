@@ -72,7 +72,7 @@ const CtaTwo = ({isLightTheme}) => {
                       
                       setTimeout(() => {
                         document.body.removeChild(popup);
-                        window.location.href = "https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAi";
+                        window.open("https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAi", "_blank");
                       }, 4000);
                     }}
                   >

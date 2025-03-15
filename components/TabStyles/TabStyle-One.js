@@ -98,7 +98,7 @@ const TabStyleOne = () => {
 
                                       setTimeout(() => {
                                         document.body.removeChild(popup);
-                                        window.location.href = "https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAI";
+                                        window.open("https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAI", "_blank");
                                       }, 4000);
                                     }}
                                   >
@@ -109,6 +109,7 @@ const TabStyleOne = () => {
                                 <div className="read-more">
                                   <Link
                                     className="btn-default color-blacked"
+                                    target="_blank"
                                     href="https://dev.scanthatdoc.com/"
                                   >
                                     Sign Up Now

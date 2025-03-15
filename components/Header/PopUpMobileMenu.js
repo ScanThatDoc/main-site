@@ -32,7 +32,7 @@ const PopupMobileMenu = () => {
         <div className="inner-popup">
           <div className="header-top">
             <div className="logo">
-              <Link href="/" className="d-flex align-items-baseline">
+              <Link href="/" className="d-flex align-items-center">
                 <Image
                   className="logo-light"
                   src={isLightTheme ? logoLight : logoDark}
@@ -69,6 +69,7 @@ const PopupMobileMenu = () => {
             > */}
             <Link
               className="btn-default"
+              target="_blank"
               href="https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAI"
               onClick={(e) => {
                 e.preventDefault();
@@ -104,7 +105,7 @@ const PopupMobileMenu = () => {
 
                 setTimeout(() => {
                   document.body.removeChild(popup);
-                  window.location.href = "https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAI";
+                  window.open("https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAI", "_blank");
                 }, 4000);
               }}
             >

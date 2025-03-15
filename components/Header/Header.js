@@ -42,7 +42,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
               <div className="logo">
                 <Link href="/">
                   {isLightTheme ? (
-                    <div className="d-flex align-items-baseline">
+                    <div className="d-flex align-items-center">
                       <Image
                         className="logo-light"
                         src={logoDark}
@@ -56,7 +56,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                       </span>
                     </div>
                   ) : (
-                    <div className="d-flex align-items-baseline">
+                    <div className="d-flex align-items-center">
                       <Image
                         className="logo-light"
                         src={logo}
@@ -83,7 +83,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
             <div className="col-lg-2 col-md-6 col-6 position-static">
               <div className="header-right">
                 <div className="header-btn">
-                  <Link className={`${btnClass}`} href="https://dev.scanthatdoc.com/">
+                  <Link className={`${btnClass}`} target="_blank" href="https://dev.scanthatdoc.com/">
                     <span>Get Start</span>
                   </Link>
                 </div>

@@ -69,6 +69,7 @@ const AdvanceTab = () => {
                             >
                               <Link
                                 className="btn-default color-blacked"
+                                target="_blank"
                                 href="https://dev.scanthatdoc.com/"
                               >
                                 Try Free Now{" "}

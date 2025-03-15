@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="rainbow-footer-widget">
                   <div className="logo">
                     <Link href="/">
-                      <div className="d-flex align-items-baseline">
+                      <div className="d-flex align-items-center">
                       <Image
                         className="logo-light"
                         src={logo}
