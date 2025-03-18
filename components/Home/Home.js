@@ -52,7 +52,7 @@ const Home = () => {
                 <span className="header-caption d-block d-md-none">
                     <TextAnimation data={["Invoice", "PO", "Receipt", "Quotation"]}/>
                 </span>
-                <span className="d-block">Your Data, Our AI, Zero Effort</span>
+                <span className="d-block">Your Data Our AI Zero Effort</span>
                 </h1>
                 <p className="description"> 
                 Say Goodbye to Manual Entry <br />{" "}
