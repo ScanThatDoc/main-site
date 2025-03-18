@@ -6,13 +6,13 @@
       "img": "https://www.youtube.com/embed/1O0yazhqaxs",
       "imgLight": "https://www.youtube.com/embed/1O0yazhqaxs",
       "menuId": "photo-generator",
-      "text": "Automation using Whatsapp",
+      "text": "WhatsApp Bot",
       "target": "photo-generate",
       "iconImg": "/images/icons/photo-g.png",
       "isSelect": true,
       "subItem": [
         {
-          "text": "Fetch Invoices Instantly"
+          "text": "Uploads documents Instantly"
         },
         {
           "text": "AI-Powered Data Extraction"
@@ -30,13 +30,13 @@
       "img": "https://www.youtube.com/embed/1O0yazhqaxs",
       "imgLight": "https://www.youtube.com/embed/1O0yazhqaxs",
       "menuId": "text-generator",
-      "text": "Automation using Email",
+      "text": "Email Bot",
       "target": "text-generate",
       "iconImg": "/images/icons/text-g.png",
       "isSelect": false,
       "subItem": [
         {
-          "text": "Fetch Invoices Instantly"
+          "text": "Uploads documents Instantly"
         },
         {
           "text": "AI-Powered Data Extraction"
@@ -54,7 +54,7 @@
       "img": "https://www.youtube.com/embed/1O0yazhqaxs",
       "imgLight": "https://www.youtube.com/embed/1O0yazhqaxs",
       "menuId": "code-generator",
-      "text": "Manual Uploads",
+      "text": "Upload via RapidScan",
       "target": "code-generate",
       "iconImg": "/images/icons/code-g.png",
       "isSelect": false,

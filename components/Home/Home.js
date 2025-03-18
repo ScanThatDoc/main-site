@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import PricingData from "../../data/pricing.json";
@@ -18,6 +18,28 @@ import TextAnimation from "../Common/text-animation";
 
 const Home = () => {
   const { isLightTheme } = useAppContext();
+  const [isAnimated, setIsAnimated] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const image = document.querySelector('.slider-frame');
+      if (image) {
+        const imageRect = image.getBoundingClientRect();
+        const imageTop = imageRect.top;
+        const windowHeight = window.innerHeight;
+        
+        // Calculate when 20% of the image is scrolled
+        const scrollThreshold = imageTop + (imageRect.height * 0.2);
+        
+        if (scrollThreshold < windowHeight && !isAnimated) {
+          setIsAnimated(true);
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [isAnimated]);
 
   const marqueeItems = [
     "/images/marquee/amazon.png",
@@ -45,14 +67,14 @@ const Home = () => {
             <div className="col-lg-12">
               <div className="inner text-center mt--140">
                 <h1 className="title display-one">
-                Automate {"  "}
-                <span className="header-caption d-none d-md-block d-lg-inline ">
+                Transform Your {"  "}
+                <span className="header-caption d-none d-md-block d-xl-inline ">
                     <TextAnimation data={["Invoice", "Purchase Order", "Receipt", "Quotation", "Delivery Note", "Bill of Landing"]}/>
                 </span>
                 <span className="header-caption d-block d-md-none">
                     <TextAnimation data={["Invoice", "PO", "Receipt", "Quotation"]}/>
                 </span>
-                <span className="d-block">Your Data Our AI Zero Effort</span>
+                <span className="d-block">Workflow with AI Automation </span>
                 </h1>
                 <p className="description"> 
                 Say Goodbye to Manual Entry <br />{" "}
@@ -132,14 +154,16 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            <div className="aman"></div>
             <div className="col-lg-11 col-xl-11 justify-content-center ">
               <div className="slider-frame">
                 <Image
-                  className=""
+                  className={isAnimated ? 'flip-animation' : ''}
                   src={isLightTheme ? "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/home-lite-dashboard.png" : "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/home-dark-dashboard.png"}
                   width={1055}
                   height={898}
                   alt="Banner Images"
+                  priority={true}
                 />
               </div>
             </div>

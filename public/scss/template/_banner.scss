@@ -10,6 +10,37 @@
     }
 }
 
+
+.flip-animation {
+    animation: slideAndRotate 1.5s ease-out forwards;
+    display: block;
+}
+
+@keyframes slideAndRotate {
+    0% {
+        opacity: 0;
+        transform: perspective(1000px) rotateX(90deg);
+        transform-origin: top;
+    }
+    
+    20% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 1;
+        transform: perspective(1000px) rotateX(0deg);
+        transform-origin: top;
+    }
+}
+
+// Add initial state for non-animated image
+.slider-frame img:not(.flip-animation) {
+    opacity: 0;
+    transform: perspective(1000px) rotateX(90deg);
+    transform-origin: top;
+}
+
 .height-850 {
     height: 850px;
     display: flex;
@@ -545,6 +576,8 @@
         }
 
         .slider-frame {
+            position: relative;
+            overflow: hidden;
             background: url("https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/slider-main-bg.png");
             background-position: top center;
             background-size: 100% 100%;
@@ -554,7 +587,6 @@
             position: relative;
             z-index: 3;
             margin-top: 60px;
-            overflow: hidden;
             aspect-ratio: auto;
             width: 100%;
             height: auto;

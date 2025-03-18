@@ -7,8 +7,8 @@
     },
     {
       "img": "/images/icons/service-icon-03.svg",
-      "title": "WhatsApp and Gmail API Integrations",
-      "desc": "Simply forward documents from your preferred platform, and RapidScan AI will automatically fetch, process, and extract the data in real time."
+      "title": "WhatsApp and Gmail Bot",
+      "desc": "Simply forward documents from your preferred platform, and RapidScan AI will automatically process the data in real time."
     },
     {
       "img": "/images/icons/service-icon-01.svg",
@@ -17,8 +17,8 @@
     },
     {
       "img": "/images/icons/service-icon-01.svg",
-      "title": "Safe and Secured with Clerk Authentication",
-      "desc": "Security is our top priority. With Clerk Authentication, your data remains protected with industry-leading security protocols, ensuring only authorized users can access sensitive information."
+      "title": "Safe and Secured ",
+      "desc": "Security is our top priority. With Clerk Authentication, your data is protected with industry-leading security protocols."
     },
     {
       "img": "/images/icons/service-icon-02.svg",
@@ -28,7 +28,7 @@
     {
       "img": "/images/icons/service-icon-02.svg",
       "title": "Connect everywhere",
-      "desc": "Stay connected and manage documents from anywhere, anytime! With seamless integrations across WhatsApp, Gmail, and your RapidScan AI portal, you can access, process, and track records on the go."
+      "desc": "Stay connected and manage documents from anywhere, anytime! We have 99.99% uptime, you can access records on the go."
     }
   ],
   "serviceTwo": [
