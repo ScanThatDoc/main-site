@@ -51,7 +51,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                         priority={true}
                         alt="Logo"
                       />
-                      <span className="fs-1 ms-2 fw-semibold" style={{ fontFamily: "'Poppins', sans-serif" }}>
+                      <span className="fs-1 ms-2 fw-semibold " style={{ fontFamily: "'Poppins', sans-serif"  , color: '#805af5'}}>
                         RapidScan.AI
                       </span>
                     </div>

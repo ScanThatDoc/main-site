@@ -50,10 +50,10 @@ const Contact = () => {
                   <div className="inner">
                     <h4 className="title">Our Email Address</h4>
                     <p className="b2">
-                      <Link href="mailto:admin@gmail.com">hello@soulputs.com</Link>
+                      <Link href="mailto:hello@soulputs.com?subject=RapidScan.AI%20-%20Support%20Request&body=Specify%20your%20query%20or%20issue%20here.">hello@soulputs.com</Link>
                     </p>
                     <p className="b2">
-                      <Link href="mailto:example@gmail.com">
+                      <Link href="mailto:support@soulputs.com?subject=RapidScan.AI%20-%20Support%20Request&body=Specify%20your%20query%20or%20issue%20here.">
                         support@soulputs.com
                       </Link>
                     </p>

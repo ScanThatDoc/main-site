@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Sal from "sal.js";
 import bgShape from "../../public/images/cta-img/bg-shape.png";
+import TextAnimation from "../Common/text-animation";
 
 const CtaTwo = ({isLightTheme}) => {
   useEffect(() => {
@@ -27,10 +28,10 @@ const CtaTwo = ({isLightTheme}) => {
                     </span>
                   </h4>
                   <h2 className="title w-600 mb--5">
-                    Experience Invoice Automation with AI
+                    Experience <TextAnimation data={["Invoice", "Purchase Order", "Receipt", "Quotation", "Delivery Note", "Bill of Landing"]} className="d-block d-md-inline"/> Automation with AI
                   </h2>
                   <p className="description b1">
-                    Automates Invoice processing by fetching files from WhatsApp and Gmail,<br />
+                    Automates document processing by fetching files from WhatsApp, Gmail or any other source<br />
                     using OCR technology to extract data dynamically.<br />
                     Then stores and displays the structured data in the Dashboard,<br />
                     eliminating manual effort and streamlining workflows.

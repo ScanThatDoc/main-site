@@ -26,8 +26,8 @@ const Context = ({ children }) => {
   // ===========> Switcher Function START
   useEffect(() => {
     const themeType = localStorage.getItem("aiwave-theme");
-    if (themeType === "dark") {
-      setLightTheme(false);
+    if (themeType === "light") {
+      setLightTheme(true);
       document.body.classList.add("active-dark-mode");
     }
   }, []);

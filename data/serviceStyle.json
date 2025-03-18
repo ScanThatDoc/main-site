@@ -3,12 +3,12 @@
     {
       "img": "/images/icons/service-icon-03.svg",
       "title": "Ligntning Fast Processing",
-      "desc": "Speed matters when handling invoices, and our AI-powered system ensures you never have to wait."
+      "desc": "Speed matters when handling documents, and our AI-powered system ensures you never have to wait."
     },
     {
       "img": "/images/icons/service-icon-03.svg",
       "title": "WhatsApp and Gmail API Integrations",
-      "desc": "Simply forward invoices from your preferred platform, and our system will automatically fetch, process, and extract the data in real time."
+      "desc": "Simply forward documents from your preferred platform, and RapidScan AI will automatically fetch, process, and extract the data in real time."
     },
     {
       "img": "/images/icons/service-icon-01.svg",
@@ -23,32 +23,32 @@
     {
       "img": "/images/icons/service-icon-02.svg",
       "title": "Multiple User Option",
-      "desc": "Our platform supports multiple users, allowing your team members to access, review, and manage invoices effortlessly."
+      "desc": "Our platform supports multiple users, allowing your team members to access, review, and manage records at ease."
     },
     {
       "img": "/images/icons/service-icon-02.svg",
       "title": "Connect everywhere",
-      "desc": "Stay connected and manage invoices from anywhere, anytime! With seamless integrations across WhatsApp, Gmail, and your web portal, you can access, process, and track invoices on the go."
+      "desc": "Stay connected and manage documents from anywhere, anytime! With seamless integrations across WhatsApp, Gmail, and your RapidScan AI portal, you can access, process, and track records on the go."
     }
   ],
   "serviceTwo": [
     {
       "img": "/images/service/service-icon-03.png",
       "imgLight": "/images/light/service/service-icon-03.png",
-      "title": "Free Unlimited",
-      "desc": "As a Launching Offer, Its completly free until an undecided period."
+      "title": "Free Trial",
+      "desc": "As a Launching Offer, 10 free credits are provided to all new users."
     },
     {
       "img": "/images/service/service-icon-01.png",
       "imgLight": "/images/light/service/service-icon-01.png",
-      "title": "100%  Money Back Guarantee!",
-      "desc": "Refunds will be issued within period of 14 days from the purchase date"
+      "title": "Value For Money",
+      "desc": "We offer a range of subscription plans to suit your business needs, from basic to advanced features."
     },
     {
       "img": "/images/service/service-icon-02.png",
       "imgLight": "/images/light/service/service-icon-02.png",
-      "title": "Upgrade or Cancel Anytime",
-      "desc": "No hidden charges on Upgrade or Downgrade subscription plans."
+      "title": "Upgrade Anytime",
+      "desc": "No hidden charges on Upgrading your plans."
     }
   ]
 }

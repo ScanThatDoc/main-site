@@ -20,14 +20,14 @@ const HeaderTop = () => {
                       Intro price. Get RapidScan.AI for FREE today.
                     </span>
                   </div>
-                  <div className="right-button">
+                  {/* <div className="right-button">
                     <Link className="btn-read-more" href="#">
                       <span>
                         Purchase Now{" "}
                         <i className="fa-sharp fa-regular fa-arrow-right"></i>
                       </span>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

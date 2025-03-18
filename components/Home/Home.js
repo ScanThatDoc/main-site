@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Sal from "sal.js";
 import PricingData from "../../data/pricing.json";
-import SplitLogo from "../../public/images/logo/logo-1.png";
-import DarkSplitLogo from "../../public/images/logo/logo-2.png";
 import shapeOne from "../../public/images/bg/icon-shape/icon-shape-one.png";
 import shapeTwo from "../../public/images/bg/icon-shape/icon-shape-two.png";
 import shapeThree from "../../public/images/bg/icon-shape/icon-shape-three.png";
@@ -17,22 +14,25 @@ import ServiceTwo from "../Services/Service-Two";
 import Testimonial from "../Testimonials/Testimonial";
 import CtaTwo from "../CallToActions/Cta-Two";
 import { useAppContext } from "@/context/Context";
+import TextAnimation from "../Common/text-animation";
 
 const Home = () => {
-  const [visibleIndex, setVisibleIndex] = useState(0);
   const { isLightTheme } = useAppContext();
 
-  useEffect(() => {
-    Sal();
-
-    const intervalId = setInterval(() => {
-      setVisibleIndex((prevIndex) => (prevIndex + 1) % 3);
-    }, 2000);
-
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, []);
+  const marqueeItems = [
+    "/images/marquee/amazon.png",
+    "/images/marquee/discord.png",
+    "/images/marquee/gdocs.png",
+    "/images/marquee/gmail.png",
+    "/images/marquee/gsheets.png",
+    "/images/marquee/linkedin.png",
+    "/images/marquee/meta.png",
+    "/images/marquee/outlook.png",
+    "/images/marquee/slack.png",
+    "/images/marquee/twitter.png",
+    "/images/marquee/youtube.png",
+    // "/images/marquee/whatsapp.png",
+  ];
 
   return (
     <>
@@ -45,48 +45,18 @@ const Home = () => {
             <div className="col-lg-12">
               <div className="inner text-center mt--140">
                 <h1 className="title display-one">
-                Automate Invoice Processing with AI
-                  <br />{" "}
-                  <p className="d-block d-lg-inline">
-                  <span className="header-caption">
-                    <span className="cd-headline rotate-1">
-                      <span className="cd-words-wrapper">
-                        <b
-                          className={
-                            visibleIndex === 0
-                              ? "is-visible theme-gradient"
-                              : "is-hidden theme-gradient"
-                          }
-                        >
-                          Extraction
-                        </b>
-                        <b
-                          className={
-                            visibleIndex === 1
-                              ? "is-visible theme-gradient"
-                              : "is-hidden theme-gradient"
-                          }
-                        >
-                          Process
-                        </b>
-                        <b
-                          className={
-                            visibleIndex === 2
-                              ? "is-visible theme-gradient"
-                              : "is-hidden theme-gradient"
-                          }
-                        >
-                          Populate
-                        </b>
-                      </span>
-                    </span>
-                  </span>{" "}
-                  </p>
-                   All in One Place
+                Automate {"  "}
+                <span className="header-caption d-none d-md-block d-lg-inline ">
+                    <TextAnimation data={["Invoice", "Purchase Order", "Receipt", "Quotation", "Delivery Note", "Bill of Landing"]}/>
+                </span>
+                <span className="header-caption d-block d-md-none">
+                    <TextAnimation data={["Invoice", "PO", "Receipt", "Quotation"]}/>
+                </span>
+                <span className="d-block">Your Data, Our AI, Zero Effort</span>
                 </h1>
-                <p className="description">
-                No More Manual Data Entry <br />{" "}
-                Let AI Handle Your Invoices in Seconds
+                <p className="description"> 
+                Say Goodbye to Manual Entry <br />{" "}
+                Let AI Process Your Documents Instantly
                 </p>
                 <div >
                   <Link 
@@ -206,11 +176,12 @@ const Home = () => {
               >
                 <h4 className="subtitle">
                   <span className="theme-gradient">
-                    RapidScan.AI unlocks the potential AI
+                    RapidScan AI unlocks the potential of OCR
                   </span>
                 </h4>
                 <h2 className="title mb--0">
-                  Effortless Invoice processing <br /> just as you want.
+                  Effortless <TextAnimation data={["Invoice", "Purchase Order", "Receipt", "Quotation", "Delivery Note", "Bill of Landing"]} className="d-block d-md-inline"/>
+                  <span className="d-block">processing just as you want.</span>
                 </h2>
               </div>
             </div>
@@ -233,7 +204,8 @@ const Home = () => {
                   <span className="theme-gradient">Assisting Orginizations</span>
                 </h4>
                 <h2 className="title mb--60">
-                  Maintain Invoices Smarter, Not <br /> Harder with
+                  Simplifies handling <TextAnimation data={["Invoice", "Purchase Order", "Receipt", "Quotation", "Delivery Note", "Bill of Landing"]} className="d-block d-md-inline"/> 
+                  <span className="d-block">and boost efficiency for your business </span>
                 </h2>
               </div>
             </div>
@@ -264,42 +236,44 @@ const Home = () => {
                 data-sal-delay="100"
               >
                 <h4 className="subtitle ">
-                  <span className="theme-gradient">AI Collaboration</span>
+                  <span className="theme-gradient">Connect with the Applications You Already Use</span>
                 </h4>
                 <h2 className="title mb--20">
-                  AI Invoice Processing platform for seamless
-                  <br /> Reconcilliation
+                  AI-Powered Document Processing for Effortless Reconciliation
                 </h2>
-                {/* <Link
-                  className="btn-default btn-large color-blacked"
-                  href="/contact"
-                >
-                  Try It Now{" "}
-                  <i className="fa-sharp fa-light fa-arrow-right ml--5"></i>
-                </Link> */}
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-12 mt--60">
-              <div className="collabration-image-section">
-                <Image
-                  src={isLightTheme ? "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/split-light-2.png" : "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/split-dark-2.png"}
-                  width={1305}
-                  height={712}
-                  alt="collabration-image"
-                />
-                <div className="logo-section">
-                  <div className="center-logo">
-                    <Image
-                      src={isLightTheme ? DarkSplitLogo : SplitLogo}
-                      width={104}
-                      height={143}
-                      alt="Small Logo"
+            <marquee direction="left">
+                {[...Array(4)].map((_, i) => (
+                  marqueeItems.map((item, index) => (
+                    <Image 
+                      key={`left-${i}-${index}`} 
+                      src={item} 
+                      width={80} 
+                      height={80} 
+                      className="p-4" 
+                      alt="Marquee Item" 
                     />
-                  </div>
-                </div>
-              </div>
+                  ))
+                ))}
+              </marquee>
+              <marquee direction="right">
+                {[...Array(4)].map((_, i) => (
+                  marqueeItems.map((item, index) => (
+                    <Image 
+                      key={`right-${i}-${index}`} 
+                      src={item} 
+                      width={80} 
+                      height={80} 
+                      className="p-4" 
+                      alt="Marquee Item" 
+                    />
+                  ))
+                ))}
+              </marquee>
             </div>
           </div>
         </div>
