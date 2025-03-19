@@ -70,7 +70,7 @@ const PopupMobileMenu = () => {
             <Link
               className="btn-default"
               target="_blank"
-              href="https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAI"
+              href="https://api.whatsapp.com/send?phone=60108366750&text=Hello"
               onClick={(e) => {
                 e.preventDefault();
                 // Show popup with bullet points
@@ -105,7 +105,7 @@ const PopupMobileMenu = () => {
 
                 setTimeout(() => {
                   document.body.removeChild(popup);
-                  window.open("https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAI", "_blank");
+                  window.open("https://api.whatsapp.com/send?phone=60108366750&text=Hello", "_blank");
                 }, 4000);
               }}
             >

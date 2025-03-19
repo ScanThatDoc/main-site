@@ -65,25 +65,25 @@ const Home = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12">
-              <div className="inner text-center mt--140">
+              <div className="inner justify-content-center mt--140">
                 <h1 className="title display-one">
                 Transform Your {"  "}
                 <span className="header-caption d-none d-md-block d-xl-inline ">
-                    <TextAnimation data={["Invoice", "Purchase Order", "Receipt", "Quotation", "Delivery Note", "Bill of Landing"]}/>
+                    <TextAnimation data={["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"]}/>
                 </span>
                 <span className="header-caption d-block d-md-none">
-                    <TextAnimation data={["Invoice", "PO", "Receipt", "Quotation"]}/>
+                    <TextAnimation data={["Invoices", "POs", "Receipts", "Quotations"]}/>
                 </span>
                 <span className="d-block">Workflow with AI Automation </span>
                 </h1>
-                <p className="description"> 
+                <p className="description text-center"> 
                 Say Goodbye to Manual Entry <br />{" "}
                 Let AI Process Your Documents Instantly
                 </p>
                 <div >
                   <Link 
                     className="btn-default"
-                    href="https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAI"
+                    href="https://api.whatsapp.com/send?phone=60108366750&text=Hello"
                     onClick={(e) => {
                       e.preventDefault();
                       // Show popup with bullet points
@@ -115,7 +115,7 @@ const Home = () => {
                       
                       setTimeout(() => {
                         document.body.removeChild(popup);
-                        window.open("https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAI", "_blank");
+                        window.open("https://api.whatsapp.com/send?phone=60108366750&text=Hello", "_blank");
                       }, 4000);
                     }}
                   >
@@ -204,7 +204,7 @@ const Home = () => {
                   </span>
                 </h4>
                 <h2 className="title mb--0">
-                  Effortless <TextAnimation data={["Invoice", "Purchase Order", "Receipt", "Quotation", "Delivery Note", "Bill of Landing"]} className="d-block d-md-inline"/>
+                  Effortless <TextAnimation data={["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"]} className="d-block d-md-inline"/>
                   <span className="d-block">processing just as you want.</span>
                 </h2>
               </div>
@@ -228,7 +228,7 @@ const Home = () => {
                   <span className="theme-gradient">Assisting Orginizations</span>
                 </h4>
                 <h2 className="title mb--60">
-                  Simplifies handling <TextAnimation data={["Invoice", "Purchase Order", "Receipt", "Quotation", "Delivery Note", "Bill of Landing"]} className="d-block d-md-inline"/> 
+                  Simplifies handling <TextAnimation data={["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"]} className="d-block d-md-inline"/> 
                   <span className="d-block">and boost efficiency for your business </span>
                 </h2>
               </div>

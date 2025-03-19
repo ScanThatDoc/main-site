@@ -28,7 +28,7 @@ const CtaTwo = ({isLightTheme}) => {
                     </span>
                   </h4>
                   <h2 className="title w-600 mb--5">
-                    Experience <TextAnimation data={["Invoice", "Purchase Order", "Receipt", "Quotation", "Delivery Note", "Bill of Landing"]} className="d-block d-md-inline"/> Automation with AI
+                    Experience <TextAnimation data={["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"]} className="d-block d-md-inline"/> Automation with AI
                   </h2>
                   <p className="description b1">
                     Automates document processing by fetching files from WhatsApp, Gmail or any other source<br />
@@ -41,7 +41,7 @@ const CtaTwo = ({isLightTheme}) => {
                 <div className="app-store-btn">
                   <Link 
                     className="btn-default"
-                    href="https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAi"
+                    href="https://api.whatsapp.com/send?phone=60108366750&text=Hello"
                     onClick={(e) => {
                       e.preventDefault();
                       // Show popup with bullet points
@@ -73,7 +73,7 @@ const CtaTwo = ({isLightTheme}) => {
                       
                       setTimeout(() => {
                         document.body.removeChild(popup);
-                        window.open("https://api.whatsapp.com/send?phone=60108366750&text=Hi%2C%20Please%20connect%20me%20to%20RapidScanAi", "_blank");
+                        window.open("https://api.whatsapp.com/send?phone=60108366750&text=Hello", "_blank");
                       }, 4000);
                     }}
                   >
