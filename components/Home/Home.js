@@ -270,34 +270,34 @@ const Home = () => {
           </div>
           <div className="row">
             <div className="col-lg-12 mt--60">
-            <marquee direction="left">
+              <div className="marquee-content-left">
                 {[...Array(4)].map((_, i) => (
                   marqueeItems.map((item, index) => (
-                    <Image 
-                      key={`left-${i}-${index}`} 
-                      src={item} 
-                      width={80} 
-                      height={80} 
-                      className="p-4" 
-                      alt="Marquee Item" 
+                    <Image
+                      key={`left-${i}-${index}`}
+                      src={item}
+                      width={80}
+                      height={80}
+                      className="p-4"
+                      alt="Marquee Item"
                     />
                   ))
                 ))}
-              </marquee>
-              <marquee direction="right">
+              </div>
+              <div className="marquee-content-right">
                 {[...Array(4)].map((_, i) => (
                   marqueeItems.map((item, index) => (
-                    <Image 
-                      key={`right-${i}-${index}`} 
-                      src={item} 
-                      width={80} 
-                      height={80} 
-                      className="p-4" 
-                      alt="Marquee Item" 
+                    <Image
+                      key={`left-${i}-${index}`}
+                      src={item}
+                      width={80}
+                      height={80}
+                      className="p-4"
+                      alt="Marquee Item"
                     />
                   ))
                 ))}
-              </marquee>
+              </div>
             </div>
           </div>
         </div>

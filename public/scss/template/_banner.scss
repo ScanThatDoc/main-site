@@ -10,27 +10,90 @@
     }
 }
 
+.marquee-content-left {
+    display: flex;
+    gap: 10px;
+    animation: marquee-left 20s linear infinite;
+    width: max-content;
+}
 
+.marquee-content-right {
+    display: flex;
+    gap: 10px;
+    animation: marquee-right 20s linear infinite;
+    width: max-content;
+}
+
+@keyframes marquee-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes marquee-right {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+//-------------------------------- Marquee Animation ----------------------------------------
+.image-container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: fadeEffect 9s infinite;
+}
+
+.image-container img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.image-container img:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.image-container img:nth-child(3) {
+    animation-delay: 6s;
+}
+
+@keyframes fadeEffect {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    30% { opacity: 1; }
+    40% { opacity: 0; }
+    100% { opacity: 0; }
+}
+//-------------------------------- End of Marquee Animation --------------------------------
+
+//-------------------------------- Flip Animation ------------------------------------------
 .flip-animation {
-    animation: slideAndRotate 1.5s ease-out forwards;
+    animation: zoomAndFlip 1.5s ease-out forwards;
     display: block;
 }
 
-@keyframes slideAndRotate {
+@keyframes zoomAndFlip {
     0% {
+        transform: perspective(1000px) rotateX(90deg) scale(0.5);
         opacity: 0;
-        transform: perspective(1000px) rotateX(90deg);
-        transform-origin: top;
     }
-    
-    20% {
-        opacity: 1;
-    }
-    
     100% {
+        transform: perspective(1000px) rotateX(0deg) scale(1);
         opacity: 1;
-        transform: perspective(1000px) rotateX(0deg);
-        transform-origin: top;
     }
 }
 
@@ -40,7 +103,7 @@
     transform: perspective(1000px) rotateX(90deg);
     transform-origin: top;
 }
-
+//-------------------------------- End of Flip Animation ------------------------------------
 .height-850 {
     height: 850px;
     display: flex;
