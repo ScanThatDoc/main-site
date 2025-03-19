@@ -8,7 +8,7 @@
       "menuId": "photo-generator",
       "text": "WhatsApp Bot",
       "target": "photo-generate",
-      "iconImg": "/images/icons/photo-g.png",
+      "iconImg": "/images/whatsapp-icon.svg",
       "isSelect": true,
       "subItem": [
         {
@@ -32,7 +32,7 @@
       "menuId": "text-generator",
       "text": "Email Bot",
       "target": "text-generate",
-      "iconImg": "/images/icons/text-g.png",
+      "iconImg": "/images/email-icon.svg",
       "isSelect": false,
       "subItem": [
         {
@@ -56,7 +56,7 @@
       "menuId": "code-generator",
       "text": "Upload via RapidScan",
       "target": "code-generate",
-      "iconImg": "/images/icons/code-g.png",
+      "iconImg": "/images/upload-icon.svg",
       "isSelect": false,
       "subItem": [
         {

@@ -269,7 +269,10 @@ const Home = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-12 mt--60">
+            <div className="col-lg-12 mt--60" style={{
+              overflowX: 'hidden',
+              maxWidth: '100vw'
+            }}>
               <div className="marquee-content-left">
                 {[...Array(4)].map((_, i) => (
                   marqueeItems.map((item, index) => (

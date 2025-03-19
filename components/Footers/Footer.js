@@ -2,10 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import FooterData from "../../data/footer.json";
+import { useAppContext } from "@/context/Context";
 import logo from "../../public/images/logo/logo-2.png";
+import logoDark from "../../public/images/logo/logo-1.png";
 import FooterProps from "./FooterProps";
 
 const Footer = () => {
+  const { isLightTheme } = useAppContext()
   return (
     <>
       <footer id="footer" className="rainbow-footer footer-style-default footer-style-3 position-relative">
@@ -14,9 +17,21 @@ const Footer = () => {
             <div className="row justify-content-between">
               <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                 <div className="rainbow-footer-widget">
-                  <div className="logo">
-                    <Link href="/">
-                      <div className="d-flex align-items-center">
+                {isLightTheme ? (
+                    <div className="d-flex align-items-center">
+                      <Image
+                        className="logo-light"
+                        src={logoDark}
+                        height={35}
+                        priority={true}
+                        alt="Logo"
+                      />
+                      <span className="fs-1 ms-2 fw-semibold " style={{ fontFamily: "'Poppins', sans-serif"  , color: '#805af5'}}>
+                        RapidScan.AI
+                      </span>
+                    </div>
+                  ) : (
+                    <div className="d-flex align-items-center">
                       <Image
                         className="logo-light"
                         src={logo}
@@ -28,8 +43,7 @@ const Footer = () => {
                         RapidScan.AI
                       </span>
                     </div>
-                    </Link>
-                  </div>
+                  )}
                   <p className="b1 desc-text">
                   We Simplify Invoices, You Scale Your Business{" "}
                   </p>

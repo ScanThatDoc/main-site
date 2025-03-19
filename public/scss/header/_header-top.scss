@@ -35,7 +35,7 @@
             .news-text {
                 display: inline-block;
                 margin-left: 15px;
-                color: var(--color-body);
+                color: var(--color-primary);
                 font-size: 14px;
 
                 @media #{$large-mobile} {
@@ -72,8 +72,8 @@
 
     .close-button {
         background: transparent;
-        color: #fff;
-        border: 2px solid var(--color-border);
+        color: var(--color-primary);
+        border: 2px solid var(--color-primary);
         width: 35px;
         display: inline-block;
         height: 35px;
