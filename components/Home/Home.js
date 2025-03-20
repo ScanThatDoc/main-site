@@ -273,7 +273,7 @@ const Home = () => {
               overflowX: 'hidden',
               maxWidth: '100vw'
             }}>
-              <div className="marquee-content-left">
+              <div className="marquee-content-left mb--20">
                 {[...Array(4)].map((_, i) => (
                   marqueeItems.map((item, index) => (
                     <Image
@@ -306,7 +306,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="aiwave-pricing-area wrapper rainbow-section-gap-big">
+      <div className="aiwave-pricing-area wrapper ">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -324,7 +324,7 @@ const Home = () => {
                 </h2>
               </div>
 
-              <nav className="aiwave-tab">
+              {/* <nav className="aiwave-tab">
                 <div
                   className="tab-btn-grp nav nav-tabs text-center justify-content-center"
                   id="nav-tab"
@@ -354,7 +354,7 @@ const Home = () => {
                       </button>
                     ))}
                 </div>
-              </nav>
+              </nav> */}
             </div>
           </div>
 
@@ -368,7 +368,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="aiwave-service-area rainbow-section-gap">
+      <div className="aiwave-service-area rainbow-section-gap  mt--40">
         <div className="container">
           <div className="row row--15 service-wrapper">
             <ServiceTwo />
