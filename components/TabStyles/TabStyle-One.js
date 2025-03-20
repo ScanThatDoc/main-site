@@ -79,7 +79,7 @@ const TabStyleOne = () => {
                                 <div className="read-more">
                                   <Link
                                     className="btn-default"
-                                    href="https://api.whatsapp.com/send?phone=60108366750&text=Hello"
+                                    href={process.env.NEXT_PUBLIC_WHATSAPP_API}
                                     onClick={(e) => {
                                       e.preventDefault();
                                       // Show popup with bullet points
@@ -98,7 +98,7 @@ const TabStyleOne = () => {
 
                                       setTimeout(() => {
                                         document.body.removeChild(popup);
-                                        window.open("https://api.whatsapp.com/send?phone=60108366750&text=Hello", "_blank");
+                                        window.open(process.env.NEXT_PUBLIC_WHATSAPP_API, "_blank");
                                       }, 4000);
                                     }}
                                   >
@@ -110,7 +110,7 @@ const TabStyleOne = () => {
                                   <Link
                                     className="btn-default color-blacked"
                                     target="_blank"
-                                    href="https://dev.scanthatdoc.com/"
+                                    href={process.env.NEXT_PUBLIC_WEBSITE_URL}
                                   >
                                     Sign Up Now
                                     <i className="fa-sharp fa-solid fa-arrow-right ps-2"></i>

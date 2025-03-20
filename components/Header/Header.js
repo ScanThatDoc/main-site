@@ -81,7 +81,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
             <div className="col-lg-2 col-md-6 col-6 position-static">
               <div className="header-right">
                 <div className="header-btn">
-                  <Link className={`${btnClass}`} target="_blank" href="https://dev.scanthatdoc.com/">
+                  <Link className={`${btnClass}`} target="_blank" href={process.env.NEXT_PUBLIC_WEBSITE_URL}>
                     <span>Get Start</span>
                   </Link>
                 </div>

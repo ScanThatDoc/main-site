@@ -83,7 +83,7 @@ const Home = () => {
                 <div >
                   <Link 
                     className="btn-default"
-                    href="https://api.whatsapp.com/send?phone=60108366750&text=Hello"
+                    href={process.env.NEXT_PUBLIC_WHATSAPP_API}
                     onClick={(e) => {
                       e.preventDefault();
                       // Show popup with bullet points
@@ -115,7 +115,7 @@ const Home = () => {
                       
                       setTimeout(() => {
                         document.body.removeChild(popup);
-                        window.open("https://api.whatsapp.com/send?phone=60108366750&text=Hello", "_blank");
+                        window.open(process.env.NEXT_PUBLIC_WHATSAPP_API, "_blank");
                       }, 4000);
                     }}
                   >

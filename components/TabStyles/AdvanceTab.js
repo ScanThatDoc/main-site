@@ -70,7 +70,7 @@ const AdvanceTab = () => {
                               <Link
                                 className="btn-default color-blacked"
                                 target="_blank"
-                                href="https://dev.scanthatdoc.com/"
+                                href={process.env.NEXT_PUBLIC_WEBSITE_URL}
                               >
                                 Try Free Now{" "}
                                 <i className="fa-sharp fa-light fa-arrow-right ml--5"></i>
