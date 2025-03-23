@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Sal from "sal.js";
-
 import AdvanceTabData from "../../data/tabStyle.json";
 
 const AdvanceTab = () => {
@@ -70,9 +69,10 @@ const AdvanceTab = () => {
                             >
                               <Link
                                 className="btn-default color-blacked"
-                                href="/contact"
+                                target="_blank"
+                                href={process.env.NEXT_PUBLIC_WEBSITE_URL}
                               >
-                                Try It Now{" "}
+                                Try Free Now{" "}
                                 <i className="fa-sharp fa-light fa-arrow-right ml--5"></i>
                               </Link>
                             </div>

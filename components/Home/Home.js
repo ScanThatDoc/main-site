@@ -1,52 +1,60 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Sal from "sal.js";
-
 import PricingData from "../../data/pricing.json";
-
-import SplitImg from "../../public/images/split/split-2.png";
-import SplitLogo from "../../public/images/split/split-2-logo.png";
-import DarkSplitImg from "../../public/images/light/split/split-2.png";
-import DarkSplitLogo from "../../public/images/light/split/split-2-logo.png";
-import bannerImg from "../../public/images/bg/slider-main-image.png";
-import bannerWhiteImg from "../../public/images/light/bg/slider-main-image.png";
 import shapeOne from "../../public/images/bg/icon-shape/icon-shape-one.png";
 import shapeTwo from "../../public/images/bg/icon-shape/icon-shape-two.png";
 import shapeThree from "../../public/images/bg/icon-shape/icon-shape-three.png";
 import shapeFour from "../../public/images/bg/icon-shape/icon-shape-four.png";
-import bgShape from "../../public/images/bg/split-bg-shape.png";
-import bgShapeOne from "../../public/images/bg/bg-shape-four.png";
-import bgShapeTwo from "../../public/images/bg/bg-shape-five.png";
-import bgShapeThree from "../../public/images/bg/bg-shape-two.png";
-
-import BrandList from "../Brands/BrandList";
 import TabStyleOne from "../TabStyles/TabStyle-One";
 import ServiceStyleOne from "../Services/ServiceStyle-One";
 import AdvanceTab from "../TabStyles/AdvanceTab";
-import CtaOne from "../CallToActions/Cta-One";
 import Pricing from "../Pricing/Pricing";
 import ServiceTwo from "../Services/Service-Two";
 import Testimonial from "../Testimonials/Testimonial";
-import BrandTwo from "../Brands/Brand-Two";
 import CtaTwo from "../CallToActions/Cta-Two";
 import { useAppContext } from "@/context/Context";
+import TextAnimation from "../Common/text-animation";
 
 const Home = () => {
-  const [visibleIndex, setVisibleIndex] = useState(0);
   const { isLightTheme } = useAppContext();
+  const [isAnimated, setIsAnimated] = useState(false);
 
   useEffect(() => {
-    Sal();
-
-    const intervalId = setInterval(() => {
-      setVisibleIndex((prevIndex) => (prevIndex + 1) % 3);
-    }, 2000);
-
-    return () => {
-      clearInterval(intervalId);
+    const handleScroll = () => {
+      const image = document.querySelector('.slider-frame');
+      if (image) {
+        const imageRect = image.getBoundingClientRect();
+        const imageTop = imageRect.top;
+        const windowHeight = window.innerHeight;
+        
+        // Calculate when 20% of the image is scrolled
+        const scrollThreshold = imageTop + (imageRect.height * 0.2);
+        
+        if (scrollThreshold < windowHeight && !isAnimated) {
+          setIsAnimated(true);
+        }
+      }
     };
-  }, []);
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [isAnimated]);
+
+  const marqueeItems = [
+    "/images/marquee/amazon.png",
+    "/images/marquee/discord.png",
+    "/images/marquee/gdocs.png",
+    "/images/marquee/gmail.png",
+    "/images/marquee/gsheets.png",
+    "/images/marquee/linkedin.png",
+    "/images/marquee/meta.png",
+    "/images/marquee/outlook.png",
+    "/images/marquee/slack.png",
+    "/images/marquee/twitter.png",
+    "/images/marquee/youtube.png",
+    // "/images/marquee/whatsapp.png",
+  ];
 
   return (
     <>
@@ -57,59 +65,61 @@ const Home = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12">
-              <div className="inner text-center mt--140">
+              <div className="inner justify-content-center mt--140">
                 <h1 className="title display-one">
-                  Examine the Potential of
-                  <br />{" "}
-                  <span className="header-caption">
-                    <span className="cd-headline rotate-1">
-                      <span className="cd-words-wrapper">
-                        <b
-                          className={
-                            visibleIndex === 0
-                              ? "is-visible theme-gradient"
-                              : "is-hidden theme-gradient"
-                          }
-                        >
-                          AI Chating
-                        </b>
-                        <b
-                          className={
-                            visibleIndex === 1
-                              ? "is-visible theme-gradient"
-                              : "is-hidden theme-gradient"
-                          }
-                        >
-                          AI Writing
-                        </b>
-                        <b
-                          className={
-                            visibleIndex === 2
-                              ? "is-visible theme-gradient"
-                              : "is-hidden theme-gradient"
-                          }
-                        >
-                          AI Chating
-                        </b>
-                      </span>
-                    </span>
-                  </span>{" "}
-                  AI Hack
+                Transform Your {"  "}
+                <span className="header-caption d-none d-md-block d-xl-inline ">
+                    <TextAnimation data={["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"]}/>
+                </span>
+                <span className="header-caption d-block d-md-none">
+                    <TextAnimation data={["Invoices", "POs", "Receipts", "Quotations"]}/>
+                </span>
+                <span className="d-block">Workflow with AI Automation </span>
                 </h1>
-                <p className="description">
-                  Unleash Brainwave's AI potential. Use the open AI <br />{" "}
-                  conversation app Rainbow theme
+                <p className="description text-center"> 
+                Say Goodbye to Manual Entry <br />{" "}
+                Let AI Process Your Documents Instantly
                 </p>
-                <div className="form-group">
-                  <textarea
-                    name="text"
-                    id="slider-text-area"
-                    cols="30"
-                    rows="2"
-                    placeholder="Enter a prompt, for example: a fundraising deck to a mobile finance app called Intuitive"
-                  ></textarea>
-                  <Link className="btn-default " href="/text-generator">
-                    Start with AI
+                <div >
+                  <Link 
+                    className="btn-default"
+                    href={process.env.NEXT_PUBLIC_WHATSAPP_API}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      // Show popup with bullet points
+                      const popup = document.createElement('div');
+                      popup.style.cssText = `
+                        position: fixed;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background: white;
+                        padding: 120px;
+                        border-radius: 8px;
+                        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                        z-index: 1000;
+                        font-size: 30px;
+                        font-weight: 600;
+                        color: #000;
+                      `;
+                      popup.innerHTML = `
+                        <span >
+                        Redirecting you to WhatsApp...
+                        <ul>
+                          <li>Say something to get started</li>
+                          <li>Follow the instructions received on whatsapp</li>
+                        </ul>
+                        </span>
+                      `;
+                      document.body.appendChild(popup);
+                      
+                      setTimeout(() => {
+                        document.body.removeChild(popup);
+                        window.open(process.env.NEXT_PUBLIC_WHATSAPP_API, "_blank");
+                      }, 4000);
+                    }}
+                  >
+                    Try Now
                   </Link>
                 </div>
                 <div className="inner-shape">
@@ -144,14 +154,16 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-11 col-xl-11 justify-content-center">
+            <div className="aman"></div>
+            <div className="col-lg-11 col-xl-11 justify-content-center ">
               <div className="slider-frame">
                 <Image
-                  className="slider-image-effect"
-                  src={isLightTheme ? bannerImg : bannerWhiteImg}
+                  className={isAnimated ? 'flip-animation' : ''}
+                  src={isLightTheme ? "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/home-lite-dashboard.png" : "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/home-dark-dashboard.png"}
                   width={1055}
                   height={898}
                   alt="Banner Images"
+                  priority={true}
                 />
               </div>
             </div>
@@ -163,40 +175,16 @@ const Home = () => {
             className="bg-shape-one"
             width={640}
             height={949}
-            src={bgShapeOne}
+            src="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/bg-shape-four.png"
             alt="Bg Shape"
           />
           <Image
             className="bg-shape-two"
-            src={bgShapeTwo}
+            src="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/bg-shape-five.png"
             width={626}
             height={1004}
             alt="Bg Shape"
           />
-        </div>
-      </div>
-
-      <div className="rainbow-brand-area rainbow-section-gap">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="section-title rating-title text-center sal-animate"
-                data-sal="slide-up"
-                data-sal-duration="700"
-                data-sal-delay="100"
-              >
-                <p className="b1 mb--0 small-title">
-                  truest 800,000+ HIGHLY PRODUCTIVE Company
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12 mt--10">
-              <BrandList />
-            </div>
-          </div>
         </div>
       </div>
 
@@ -212,11 +200,12 @@ const Home = () => {
               >
                 <h4 className="subtitle">
                   <span className="theme-gradient">
-                    RAINBOW UNLOCKS THE POTENTIAL ai
+                    RapidScan AI unlocks the potential of OCR
                   </span>
                 </h4>
                 <h2 className="title mb--0">
-                  Generative AI made for <br /> creators.
+                  Effortless <TextAnimation data={["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"]} className="d-block d-md-inline"/>
+                  <span className="d-block">processing just as you want.</span>
                 </h2>
               </div>
             </div>
@@ -236,10 +225,11 @@ const Home = () => {
                 data-sal-delay="150"
               >
                 <h4 className="subtitle">
-                  <span className="theme-gradient">Assisting individuals</span>
+                  <span className="theme-gradient">Assisting Orginizations</span>
                 </h4>
                 <h2 className="title mb--60">
-                  Chat Smarter, Not <br /> Harder with
+                  Simplifies handling <TextAnimation data={["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"]} className="d-block d-md-inline"/> 
+                  <span className="d-block">and boost efficiency for your business </span>
                 </h2>
               </div>
             </div>
@@ -255,7 +245,7 @@ const Home = () => {
           </div>
         </div>
         <div className="bg-shape">
-          <Image src={bgShape} width={630} height={879} alt="Bg Shape" />
+          <Image src="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/split-bg-shape.png" width={630} height={879} alt="Bg Shape" />
         </div>
       </div>
 
@@ -270,54 +260,53 @@ const Home = () => {
                 data-sal-delay="100"
               >
                 <h4 className="subtitle ">
-                  <span className="theme-gradient">AI Collaboration</span>
+                  <span className="theme-gradient">Connect with the Applications You Already Use</span>
                 </h4>
                 <h2 className="title mb--20">
-                  AI Chat app for seamless
-                  <br /> collaboration
+                  AI-Powered Document Processing for Effortless Reconciliation
                 </h2>
-                <Link
-                  className="btn-default btn-large color-blacked"
-                  href="/contact"
-                >
-                  Try It Now{" "}
-                  <i className="fa-sharp fa-light fa-arrow-right ml--5"></i>
-                </Link>
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-12 mt--60">
-              <div className="collabration-image-section">
-                <Image
-                  src={isLightTheme ? SplitImg : DarkSplitImg}
-                  width={1305}
-                  height={712}
-                  alt="collabration-image"
-                />
-                <div className="logo-section">
-                  <div className="center-logo">
+            <div className="col-lg-12 mt--60" style={{
+              overflowX: 'hidden',
+              maxWidth: '100vw'
+            }}>
+              <div className="marquee-content-left mb--20">
+                {[...Array(4)].map((_, i) => (
+                  marqueeItems.map((item, index) => (
                     <Image
-                      src={isLightTheme ? SplitLogo : DarkSplitLogo}
-                      width={104}
-                      height={143}
-                      alt="Small Logo"
+                      key={`left-${i}-${index}`}
+                      src={item}
+                      width={80}
+                      height={80}
+                      className="p-4"
+                      alt="Marquee Item"
                     />
-                  </div>
-                </div>
+                  ))
+                ))}
+              </div>
+              <div className="marquee-content-right">
+                {[...Array(4)].map((_, i) => (
+                  marqueeItems.map((item, index) => (
+                    <Image
+                      key={`left-${i}-${index}`}
+                      src={item}
+                      width={80}
+                      height={80}
+                      className="p-4"
+                      alt="Marquee Item"
+                    />
+                  ))
+                ))}
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="rainbow-rn-cta">
-        <div className="container">
-          <CtaOne />
-        </div>
-      </div>
-
-      <div className="aiwave-pricing-area wrapper rainbow-section-gap-big">
+      <div className="aiwave-pricing-area wrapper ">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -335,7 +324,7 @@ const Home = () => {
                 </h2>
               </div>
 
-              <nav className="aiwave-tab">
+              {/* <nav className="aiwave-tab">
                 <div
                   className="tab-btn-grp nav nav-tabs text-center justify-content-center"
                   id="nav-tab"
@@ -365,7 +354,7 @@ const Home = () => {
                       </button>
                     ))}
                 </div>
-              </nav>
+              </nav> */}
             </div>
           </div>
 
@@ -379,7 +368,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="aiwave-service-area rainbow-section-gap">
+      <div className="aiwave-service-area rainbow-section-gap  mt--40">
         <div className="container">
           <div className="row row--15 service-wrapper">
             <ServiceTwo />
@@ -408,52 +397,9 @@ const Home = () => {
         <Testimonial />
       </div>
 
-      <div className="rainbow-brand-area rainbow-section-gap">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="section-title rating-title text-center sal-animate"
-                data-sal="slide-up"
-                data-sal-duration="700"
-                data-sal-delay="100"
-              >
-                <div className="rating">
-                  <a href="#rating">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                  </a>
-                  <a href="#rating">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                  </a>
-                  <a href="#rating">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                  </a>
-                  <a href="#rating">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                  </a>
-                  <a href="#rating">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                  </a>
-                </div>
-                <p className="subtitle mb--0">Based on 20,000+ reviews on</p>
-              </div>
-            </div>
-          </div>
-          <BrandTwo />
-          <div className="bg-shape-left">
-            <Image
-              src={bgShapeThree}
-              width={688}
-              height={1055}
-              alt="Bg shape"
-            />
-          </div>
-        </div>
-      </div>
-
       <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big">
         <div className="container">
-          <CtaTwo />
+          <CtaTwo isLightTheme={isLightTheme}/>
         </div>
       </div>
     </>

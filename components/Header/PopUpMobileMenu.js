@@ -2,12 +2,9 @@ import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useAppContext } from "@/context/Context";
-
-import logoLight from "../../public/images/logo/logo.png";
-import logoDark from "../../public/images/light/logo/logo-dark.png";
-
+import logoLight from "../../public/images/logo/logo-1.png";
+import logoDark from "../../public/images/logo/logo-2.png";
 import Nav from "./Nav";
-import SmallNav from "./SmallNav";
 
 const PopupMobileMenu = () => {
   const { activeMobileMenu, setActiveMobileMenu, isLightTheme } =
@@ -35,14 +32,16 @@ const PopupMobileMenu = () => {
         <div className="inner-popup">
           <div className="header-top">
             <div className="logo">
-              <Link href="/">
+              <Link href="/" className="d-flex align-items-center">
                 <Image
                   className="logo-light"
                   src={isLightTheme ? logoLight : logoDark}
-                  width={116}
                   height={30}
                   alt="Corporate Logo"
                 />
+                <span className="fs-1 ms-2 fw-semibold" style={{ fontFamily: "'Poppins', sans-serif" }}>
+                  RapidScan.AI
+                </span>
               </Link>
             </div>
             <div className="close-menu">
@@ -59,16 +58,58 @@ const PopupMobileMenu = () => {
 
             <div className="rbt-sm-separator"></div>
             <div className="rbt-default-sidebar-wrapper">
-              <SmallNav />
+              {/* <SmallNav /> */}
             </div>
           </div>
           <div className="header-btn d-block d-md-none">
-            <Link
+            {/* <Link
               className="btn-default"
               target="_blank"
               href="/text-generator"
+            > */}
+            <Link
+              className="btn-default"
+              target="_blank"
+              href={process.env.NEXT_PUBLIC_WHATSAPP_API}
+              onClick={(e) => {
+                e.preventDefault();
+                // Show popup with bullet points
+                const popup = document.createElement('div');
+                popup.style.cssText = `
+                        position: fixed;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background: white;
+                        padding: 20px;
+                        border-radius: 4px;
+                        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                        z-index: 1000;
+                        width: 100%;
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: #000;
+                      `;
+                popup.innerHTML = `
+                        <span >
+                        Redirecting you to WhatsApp...
+                        <ul>
+                          <li>Say something to get started</li>
+                          <li>Follow the instructions received on whatsapp</li>
+                        </ul>
+                        </span>
+                      `;
+                document.body.appendChild(popup);
+                setActiveMobileMenu(!activeMobileMenu);
+
+                setTimeout(() => {
+                  document.body.removeChild(popup);
+                  window.open(process.env.NEXT_PUBLIC_WHATSAPP_API, "_blank");
+                }, 4000);
+              }}
             >
-              Get Started Free
+              Try with WhatsApp Now
             </Link>
           </div>
         </div>

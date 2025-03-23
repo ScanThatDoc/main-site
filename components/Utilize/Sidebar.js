@@ -21,7 +21,7 @@ const Sidebar = ({ sidebar }) => {
                         aria-expanded={data.isShow}
                         aria-controls={data.id}
                       >
-                        <span>Getting started</span>
+                        <span>{data.text}</span>
                       </a>
                       <div
                         className={`${data.isShow ? "show" : "collapse"}`}
@@ -40,17 +40,7 @@ const Sidebar = ({ sidebar }) => {
                     </li>
                   ))}
                 <li>
-                  <a href="#">
-                    <span>Roadmap</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span>Enhanced Features</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a href="#help-and-support">
                     <span>Help and support</span>
                   </a>
                 </li>

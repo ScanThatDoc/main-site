@@ -1,54 +1,54 @@
 {
   "serviceOne": [
     {
+      "img": "/images/icons/service-icon-03.svg",
+      "title": "Ligntning Fast Processing",
+      "desc": "Speed matters when handling documents, and our AI-powered system ensures you never have to wait."
+    },
+    {
+      "img": "/images/icons/service-icon-03.svg",
+      "title": "WhatsApp and Gmail Bot",
+      "desc": "Simply forward documents from your preferred platform, and RapidScan AI will automatically process the data in real time."
+    },
+    {
       "img": "/images/icons/service-icon-01.svg",
-      "title": "Ask anything",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
+      "title": "24*7 On Call Assistance",
+      "desc": "We understand that your business never stops, and neither do we! Our dedicated support team is available 24/7."
+    },
+    {
+      "img": "/images/icons/service-icon-01.svg",
+      "title": "Safe and Secured ",
+      "desc": "Security is our top priority. With Clerk Authentication, your data is protected with industry-leading security protocols."
+    },
+    {
+      "img": "/images/icons/service-icon-02.svg",
+      "title": "Multiple User Option",
+      "desc": "Our platform supports multiple users, allowing your team members to access, review, and manage records at ease."
     },
     {
       "img": "/images/icons/service-icon-02.svg",
       "title": "Connect everywhere",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
-    },
-    {
-      "img": "/images/icons/service-icon-03.svg",
-      "title": "Fast responding",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
-    },
-    {
-      "img": "/images/icons/service-icon-01.svg",
-      "title": "Ask anything",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
-    },
-    {
-      "img": "/images/icons/service-icon-02.svg",
-      "title": "Connect everywhere",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
-    },
-    {
-      "img": "/images/icons/service-icon-03.svg",
-      "title": "Fast responding",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
+      "desc": "Stay connected and manage documents from anywhere, anytime! We have 99.99% uptime, you can access records on the go."
     }
   ],
   "serviceTwo": [
     {
+      "img": "/images/service/service-icon-03.png",
+      "imgLight": "/images/light/service/service-icon-03.png",
+      "title": "Free Trial",
+      "desc": "As a Launching Offer, 10 free credits are provided to all new users."
+    },
+    {
       "img": "/images/service/service-icon-01.png",
       "imgLight": "/images/light/service/service-icon-01.png",
-      "title": "100% No-Risk, Money Back Guarantee!",
-      "desc": "Refunds will be issued within period of 14 days from the purchase date"
+      "title": "Value For Money",
+      "desc": "We offer a range of subscription plans to suit your business needs, from basic to advanced features."
     },
     {
       "img": "/images/service/service-icon-02.png",
       "imgLight": "/images/light/service/service-icon-02.png",
-      "title": "Upgrade or Cancel Anytime",
-      "desc": "Passages there are many variations variations of of Lorem Ipsum available"
-    },
-    {
-      "img": "/images/service/service-icon-03.png",
-      "imgLight": "/images/light/service/service-icon-03.png",
-      "title": "Not sure yet, try the free version",
-      "desc": "Refunds will be issued within period of 14 days from the purchase date"
+      "title": "Upgrade Anytime",
+      "desc": "No hidden charges on Upgrading your plans."
     }
   ]
 }

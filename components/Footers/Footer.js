@@ -1,37 +1,53 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
 import FooterData from "../../data/footer.json";
-
-import logo from "../../public/images/logo/logo.png";
+import { useAppContext } from "@/context/Context";
+import logo from "../../public/images/logo/logo-2.png";
+import logoDark from "../../public/images/logo/logo-1.png";
 import FooterProps from "./FooterProps";
 
 const Footer = () => {
+  const { isLightTheme } = useAppContext()
   return (
     <>
-      <footer className="rainbow-footer footer-style-default footer-style-3 position-relative">
+      <footer id="footer" className="rainbow-footer footer-style-default footer-style-3 position-relative">
         <div className="footer-top">
           <div className="container">
             <div className="row justify-content-between">
               <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                 <div className="rainbow-footer-widget">
-                  <div className="logo">
-                    <Link href="/">
+                {isLightTheme ? (
+                    <div className="d-flex align-items-center">
+                      <Image
+                        className="logo-light"
+                        src={logoDark}
+                        height={35}
+                        priority={true}
+                        alt="Logo"
+                      />
+                      <span className="fs-1 ms-2 fw-semibold " style={{ fontFamily: "'Poppins', sans-serif"  , color: '#805af5'}}>
+                        RapidScan.AI
+                      </span>
+                    </div>
+                  ) : (
+                    <div className="d-flex align-items-center">
                       <Image
                         className="logo-light"
                         src={logo}
-                        width={135}
                         height={35}
+                        priority={true}
                         alt="ChatBot Logo"
                       />
-                    </Link>
-                  </div>
+                      <span className="fs-1 ms-2 fw-semibold" style={{ fontFamily: "'Poppins', sans-serif" }}>
+                        RapidScan.AI
+                      </span>
+                    </div>
+                  )}
                   <p className="b1 desc-text">
-                    It has long been known that a reader's <br /> attention will
-                    be diverted from{" "}
+                  Workflow Simplified, Productivity Amplified{" "}
                   </p>
-                  <h6 className="subtitle">Join a Newsletter</h6>
+                  {/* <h6 className="subtitle">Join a Newsletter</h6>
                   <form className="newsletter-form" action="#">
                     <div className="form-group">
                       <input type="email" placeholder="Enter Your Email Here" />
@@ -42,7 +58,7 @@ const Footer = () => {
                         <i className="fa-sharp fa-regular fa-arrow-right"></i>
                       </button>
                     </div>
-                  </form>
+                  </form> */}
                 </div>
               </div>
 
@@ -79,11 +95,7 @@ const Footer = () => {
                               </li>
                               <li>
                                 <i className="contact-icon fa-sharp fa-regular fa-envelope"></i>
-                                <Link href="#">{inner.mail}</Link>
-                              </li>
-                              <li>
-                                <i className="contact-icon fa-regular fa-phone"></i>
-                                <Link href="#">+{inner.number}</Link>
+                                <Link href="mailto:hello@soulputs.com?subject=RapidScan.AI%20-%20Support%20Request&body=Specify%20your%20query%20or%20issue%20here.">{inner.mail}</Link>
                               </li>
                             </ul>
                           </div>

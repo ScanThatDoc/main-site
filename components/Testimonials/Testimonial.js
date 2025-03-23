@@ -1,13 +1,9 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import Slider from "react-slick";
-
 import "venobox/dist/venobox.min.css";
-
 import darkBg from "../../public/images/light/service/bg-testimonial.png";
 import darkBgHover from "../../public/images/light/service/bg-testimonial-hover.png";
-
 import TestimonialData from "../../data/testimonial.json";
 import { useAppContext } from "@/context/Context";
 
@@ -100,33 +96,6 @@ const Testimonial = () => {
                           <div className="meta-info-section">
                             <p className="title-text">{data.name}</p>
                             <p className="desc">{data.post}</p>
-                            <div className="desc-img">
-                              <Image
-                                src={data.brandImg}
-                                width={86}
-                                height={23}
-                                alt="Brand Image"
-                              />
-                            </div>
-                          </div>
-                          <div className="meta-img-section">
-                            <Link
-                              className="btn-default rounded-player style-two xs-size popup-video"
-                              href="https://www.youtube.com/watch?v=ikEdN260zRg"
-                              data-vbtype="video"
-                            >
-                              <span>
-                                <i className="fa-duotone fa-play"></i>
-                              </span>
-                            </Link>
-                            <a className="image" href="#">
-                              <Image
-                                src={data.userImg}
-                                width={43}
-                                height={43}
-                                alt=""
-                              />
-                            </a>
                           </div>
                         </div>
                       </div>
@@ -134,14 +103,14 @@ const Testimonial = () => {
                     <div className="bg-shape">
                       <Image
                         className="bg"
-                        src={isLightTheme ? data.img : darkBg}
+                        src={isLightTheme ? darkBg : data.img}
                         width={415}
                         height={287}
                         alt=""
                       />
                       <Image
                         className="bg-hover"
-                        src={isLightTheme ? data.imgHover : darkBgHover}
+                        src={isLightTheme ? darkBgHover : data.imgHover}
                         width={415}
                         height={287}
                         alt=""

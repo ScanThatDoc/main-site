@@ -7,7 +7,7 @@ const HeaderTop = () => {
   return (
     <>
       <div
-        className={`header-top-news bg-image1 ${toggleTop ? "" : "deactive"}`}
+        className={`header-top-news border-bottom border-gray-300 ${toggleTop ? "" : "deactive"}`}
       >
         <div className="wrapper">
           <div className="container">
@@ -17,17 +17,17 @@ const HeaderTop = () => {
                   <div className="content">
                     <span className="rainbow-badge">Limited Time Offer</span>
                     <span className="news-text">
-                      Intro price. Get AiWave for Big Sale -95% off.
+                      Intro price. Get RapidScan.AI for FREE today.
                     </span>
                   </div>
-                  <div className="right-button">
+                  {/* <div className="right-button">
                     <Link className="btn-read-more" href="#">
                       <span>
                         Purchase Now{" "}
                         <i className="fa-sharp fa-regular fa-arrow-right"></i>
                       </span>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

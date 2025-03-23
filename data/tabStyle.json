@@ -1,122 +1,75 @@
 {
   "TabStyleOne": [
+    
     {
-      "title": "Video generating AI refers to artificial intelligence.",
-      "img": "/images/generator-img/chat-export-vedio.png",
-      "imgLight": "/images/light/generator-img/chat-export-audio.png",
-      "menuId": "video-generator",
-      "text": "Vedio Generator",
-      "target": "video-generate",
-      "iconImg": "/images/icons/video-g.png",
-      "isSelect": false,
-      "subItem": [
-        {
-          "text": "Transformer Models"
-        },
-        {
-          "text": "Conditional Generative Models"
-        },
-        {
-          "text": "Pre-trained Models"
-        },
-        {
-          "text": "Variational Autoencoders"
-        }
-      ]
-    },
-    {
-      "title": "Audio generating AI refers to artificial intelligence.",
-      "img": "/images/generator-img/chat-export-audio.png",
-      "imgLight": "/images/light/generator-img/chat-export-audio.png",
-      "menuId": "audio-generator",
-      "text": "Audio Generator",
-      "target": "audio-generate",
-      "iconImg": "/images/icons/audio-g.png",
+      "title": "Seamless Whatsapp Integration – Smart, Fast, and Reliable!",
+      "img": "https://www.youtube.com/embed/1O0yazhqaxs",
+      "imgLight": "https://www.youtube.com/embed/1O0yazhqaxs",
+      "menuId": "photo-generator",
+      "text": "WhatsApp Bot",
+      "target": "photo-generate",
+      "iconImg": "/images/whatsapp-icon.svg",
       "isSelect": true,
       "subItem": [
         {
-          "text": "Transformer Models"
+          "text": "Uploads documents Instantly"
         },
         {
-          "text": "Conditional Generative Models"
+          "text": "AI-Powered Data Extraction"
         },
         {
-          "text": "Pre-trained Models"
+          "text": "Real-Time Data Access"
         },
         {
-          "text": "Variational Autoencoders"
+          "text": "Secure & Scalable"
         }
       ]
     },
     {
-      "title": "Photo generating AI refers to artificial intelligence.",
-      "img": "/images/generator-img/chat-export-photo.png",
-      "imgLight": "/images/light/generator-img/chat-export-audio.png",
-      "menuId": "photo-generator",
-      "text": "Photo Generator",
-      "target": "photo-generate",
-      "iconImg": "/images/icons/photo-g.png",
-      "isSelect": false,
-      "subItem": [
-        {
-          "text": "Transformer Models"
-        },
-        {
-          "text": "Conditional Generative Models"
-        },
-        {
-          "text": "Pre-trained Models"
-        },
-        {
-          "text": "Variational Autoencoders"
-        }
-      ]
-    },
-    {
-      "title": "Text generating AI refers to artificial intelligence.",
-      "img": "/images/generator-img/chat-export.png",
-      "imgLight": "/images/light/generator-img/chat-export-audio.png",
+      "title": "Seamless Email Integration – Smart, Fast, and Reliable!",
+      "img": "https://www.youtube.com/embed/1O0yazhqaxs",
+      "imgLight": "https://www.youtube.com/embed/1O0yazhqaxs",
       "menuId": "text-generator",
-      "text": "Text Generator",
+      "text": "Email Bot",
       "target": "text-generate",
-      "iconImg": "/images/icons/text-g.png",
+      "iconImg": "/images/email-icon.svg",
       "isSelect": false,
       "subItem": [
         {
-          "text": "Transformer Models"
+          "text": "Uploads documents Instantly"
         },
         {
-          "text": "Conditional Generative Models"
+          "text": "AI-Powered Data Extraction"
         },
         {
-          "text": "Pre-trained Models"
+          "text": "Real-Time Data Access"
         },
         {
-          "text": "Variational Autoencoders"
+          "text": "Secure & Scalable"
         }
       ]
     },
     {
-      "title": "Code generating AI refers to artificial intelligence.",
-      "img": "/images/generator-img/chat-export-code.png",
-      "imgLight": "/images/light/generator-img/chat-export-audio.png",
+      "title": "Manually Upload Invoice and get processed instantly",
+      "img": "https://www.youtube.com/embed/1O0yazhqaxs",
+      "imgLight": "https://www.youtube.com/embed/1O0yazhqaxs",
       "menuId": "code-generator",
-      "text": "Code Generator",
+      "text": "Upload via RapidScan",
       "target": "code-generate",
-      "iconImg": "/images/icons/code-g.png",
+      "iconImg": "/images/upload-icon.svg",
       "isSelect": false,
       "subItem": [
         {
-          "text": "Transformer Models"
+          "text": "No More Manual Entry"
         },
         {
-          "text": "Conditional Generative Models"
+          "text": "AI-Powered Data Extraction"
         },
         {
-          "text": "Pre-trained Models"
+          "text": "Real-Time Data Access"
         },
         {
-          "text": "Variational Autoencoders"
+          "text": "Secure & Scalable"
         }
       ]
     }
@@ -126,41 +79,39 @@
       "tabId": "home",
       "target": "home-tab",
       "isSelect": true,
-      "menuText": "Connect with AI",
-      "img": "/images/split/split-1.png",
-      "subTitle": "How it work",
-      "title": "Connect with Al chatbot",
-      "desc": "Dentify the platform or interface through which you can access the chatbot. This could be a website, a messaging app, or a dedicated application."
-    },
+      "menuText": "AI-Powered OCR Technology",
+      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/ocrDark.jpeg",
+      "subTitle": "Say Goodbye to Manual Data Entry",
+      "title": "Extract Documents Data with AI Precision",
+      "desc": "Tired of manually entering data? Our advanced AI-powered OCR technology scans and extracts key information instantly, reducing errors and saving time. Simply upload any document, and let AI do the work for you."},
     {
       "tabId": "profile",
       "target": "profile-tab",
       "isSelect": false,
-      "menuText": "Streamline Workflow",
-      "img": "/images/split/split-4.png",
-      "subTitle": "Exploring Efficiency",
-      "title": "Streamline Your Workflow",
-      "desc": "Discover tools and techniques to optimize your workflow, making your tasks more efficient and manageable."
+      "menuText": "Smart Data Structuring",
+      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/sortingDark.jpeg",
+      "subTitle": "Turn Unstructured Documents into Organized Data",
+      "title": "Every record, Perfectly Sorted",
+      "desc": "Our AI-powered system automatically organizes documents data into a structured format, making it easy to analyze and search. No more messy spreadsheets!"
     },
     {
       "tabId": "contact",
       "target": "contact-tab",
       "isSelect": false,
-      "menuText": "Cybersecurity",
-      "img": "/images/split/split-3.png",
-      "subTitle": "Navigating Cybersecurity",
-      "title": "Protecting Your Digital Presence",
-      "desc": "Gain insights into cybersecurity measures and strategies to safeguard your online identity and sensitive information."
+      "menuText": "Mobile & Web Accessibility",
+      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/responsiveDark.jpeg",
+      "subTitle": "Manage records from Anywhere",
+      "title": "Your Data, Always at Your Fingertips",
+      "desc": "Stay in control, whether you're at the office or on the go. Our web and mobile-friendly platform ensures upload, review, and manage records from any device, giving you the flexibility to work from anywhere"
     },
     {
       "tabId": "contact",
       "target": "contact-tab",
       "isSelect": false,
-      "menuText": "Data Analysis",
-      "img": "/images/split/split-5.png",
-      "subTitle": "Mastering Data Analysis",
-      "title": "Demystifying Data Analytics",
-      "desc": "Learn the fundamentals of data analysis, including tools and methodologies, to extract meaningful insights from raw data."
-    }
+      "menuText": "Seamless Integration",
+      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/erpdark.jpeg",
+      "subTitle": "Comming soon!",
+      "title": "Connect Your Accounting & ERP Tools",
+      "desc": "Our system intelligently organizes extracted data, making it searchable, structured, and ready for export. Whether you need CSV, Excel, or API integration, your data is always in the right format."}
   ]
 }

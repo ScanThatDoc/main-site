@@ -11,7 +11,7 @@ const Context = ({ children }) => {
   const [toggleAuth, setToggleAuth] = useState(true);
   const [showItem, setShowItem] = useState(true);
   const [activeMobileMenu, setActiveMobileMenu] = useState(true);
-  const [isLightTheme, setLightTheme] = useState(true);
+  const [isLightTheme, setLightTheme] = useState(false);
 
   const checkScreenSize = () => {
     if (window.innerWidth < 1600) {
@@ -26,18 +26,18 @@ const Context = ({ children }) => {
   // ===========> Switcher Function START
   useEffect(() => {
     const themeType = localStorage.getItem("aiwave-theme");
-    if (themeType === "dark") {
-      setLightTheme(false);
+    if (themeType === "light") {
+      setLightTheme(true);
       document.body.classList.add("active-dark-mode");
     }
   }, []);
 
   useEffect(() => {
     if (isLightTheme) {
-      document.body.classList.remove("active-dark-mode");
+      document.body.classList.add("active-dark-mode");
       localStorage.setItem("aiwave-theme", "light");
     } else {
-      document.body.classList.add("active-dark-mode");
+      document.body.classList.remove("active-dark-mode");
       localStorage.setItem("aiwave-theme", "dark");
     }
   }, [isLightTheme]);

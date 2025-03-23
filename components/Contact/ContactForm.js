@@ -1,52 +1,28 @@
 import React from "react";
 
 const ContactForm = () => {
+
   return (
     <>
-      <form action="#" className="rbt-profile-row rbt-default-form row row--15">
-        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-          <div className="form-group">
-            <label htmlFor="firstname1">First Name</label>
-            <input id="firstname1" type="text" placeholder="First Name" />
-          </div>
+      <div className="col-12 mt--20">
+        <div className="form-group mb--0">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" style={{ width: '24px', height: '24px' }}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+          </svg>
+          <p className="text-gray-600 mb-6">
+            Have something in mind? Schedule a 15-minute free consultation to discuss how we can help bring your ideas to life.
+          </p>
         </div>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-          <div className="form-group">
-            <label htmlFor="lastname1">Last Name</label>
-            <input id="lastname1" type="text" placeholder="Last Name" />
-          </div>
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-          <div className="form-group">
-            <label htmlFor="username1">User Name</label>
-            <input id="username1" type="text" placeholder="User Name" />
-          </div>
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-          <div className="form-group">
-            <label htmlFor="phonenumber1">Phone Number</label>
-            <input id="phonenumber1" type="tel" placeholder="+1-202-555-0174" />
-          </div>
-        </div>
-        <div className="col-12">
-          <div className="form-group">
-            <label htmlFor="bio1">Bio</label>
-            <textarea
-              id="bio1"
-              cols="20"
-              rows="5"
-              placeholder="I'm the Front-End Developer for #Rainbow IT in Bangladesh, OR. I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences."
-            ></textarea>
-          </div>
-        </div>
-        <div className="col-12 mt--20">
-          <div className="form-group mb--0">
-            <a className="btn-default" href="#">
-              Update Info
+      </div>
+      <div className="col-12 mt--20">
+        <div className="form-group mb--0">
+          <button className="btn-default">
+            <a className="text-white" target="_blank" href={process.env.NEXT_PUBLIC_CALENDLY_URL}>
+              Book a Meeting
             </a>
-          </div>
+          </button>
         </div>
-      </form>
+      </div>
     </>
   );
 };

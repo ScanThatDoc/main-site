@@ -2,28 +2,24 @@
   "footer": [
     {
       "links": [
-        {
+        { 
           "title": "Qucik Links",
           "innerItem": [
             {
-              "link": "#",
-              "text": "Pages"
-            },
-            {
-              "link": "/blog",
-              "text": "Blog"
-            },
-            {
-              "link": "/contact",
-              "text": "Contact"
+              "link": "/",
+              "text": "Home"
             },
             {
               "link": "/utilize",
               "text": "How to use"
             },
             {
-              "link": "/roadmap",
-              "text": "Roadmap"
+              "link": "/about-us",
+              "text": "About Us"
+            },
+            {
+              "link": "/contact-us",
+              "text": "Contact Us"
             }
           ]
         }
@@ -33,33 +29,24 @@
           "title": "Services",
           "innerItem": [
             {
-              "link": "/image-generator",
-              "text": "Image Generator"
+              "link": "#footer",
+              "text": "WhatsApp Integration"
             },
             {
-              "link": "/vedio-generator",
-              "text": "Video Generator"
+              "link": "#footer",
+              "text": "Email Integration"
             },
             {
-              "link": "/text-generator",
-              "text": "Text Generator"
-            },
-            {
-              "link": "/code-generator",
-              "text": "Code Generator"
-            },
-            {
-              "link": "#",
-              "text": "Education Feedback"
+              "link": "#footer",
+              "text": "ERP Integration (Coming Soon)"
             }
           ]
         }
       ],
       "contact": [
         {
-          "location": "8819 Ohio St. South Gate, North America, USA",
-          "mail": "example@domain.com",
-          "number": "1 386-688-3295"
+          "location": "116, 1st floor, W-Biz Tower, Bhumker Chowk, Waqad, Pune, Maharashtra, India",
+          "mail": "hello@soulputs.com"
         }
       ]
     }

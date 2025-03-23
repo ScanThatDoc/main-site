@@ -17,7 +17,10 @@ const Copyright = () => {
                     <Link href="/terms-policy">Terms And Condition</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href="/about-us">About Us</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact-us">Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -25,12 +28,12 @@ const Copyright = () => {
             <div className="col-lg-6 col-md-4 col-sm-12 col-12">
               <div className="copyright-right text-center text-lg-end">
                 <p className="copyright-text">
-                  Copyright © 2024{" "}
+                  Copyright © 2025{" "}
                   <Link
-                    href="https://themeforest.net/user/rainbow-themes"
+                    href="#footer"
                     className="btn-read-more"
                   >
-                    <span>Rainbow-Themes.</span>
+                    <span>Soulputs Technologies Pvt. Ltd.</span>
                   </Link>
                 </p>
               </div>

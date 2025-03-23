@@ -74,27 +74,80 @@ const TabStyleOne = () => {
                                 ))}
                               </ul>
                             </div>
-                            <div className="read-more">
-                              <Link
-                                className="btn-default color-blacked"
-                                href="#"
-                              >
-                                Start Exploring Now
-                                <i className="fa-sharp fa-solid fa-arrow-right ps-2"></i>
-                              </Link>
-                            </div>
+                            {
+                              tab.text === "Automation using Whatsapp" ?
+                                <div className="read-more">
+                                  <Link
+                                    className="btn-default"
+                                    href={process.env.NEXT_PUBLIC_WHATSAPP_API}
+                                    onClick={(e) => {
+                                      e.preventDefault();
+                                      // Show popup with bullet points
+                                      const popup = document.createElement('div');
+                                      popup.style.cssText = ` position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 120px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; font-size: 30px; font-weight: 600; color: #000; `;
+                                      popup.innerHTML = `
+                                        <span >
+                                        Redirecting you to WhatsApp...
+                                        <ul>
+                                          <li>Say something to get started</li>
+                                          <li>Follow the instructions received on whatsapp</li>
+                                        </ul>
+                                        </span>
+                                      `;
+                                      document.body.appendChild(popup);
+
+                                      setTimeout(() => {
+                                        document.body.removeChild(popup);
+                                        window.open(process.env.NEXT_PUBLIC_WHATSAPP_API, "_blank");
+                                      }, 4000);
+                                    }}
+                                  >
+                                    Sign Up Now
+                                    <i className="fa-sharp fa-solid fa-arrow-right ps-2"></i>
+                                  </Link>
+                                </div> :
+                                <div className="read-more">
+                                  <Link
+                                    className="btn-default color-blacked"
+                                    target="_blank"
+                                    href={process.env.NEXT_PUBLIC_WEBSITE_URL}
+                                  >
+                                    Sign Up Now
+                                    <i className="fa-sharp fa-solid fa-arrow-right ps-2"></i>
+                                  </Link>
+                                </div>
+
+                            }
+                            
                           </div>
                         </div>
                         <div className="col-xl-6 mt_md--30 mt_sm--30">
                           <div className="export-img">
                             <div className="inner-without-padding">
-                              <div className="export-img img-bg-shape">
-                                <Image
-                                  src={isLightTheme ? tab.img : tab.imgLight}
+                              <div 
+                                className="export-img img-bg-shape" 
+                                style={{ 
+                                    width: '100%',
+                                    maxWidth: '593px',
+                                    height: 'auto',
+                                    aspectRatio: '593/362'
+                                }}
+                              >
+                                {/* <Image
+                                  src={isLightTheme ? tab.imgLight : tab.img}
                                   width={569}
                                   height={483}
                                   alt="Chat example Image"
-                                />
+                                /> */}
+                                <iframe 
+                                  style={{ width: '100%', height: '100%' }}
+                                  src={isLightTheme ? `${tab.imgLight}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=${tab.imgLight.split('/').pop()}` : `${tab.img}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=${tab.img.split('/').pop()}`}
+                                  title={tab.text} 
+                                  frameBorder="0" 
+                                  allow="autoplay; encrypted-media" 
+                                  allowFullScreen
+                                >
+                                </iframe>
                                 <div className="image-shape"></div>
                               </div>
                             </div>

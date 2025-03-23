@@ -1,12 +1,16 @@
-import React, { useEffect, useState } from "react";
-
+import React, { useState } from "react";
 import PricingData from "../../data/pricing.json";
 
 const Pricing = ({ start, end, parentClass, isBadge,gap }) => {
+  const [selected, setSelected] = useState("basic");
   const [sectionStates, setSectionStates] = useState({
     Premium: true,
     Enterprise: true,
   });
+
+  const handleSubscription = (classNum) => {
+    window.open(`${process.env.NEXT_PUBLIC_WEBSITE_URL}/?subscriptionPlan=${classNum}`, "_blank");
+  };
 
   const toggleSection = (subTitle) => {
     setSectionStates((prevState) => ({
@@ -34,10 +38,16 @@ const Pricing = ({ start, end, parentClass, isBadge,gap }) => {
                 {data.priceBody
                   .slice(start, end)
                   .map((innerData, innerIndex) => (
-                    <div className={parentClass} key={innerIndex}>
+                    <div 
+                      className={parentClass} 
+                      key={innerIndex} 
+                      onClick={() => {
+                        setSelected(innerData.classNum);
+                      }}
+                    >
                       <div
                         className={`rainbow-pricing style-aiwave ${
-                          innerData.isSelect ? "active" : ""
+                          selected === innerData.classNum ? "active" : ""
                         }`}
                       >
                         <div className="pricing-table-inner">
@@ -98,16 +108,16 @@ const Pricing = ({ start, end, parentClass, isBadge,gap }) => {
                             </div>
                           </div>
                           <div className="pricing-footer">
-                            <a
-                              className={`btn-default ${
+                            <button
+                              className={`w-100 btn-default ${
                                 innerData.isSelect
                                   ? "color-blacked"
                                   : "btn-border"
                               }`}
-                              href="#"
+                              onClick={() => handleSubscription(innerData.classNum)}
                             >
                               Get Started
-                            </a>
+                            </button>
                             <p className="bottom-text">{innerData.limited}</p>
                           </div>
                         </div>

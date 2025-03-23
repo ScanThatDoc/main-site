@@ -10,6 +10,66 @@
     }
 }
 
+//-------------------------------- Marquee Animation ---------------------------------------
+
+.marquee-content-left {
+    display: flex;
+    gap: 10px;
+    animation: marquee-left 20s linear infinite;
+    width: max-content;
+}
+
+.marquee-content-right {
+    display: flex;
+    gap: 10px;
+    animation: marquee-right 20s linear infinite;
+    width: max-content;
+}
+
+@keyframes marquee-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes marquee-right {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+//-------------------------------- End of Marquee Animation --------------------------------
+
+//-------------------------------- Flip Animation ------------------------------------------
+.flip-animation {
+    animation: zoomAndFlip 1.5s ease-out forwards;
+    display: block;
+}
+
+@keyframes zoomAndFlip {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: perspective(1000px) rotateX(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+// Add initial state for non-animated image
+.slider-frame img:not(.flip-animation) {
+    opacity: 0;
+    transform: perspective(1000px) rotateX(90deg);
+    transform-origin: top;
+}
+//-------------------------------- End of Flip Animation ------------------------------------
 .height-850 {
     height: 850px;
     display: flex;
@@ -545,17 +605,20 @@
         }
 
         .slider-frame {
-            background: url(../../images/bg/slider-main-bg.png);
+            position: relative;
+            overflow: hidden;
+            background: url("https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/slider-main-bg.png");
             background-position: top center;
-            background-size: contain;
+            background-size: 100% 100%;
             background-repeat: no-repeat;
             padding: 70px;
             padding-bottom: 42px;
             position: relative;
             z-index: 3;
             margin-top: 60px;
-            overflow: hidden;
-            position: relative;
+            aspect-ratio: auto;
+            width: 100%;
+            height: auto;
 
             @media #{$md-layout, $lg-layout} {
                 padding: 40px;
@@ -574,7 +637,8 @@
                 top: -40%;
                 left: 50%;
                 transform: translateX(-50%);
-                background: url(../../images/bg/main-banner-bg-shape.png);
+                background: url("https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/main-banner-bg-shape.png");
+                background-size: 100% 100%;
                 z-index: -5;
             }
         }
@@ -1337,7 +1401,7 @@
     // }
 
     &.bg-banner1 {
-        background-image: url(../../images/bg/main-banner-bg.png);
+        background-image: url("https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/main-banner-bg.png");
         background-size: unset;
     }
 

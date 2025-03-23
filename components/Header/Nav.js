@@ -2,27 +2,22 @@ import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
-
 import MenuData from "../../data/header.json";
-
 import NavProps from "./NavProps";
 import menuImg from "../../public/images/menu-img/menu-img-2.png";
 
 const Nav = () => {
   const router = useRouter();
-
   const [sectionStates, setSectionStates] = useState({
     Tools: true,
     Pages: true,
   });
-
   const toggleSection = (subTitle) => {
     setSectionStates((prevState) => ({
       ...prevState,
       [subTitle]: !prevState[subTitle],
     }));
   };
-
   const isActive = (href) => router.pathname === href;
 
   return (

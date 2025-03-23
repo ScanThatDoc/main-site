@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
 import { useAppContext } from "@/context/Context";
-
-import logo from "../../public/images/logo/logo.png";
-import logoDark from "../../public/images/light/logo/logo-dark.png";
+import logo from "../../public/images/logo/logo-2.png";
+import logoDark from "../../public/images/logo/logo-1.png";
 import Nav from "./Nav";
 import DarkSwitch from "./dark-switch";
 
@@ -44,23 +42,31 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
               <div className="logo">
                 <Link href="/">
                   {isLightTheme ? (
-                    <Image
-                      className="logo-light"
-                      src={logo}
-                      width={135}
-                      height={35}
-                      priority={true}
-                      alt="ChatBot Logo"
-                    />
+                    <div className="d-flex align-items-center">
+                      <Image
+                        className="logo-light"
+                        src={logoDark}
+                        height={35}
+                        priority={true}
+                        alt="Logo"
+                      />
+                      <span className="fs-1 ms-2 fw-semibold " style={{ fontFamily: "'Poppins', sans-serif"  , color: '#805af5'}}>
+                        RapidScan.AI
+                      </span>
+                    </div>
                   ) : (
-                    <Image
-                      className="logo-light"
-                      src={logoDark}
-                      width={135}
-                      height={35}
-                      priority={true}
-                      alt="ChatBot Logo"
-                    />
+                    <div className="d-flex align-items-center">
+                      <Image
+                        className="logo-light"
+                        src={logo}
+                        height={35}
+                        priority={true}
+                        alt="ChatBot Logo"
+                      />
+                      <span className="fs-1 ms-2 fw-semibold" style={{ fontFamily: "'Poppins', sans-serif" }}>
+                        RapidScan.AI
+                      </span>
+                    </div>
                   )}
                 </Link>
               </div>
@@ -75,7 +81,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
             <div className="col-lg-2 col-md-6 col-6 position-static">
               <div className="header-right">
                 <div className="header-btn">
-                  <Link className={`${btnClass}`} href="/text-generator">
+                  <Link className={`${btnClass}`} target="_blank" href={process.env.NEXT_PUBLIC_WEBSITE_URL}>
                     <span>Get Start</span>
                   </Link>
                 </div>
