@@ -18,9 +18,8 @@ const UtilizeBody = ({ utilize }) => {
                   <h4 className="title-sm">{inner.title}</h4>
                   <div className="desc">
                     {inner.img && (
-                      <div className="image" style={{ width: 892, height: 617 }}>
+                      <div className="image video-container">
                         <iframe 
-                          style={{ width: '100%', height: '100%' }}
                           src={inner.img} 
                           title={inner.title} 
                           frameborder="0" 

@@ -9,7 +9,7 @@ const Pricing = ({ start, end, parentClass, isBadge,gap }) => {
   });
 
   const handleSubscription = (classNum) => {
-    window.open(`${process.env.NEXT_PUBLIC_WEBSITE_URL}/?subscriptionPlan=${classNum}`, "_blank");
+    window.open(`${process.env.NEXT_PUBLIC_WEBSITE_URL}?subscriptionPlan=${classNum}`, "_blank");
   };
 
   const toggleSection = (subTitle) => {
