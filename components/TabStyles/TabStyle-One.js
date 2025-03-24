@@ -75,7 +75,7 @@ const TabStyleOne = () => {
                               </ul>
                             </div>
                             {
-                              tab.text === "Automation using Whatsapp" ?
+                              tab.text === "WhatsApp Bot" ?
                                 <div className="read-more">
                                   <Link
                                     className="btn-default"

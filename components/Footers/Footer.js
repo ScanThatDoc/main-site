@@ -91,7 +91,7 @@ const Footer = () => {
                             <ul className="footer-link contact-link">
                               <li>
                                 <i className="contact-icon fa-regular fa-location-dot"></i>
-                                <Link href="#">{inner.location}</Link>
+                                <Link href="#footer">{inner.location}</Link>
                               </li>
                               <li>
                                 <i className="contact-icon fa-sharp fa-regular fa-envelope"></i>
