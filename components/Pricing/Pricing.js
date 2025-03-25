@@ -9,7 +9,11 @@ const Pricing = ({ start, end, parentClass, isBadge,gap }) => {
   });
 
   const handleSubscription = (classNum) => {
-    window.open(`${process.env.NEXT_PUBLIC_WEBSITE_URL}?subscriptionPlan=${classNum}`, "_blank");
+    if(classNum === "free"){
+      window.open(`${process.env.NEXT_PUBLIC_WEBSITE_URL}`, "_blank");
+    }else{
+      window.open(`${process.env.NEXT_PUBLIC_WEBSITE_URL}?subscriptionPlan=${classNum}`, "_blank");
+    }
   };
 
   const toggleSection = (subTitle) => {
