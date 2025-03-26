@@ -8,17 +8,7 @@ assets = { directory = ".open-next/assets", binding = "ASSETS" }
 binding = "NEXT_CACHE_WORKERS_KV"
 id = "811b0eb266e842439f74db4f8676e031"
 
-# Default (Development) Environment
 [vars]
 NEXT_PUBLIC_WHATSAPP_API = "https://api.whatsapp.com/send?phone=60108366750&text=Hello"
-NEXT_PUBLIC_WEBSITE_URL = "https://devrapidscan.hello-22d.workers.dev/"
+NEXT_PUBLIC_WEBSITE_URL = "https://app-experiment.rapidscan.ai/"
 NEXT_PUBLIC_CALENDLY_URL = "https://calendly.com/amanabhay2/30min/"
-
-# Production Environment
-[env.production]
-name = "main-site-prod"
-
-[env.production.vars]
-NEXT_PUBLIC_WHATSAPP_API = "https://api.whatsapp.com/send?phone=60108366750&text=Hello"
-NEXT_PUBLIC_WEBSITE_URL = "https://app.rapidscan.ai/"
-NEXT_PUBLIC_CALENDLY_URL = "https://calendly.com/hello-soulputs/rapidscan-demo"
