@@ -45,7 +45,7 @@ const Footer = () => {
                     </div>
                   )}
                   <p className="b1 desc-text">
-                  Workflow Simplified, Productivity Amplified{" "}
+                  🚀 Transform Your Document Workflow with AI Automation{" "}
                   </p>
                   {/* <h6 className="subtitle">Join a Newsletter</h6>
                   <form className="newsletter-form" action="#">
@@ -91,11 +91,11 @@ const Footer = () => {
                             <ul className="footer-link contact-link">
                               <li>
                                 <i className="contact-icon fa-regular fa-location-dot"></i>
-                                <Link href="#footer">{inner.location}</Link>
+                                <Link href="#footer" dangerouslySetInnerHTML={{ __html: inner.location }} />
                               </li>
                               <li>
                                 <i className="contact-icon fa-sharp fa-regular fa-envelope"></i>
-                                <Link href="mailto:hello@soulputs.com?subject=RapidScan.AI%20-%20Support%20Request&body=Specify%20your%20query%20or%20issue%20here.">{inner.mail}</Link>
+                                <Link href="mailto:bot@rapidscan.ai?subject=RapidScan.AI%20-%20Support%20Request&body=Specify%20your%20query%20or%20issue%20here.">{inner.mail}</Link>
                               </li>
                             </ul>
                           </div>

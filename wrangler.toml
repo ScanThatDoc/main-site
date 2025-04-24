@@ -11,4 +11,4 @@ id = "811b0eb266e842439f74db4f8676e031"
 [vars]
 NEXT_PUBLIC_WHATSAPP_API = "https://api.whatsapp.com/send?phone=60108366750&text=Hello"
 NEXT_PUBLIC_WEBSITE_URL = "https://app.rapidscan.ai/"
-NEXT_PUBLIC_CALENDLY_URL = "https://calendly.com/hello-soulputs/rapidscan-demo"
+NEXT_PUBLIC_CALENDLY_URL = "https://calendly.com/bot-rapidscan/30min"

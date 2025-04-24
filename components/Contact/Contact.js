@@ -38,8 +38,8 @@ const Contact = () => {
                   <div className="inner">
                     <h4 className="title">Location</h4>
                     <p className="b2">
-                    116, 1st floor, W-Biz Tower, Bhumker Chowk, <br />
-                    Waqad, Pune, Maharashtra, India
+                    9028 Telford Drive
+                    Fishers,<br/> IN 46037 US
                     </p>
                   </div>
                 </div>
@@ -50,11 +50,8 @@ const Contact = () => {
                   <div className="inner">
                     <h4 className="title">Our Email Address</h4>
                     <p className="b2">
-                      <Link href="mailto:hello@soulputs.com?subject=RapidScan.AI%20-%20Support%20Request&body=Specify%20your%20query%20or%20issue%20here.">hello@soulputs.com</Link>
-                    </p>
-                    <p className="b2">
-                      <Link href="mailto:support@soulputs.com?subject=RapidScan.AI%20-%20Support%20Request&body=Specify%20your%20query%20or%20issue%20here.">
-                        support@soulputs.com
+                      <Link href="mailto:bot@rapidscan.ai?subject=RapidScan.AI%20-%20Support%20Request&body=Specify%20your%20query%20or%20issue%20here.">
+                        bot@rapidscan.ai
                       </Link>
                     </p>
                   </div>
