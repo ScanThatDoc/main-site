@@ -33,7 +33,7 @@ const Copyright = () => {
                     href="#footer"
                     className="btn-read-more"
                   >
-                    <span>Soulputs Technologies Pvt. Ltd.</span>
+                    <span>RapidScan.AI</span>
                   </Link>
                 </p>
               </div>
