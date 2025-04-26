@@ -3,8 +3,8 @@
     
     {
       "title": "Seamless Whatsapp Integration – Smart, Fast, and Reliable!",
-      "img": "https://www.youtube.com/embed/1O0yazhqaxs",
-      "imgLight": "https://www.youtube.com/embed/1O0yazhqaxs",
+      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/whatsapp+gif+video.mp4",
+      "imgLight": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/whatsapp+gif+video.mp4",
       "menuId": "photo-generator",
       "text": "WhatsApp Bot",
       "target": "photo-generate",
@@ -27,8 +27,8 @@
     },
     {
       "title": "Seamless Email Integration – Smart, Fast, and Reliable!",
-      "img": "https://www.youtube.com/embed/1O0yazhqaxs",
-      "imgLight": "https://www.youtube.com/embed/1O0yazhqaxs",
+      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/email+gif+video.mp4",
+      "imgLight": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/email+gif+video.mp4",
       "menuId": "text-generator",
       "text": "Email Bot",
       "target": "text-generate",
@@ -51,8 +51,8 @@
     },
     {
       "title": "Manually Upload Invoice and get processed instantly",
-      "img": "https://www.youtube.com/embed/1O0yazhqaxs",
-      "imgLight": "https://www.youtube.com/embed/1O0yazhqaxs",
+      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/front+manual+gif+video.mp4",
+      "imgLight": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/front+manual+gif+video.mp4",
       "menuId": "code-generator",
       "text": "Upload via RapidScan",
       "target": "code-generate",
