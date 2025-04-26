@@ -133,21 +133,54 @@ const TabStyleOne = () => {
                                     aspectRatio: '593/362'
                                 }}
                               >
-                                {/* <Image
-                                  src={isLightTheme ? tab.imgLight : tab.img}
-                                  width={569}
-                                  height={483}
-                                  alt="Chat example Image"
-                                /> */}
-                                <iframe 
-                                  style={{ width: '100%', height: '100%' }}
-                                  src={isLightTheme ? `${tab.imgLight}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=${tab.imgLight.split('/').pop()}` : `${tab.img}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=${tab.img.split('/').pop()}`}
-                                  title={tab.text} 
-                                  frameBorder="0" 
-                                  allow="autoplay; encrypted-media" 
-                                  allowFullScreen
-                                >
-                                </iframe>
+                                {tab.img.endsWith('.mp4') ? (
+                                  <div style={{
+                                    width: '100%',
+                                    height: '100%',
+                                    position: 'relative',
+                                    overflow: 'hidden',
+                                    borderRadius: '14px'
+                                  }}>
+                                    <video
+                                      style={{ 
+                                        width: '100%', 
+                                        height: '100%',
+                                        objectFit: 'cover',
+                                        position: 'absolute',
+                                        top: '0',
+                                        left: '0',
+                                        pointerEvents: 'none',
+                                        userSelect: 'none',
+                                        WebkitUserSelect: 'none',
+                                        msUserSelect: 'none',
+                                        border: 'none',
+                                        outline: 'none',
+                                        background: 'transparent'
+                                      }}
+                                      autoPlay
+                                      loop
+                                      muted
+                                      playsInline
+                                      controls={false}
+                                      webkit-playsinline="true"
+                                      preload="auto"
+                                      disablePictureInPicture
+                                      controlsList="nodownload noplaybackrate nofullscreen noremoteplayback"
+                                    >
+                                      <source src={isLightTheme ? tab.imgLight : tab.img} type="video/mp4" />
+                                    </video>
+                                  </div>
+                                ) : (
+                                  <iframe 
+                                    style={{ width: '100%', height: '100%' }}
+                                    src={isLightTheme ? `${tab.imgLight}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=${tab.imgLight.split('/').pop()}` : `${tab.img}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=${tab.img.split('/').pop()}`}
+                                    title={tab.text} 
+                                    frameBorder="0" 
+                                    allow="autoplay; encrypted-media" 
+                                    allowFullScreen
+                                  >
+                                  </iframe>
+                                )}
                                 <div className="image-shape"></div>
                               </div>
                             </div>

@@ -7,19 +7,19 @@
         {
           "id": "whatsapp-walkthrough-video",
           "title": "",
-          "img": "https://www.youtube.com/embed/q0hyYWKXF0Q"
+          "img": "https://www.youtube.com/embed/fQmh7zpMNQg"
         },
         {
           "id": "scan-qr-code",
-          "title": "Scan the QR Code",
+          "title": " Connect via WhatsApp",
           "subTitle": "",
-          "desc": "To get started, simply scan the QR code using your WhatsApp camera. This quick and hassle-free step instantly establishes a connection between the user and our system.",
+          "desc": "To get started, simply click the \"Try Now\" button or send a message directly to our WhatsApp number +60 10-836 6750.This quick and hassle-free step instantly connects you with our automated system on WhatsApp.",
           "list": [
             {
-              "text": "Once the QR code is scanned, a chat with our automated system opens in WhatsApp. This allows users to seamlessly submit invoices without the need for additional app installations or complex setup processes."
+              "text": "Once connected, you can easily submit invoices and documents without installing any extra apps or going through complicated setup."
             },
             {
-              "text": "By integrating directly with WhatsApp, users can leverage a familiar and convenient platform to digitize their invoices with minimal effort."
+              "text": "By using WhatsApp — a platform you already trust — RapidScan.AI makes document submission simple, fast, and effortless."
             }
           ]
         },
@@ -77,7 +77,7 @@
         {
           "id": "email-walkthrough-video",
           "title": "",
-          "img": "https://www.youtube.com/embed/q0hyYWKXF0Q"
+          "img": "https://www.youtube.com/embed/xfpXbrUSZqA"
         },
         {
           "id": "connect-email",
@@ -142,7 +142,7 @@
         {
           "id": "manual-upload-walkthrough-video",
           "title": "",
-          "img": "https://www.youtube.com/embed/q0hyYWKXF0Q"
+          "img": "https://www.youtube.com/embed/eo6IfxCwThY"
         },
         {
           "id": "log-in-scan-the-doc",
@@ -205,7 +205,7 @@
           "desc": "We understand that you may have questions or run into issues while using RapidScan.AI. Our dedicated support team is available to assist you with any concerns, whether it's about connecting your email, uploading invoices, or accessing your data.",
           "list": [
             {
-              "text": "Email Us on: hello@soulput.com"
+              "text": "Email Us on: bot@rapidscan.ai"
             },
             {
               "text": "Our support team operates during business hours, ensuring timely responses to queries. We strive to address most issues within 24 hours and provide urgent assistance for critical concerns."
