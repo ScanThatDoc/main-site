@@ -80,47 +80,57 @@ const Home = () => {
                 Say Goodbye to Manual Entry <br />{" "}
                 Let AI Process Your Documents Instantly
                 </p>
-                <div >
-                  <Link 
-                    className="btn-default"
-                    href={process.env.NEXT_PUBLIC_WHATSAPP_API}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      // Show popup with bullet points
-                      const popup = document.createElement('div');
-                      popup.style.cssText = `
-                        position: fixed;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        background: white;
-                        padding: 120px;
-                        border-radius: 8px;
-                        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-                        z-index: 1000;
-                        font-size: 30px;
-                        font-weight: 600;
-                        color: #000;
-                      `;
-                      popup.innerHTML = `
-                        <span >
-                        Redirecting you to WhatsApp...
-                        <ul>
-                          <li>Say something to get started</li>
-                          <li>Follow the instructions received on whatsapp</li>
-                        </ul>
-                        </span>
-                      `;
-                      document.body.appendChild(popup);
-                      
-                      setTimeout(() => {
-                        document.body.removeChild(popup);
-                        window.open(process.env.NEXT_PUBLIC_WHATSAPP_API, "_blank");
-                      }, 4000);
-                    }}
-                  >
-                    Try Now
-                  </Link>
+                <div className="button-group">
+                  <h5 className="text-center">Unlock AI Power</h5>
+                  <div className="d-flex justify-content-center gap-4">
+                    <Link 
+                      className="btn-default"
+                      href={process.env.NEXT_PUBLIC_WHATSAPP_API}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        // Show popup with bullet points
+                        const popup = document.createElement('div');
+                        popup.style.cssText = `
+                          position: fixed;
+                          top: 50%;
+                          left: 50%;
+                          transform: translate(-50%, -50%);
+                          background: white;
+                          padding: 120px;
+                          border-radius: 8px;
+                          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                          z-index: 1000;
+                          font-size: 30px;
+                          font-weight: 600;
+                          color: #000;
+                        `;
+                        popup.innerHTML = `
+                          <span >
+                          Redirecting you to WhatsApp...
+                          <ul>
+                            <li>Say something to get started</li>
+                            <li>Follow the instructions received on whatsapp</li>
+                          </ul>
+                          </span>
+                        `;
+                        document.body.appendChild(popup);
+                        
+                        setTimeout(() => {
+                          document.body.removeChild(popup);
+                          window.open(process.env.NEXT_PUBLIC_WHATSAPP_API, "_blank");
+                        }, 4000);
+                      }}
+                    >
+                      WhatsApp
+                    </Link>
+                    <Link 
+                      className="btn-default"
+                      href={process.env.NEXT_PUBLIC_WEBSITE_URL}
+                      target="_blank"
+                    >
+                      Web App
+                    </Link>
+                  </div>
                 </div>
                 <div className="inner-shape">
                   <Image

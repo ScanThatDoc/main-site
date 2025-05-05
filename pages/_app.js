@@ -1,6 +1,7 @@
 import { Router } from "next/router";
 import { useEffect, useState } from "react";
 import Loading from "./loading";
+import Head from 'next/head';
 
 import "bootstrap/scss/bootstrap.scss";
 
@@ -36,5 +37,25 @@ export default function App({ Component, pageProps }) {
     };
   }, []);
 
-  return <>{loading ? <Loading /> : <Component {...pageProps} />}</>;
+  return (
+    <>
+      <Head>
+        <title>RapidScan AI - Document Scanning & Analysis</title>
+        <meta name="description" content="RapidScan AI - Advanced document scanning and analysis platform powered by artificial intelligence. Transform your document management with intelligent scanning solutions." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="document scanning, AI scanning, document analysis, OCR, intelligent document processing" />
+        
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="RapidScan AI - Document Scanning & Analysis" />
+        <meta property="og:description" content="Advanced document scanning and analysis platform powered by artificial intelligence." />
+        <meta property="og:site_name" content="RapidScan AI" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="RapidScan AI" />
+        <meta name="twitter:description" content="Advanced document scanning and analysis platform powered by artificial intelligence." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      {loading ? <Loading /> : <Component {...pageProps} />}
+    </>
+  );
 }
