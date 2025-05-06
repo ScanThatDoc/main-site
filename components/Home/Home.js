@@ -81,7 +81,7 @@ const Home = () => {
                 Let AI Process Your Documents Instantly
                 </p>
                 <div className="button-group">
-                  <h5 className="text-center">Unlock AI Power</h5>
+                  <h5 className="text-center">Unlock AI Power - Try Now Using</h5>
                   <div className="d-flex justify-content-center gap-4">
                     <Link 
                       className="btn-default"
@@ -128,7 +128,7 @@ const Home = () => {
                       href={process.env.NEXT_PUBLIC_WEBSITE_URL}
                       target="_blank"
                     >
-                      Web App
+                      AI Web App
                     </Link>
                   </div>
                 </div>
