@@ -16,11 +16,9 @@ const ContactForm = () => {
       </div>
       <div className="col-12 mt--20">
         <div className="form-group mb--0">
-          <button className="btn-default">
-            <a className="text-white" target="_blank" href={process.env.NEXT_PUBLIC_CALENDLY_URL}>
-              Book a Meeting
-            </a>
-          </button>
+          <a className="btn-default text-white" target="_blank" href={process.env.NEXT_PUBLIC_CALENDLY_URL}>
+            Book a Meeting
+          </a>
         </div>
       </div>
     </>
