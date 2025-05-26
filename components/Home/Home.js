@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import PricingData from "../../data/pricing.json";
 import shapeOne from "../../public/images/bg/icon-shape/icon-shape-one.png";
 import shapeTwo from "../../public/images/bg/icon-shape/icon-shape-two.png";
 import shapeThree from "../../public/images/bg/icon-shape/icon-shape-three.png";
@@ -83,12 +82,9 @@ const Home = () => {
                 <div className="button-group">
                   <h5 className="text-center">Unlock AI Power - Try Now Using</h5>
                   <div className="d-flex justify-content-center gap-4">
-                    <Link 
-                      className="btn-default"
-                      href={process.env.NEXT_PUBLIC_WHATSAPP_API}
+                    <button 
                       onClick={(e) => {
                         e.preventDefault();
-                        // Show popup with bullet points
                         const popup = document.createElement('div');
                         popup.style.cssText = `
                           position: fixed;
@@ -96,18 +92,18 @@ const Home = () => {
                           left: 50%;
                           transform: translate(-50%, -50%);
                           background: white;
-                          padding: 120px;
-                          border-radius: 8px;
+                          padding: 40px;
+                          border-radius: 16px;
                           box-shadow: 0 2px 10px rgba(0,0,0,0.1);
                           z-index: 1000;
-                          font-size: 30px;
-                          font-weight: 600;
+                          font-size: 18px;
+                          font-weight: 500;
                           color: #000;
                         `;
                         popup.innerHTML = `
-                          <span >
+                          <span>
                           Redirecting you to WhatsApp...
-                          <ul>
+                          <ul style="margin-top: 20px; font-size: 16px;">
                             <li>Say something to get started</li>
                             <li>Follow the instructions received on whatsapp</li>
                           </ul>
@@ -120,16 +116,84 @@ const Home = () => {
                           window.open(process.env.NEXT_PUBLIC_WHATSAPP_API, "_blank");
                         }, 4000);
                       }}
+                      style={{
+                        backgroundColor: '#25D366',
+                        color: '#ffffff',
+                        border: 'none',
+                        padding: '12px 24px',
+                        borderRadius: '30px',
+                        fontWeight: '500',
+                        fontSize: '15px',
+                        position: 'relative',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '12px',
+                        width: '240px',
+                        textDecoration: 'none',
+                        boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
+                        transition: 'all 0.2s ease',
+                        cursor: 'pointer',
+                        justifyContent: 'center'
+                      }}
+                      onMouseOver={(e) => {
+                        e.currentTarget.style.backgroundColor = '#128C7E';
+                        e.currentTarget.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
+                      }}
+                      onMouseOut={(e) => {
+                        e.currentTarget.style.backgroundColor = '#25D366';
+                        e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.05)';
+                      }}
                     >
-                      WhatsApp
-                    </Link>
-                    <Link 
-                      className="btn-default"
-                      href={process.env.NEXT_PUBLIC_WEBSITE_URL}
-                      target="_blank"
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M20.5027 3.48784C18.2877 1.27284 15.2827 0.0428418 12.0937 0.0428418C5.4637 0.0428418 0.0927734 5.41284 0.0927734 12.0428C0.0927734 14.1428 0.6577 16.1928 1.7327 18.0128L0 24.0428L6.1637 22.3428C7.9187 23.3228 9.8837 23.8428 11.8937 23.8428H12.0937C18.7237 23.8428 24.0937 18.4728 24.0937 11.8428C24.0937 8.65284 22.7177 5.70284 20.5027 3.48784ZM12.0937 21.8428C10.2787 21.8428 8.5037 21.3428 6.9337 20.4028L6.5737 20.1928L2.8437 21.2028L3.8737 17.5628L3.6337 17.1878C2.6037 15.5678 2.0627 13.6928 2.0627 11.7928C2.0627 6.51284 6.5737 2.00284 11.8537 2.00284C14.5537 2.00284 17.0937 3.02284 19.0037 4.93284C20.9137 6.84284 21.9337 9.38284 21.9337 12.0828C22.1337 17.3628 17.6237 21.8428 12.0937 21.8428ZM17.5537 14.5628C17.2537 14.4128 15.7937 13.6928 15.5337 13.5928C15.2737 13.4928 15.0737 13.4428 14.8737 13.7428C14.6737 14.0428 14.1037 14.7128 13.9337 14.9128C13.7637 15.1128 13.5937 15.1428 13.2937 14.9928C13.0037 14.8428 12.0337 14.5128 10.8937 13.5028C10.0037 12.7128 9.3937 11.7428 9.2237 11.4428C9.0537 11.1428 9.2037 10.9828 9.3537 10.8328C9.4837 10.6928 9.6437 10.4728 9.7837 10.3028C9.9237 10.1328 9.9737 10.0128 10.0737 9.81284C10.1737 9.61284 10.1237 9.44284 10.0537 9.29284C9.9837 9.14284 9.3937 7.68284 9.1437 7.08284C8.8937 6.48284 8.6437 6.58284 8.4737 6.58284C8.3037 6.58284 8.1037 6.55284 7.9037 6.55284C7.7037 6.55284 7.3937 6.62284 7.1337 6.92284C6.8737 7.22284 6.1037 7.94284 6.1037 9.40284C6.1037 10.8628 7.1737 12.2728 7.3137 12.4728C7.4537 12.6728 9.3937 15.6728 12.3637 16.9728C13.0337 17.2728 13.5537 17.4428 13.9637 17.5728C14.6337 17.7728 15.2437 17.7428 15.7337 17.6728C16.2737 17.5928 17.4537 16.9528 17.7037 16.2528C17.9537 15.5528 17.9537 14.9528 17.8837 14.8528C17.8137 14.7528 17.6137 14.7128 17.5537 14.5628Z" fill="currentColor"/>
+                      </svg>
+                      Try with WhatsApp
+                    </button>
+                    <button 
+                      onClick={(e) => {
+                        e.preventDefault();
+                        window.open(process.env.NEXT_PUBLIC_WEBSITE_URL, "_blank");
+                      }}
+                      style={{
+                        backgroundColor: '#ffffff',
+                        color: '#3c4043',
+                        border: '1px solid #dadce0',
+                        padding: '12px 24px',
+                        borderRadius: '30px',
+                        fontWeight: '500',
+                        fontSize: '15px',
+                        position: 'relative',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '12px',
+                        width: '240px',
+                        textDecoration: 'none',
+                        boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
+                        transition: 'all 0.2s ease',
+                        cursor: 'pointer',
+                        justifyContent: 'center'
+                      }}
+                      onMouseOver={(e) => {
+                        e.currentTarget.style.backgroundColor = '#e8eaed';
+                        e.currentTarget.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
+                        e.currentTarget.style.borderColor = '#9aa0a6';
+                        e.currentTarget.style.color = '#202124';
+                      }}
+                      onMouseOut={(e) => {
+                        e.currentTarget.style.backgroundColor = '#ffffff';
+                        e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.05)';
+                        e.currentTarget.style.borderColor = '#dadce0';
+                        e.currentTarget.style.color = '#3c4043';
+                      }}
                     >
-                      AI Web App
-                    </Link>
+                      <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                        <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+                        <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+                        <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+                        <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+                      </svg>
+                      Join with Google
+                    </button>
                   </div>
                 </div>
                 <div className="inner-shape">
