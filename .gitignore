@@ -1,6 +1,17 @@
+# dependencies
 node_modules
-node_modules
+/.pnp
+.pnp.js
 
-.env
-.open-next
+# next.js
+/.next/
+/out/
 .next
+.next/
+
+# local env files
+.env
+.env*.local
+
+# Cloudflare
+.open-next/
