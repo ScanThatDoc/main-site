@@ -1,9 +1,6 @@
 import React from "react";
 import Context from "@/context/Context";
 import Head from 'next/head';
-
-import PageHead from "../Head";
-
 import HeaderTop from "@/components/Header/HeaderTop/HeaderTop";
 import Header from "@/components/Header/Header";
 import PopupMobileMenu from "@/components/Header/PopUpMobileMenu";

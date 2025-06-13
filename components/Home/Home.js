@@ -81,7 +81,17 @@ const Home = () => {
                 </p>
                 <div className="button-group">
                   <h5 className="text-center">Unlock AI Power - Try Now Using</h5>
-                  <div className="d-flex justify-content-center gap-4">
+                  <div className="d-flex flex-column flex-md-row justify-content-center gap-3 gap-md-4" style={{ 
+                    width: '100%',
+                    '@media (max-width: 767px)': {
+                      flexDirection: 'column',
+                      gap: '15px'
+                    },
+                    '@media (min-width: 768px)': {
+                      flexDirection: 'row',
+                      gap: '20px'
+                    }
+                  }}>
                     <button 
                       onClick={(e) => {
                         e.preventDefault();
@@ -133,7 +143,12 @@ const Home = () => {
                         boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
                         transition: 'all 0.2s ease',
                         cursor: 'pointer',
-                        justifyContent: 'center'
+                        justifyContent: 'center',
+                        '@media (max-width: 767px)': {
+                          width: '100%',
+                          maxWidth: '240px',
+                          margin: '0 auto'
+                        }
                       }}
                       onMouseOver={(e) => {
                         e.currentTarget.style.backgroundColor = '#128C7E';
@@ -171,7 +186,12 @@ const Home = () => {
                         boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
                         transition: 'all 0.2s ease',
                         cursor: 'pointer',
-                        justifyContent: 'center'
+                        justifyContent: 'center',
+                        '@media (max-width: 767px)': {
+                          width: '100%',
+                          maxWidth: '240px',
+                          margin: '0 auto'
+                        }
                       }}
                       onMouseOver={(e) => {
                         e.currentTarget.style.backgroundColor = '#e8eaed';
