@@ -102,7 +102,7 @@ const TabStyleOne = () => {
                                       }, 4000);
                                     }}
                                   >
-                                    Sign Up Now
+                                    Try Now
                                     <i className="fa-sharp fa-solid fa-arrow-right ps-2"></i>
                                   </Link>
                                 </div> :
