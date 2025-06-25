@@ -247,8 +247,32 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="aman"></div>
-            <div className="col-lg-11 col-xl-11 justify-content-center ">
+            <div className="rainbow-service-area rainbow-section-gap">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-12">
+                    <div
+                      className="section-title text-center pb--60"
+                      data-sal="slide-up"
+                      data-sal-duration="700"
+                      data-sal-delay="100"
+                    >
+                      <h4 className="subtitle">
+                        <span className="theme-gradient">
+                          RapidScan AI unlocks the potential of OCR
+                        </span>
+                      </h4>
+                      <h2 className="title mb--0">
+                        Effortless <TextAnimation data={["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"]} className="d-block d-md-inline"/>
+                        <span className="d-block">processing just as you want.</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <TabStyleOne />
+              </div>
+            </div>
+            <div className="col-lg-11 col-xl-11 justify-content-center mt-4">
               <div className="slider-frame">
                 <Image
                   className={isAnimated ? 'flip-animation' : ''}
@@ -278,32 +302,6 @@ const Home = () => {
             height={1004}
             alt="Bg Shape"
           />
-        </div>
-      </div>
-
-      <div className="rainbow-service-area rainbow-section-gap">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="section-title text-center pb--60"
-                data-sal="slide-up"
-                data-sal-duration="700"
-                data-sal-delay="100"
-              >
-                <h4 className="subtitle">
-                  <span className="theme-gradient">
-                    RapidScan AI unlocks the potential of OCR
-                  </span>
-                </h4>
-                <h2 className="title mb--0">
-                  Effortless <TextAnimation data={["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"]} className="d-block d-md-inline"/>
-                  <span className="d-block">processing just as you want.</span>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <TabStyleOne />
         </div>
       </div>
 
