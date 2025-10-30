@@ -1,4 +1,11 @@
 {
+  "logo": {
+    "text": "RapidScan.AI"
+  },
+  "buttons": {
+    "joinWithGoogle": "Join with Google",
+    "tryWithWhatsApp": "Try with WhatsApp Now"
+  },
   "navDashboardItem": [
     {
       "link": "/profile-details",

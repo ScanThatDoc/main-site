@@ -8,24 +8,28 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import Footer from "@/components/Footers/Footer";
 import Copyright from "@/components/Footers/Copyright";
 import Head from 'next/head';
+import termsData from "../../data/terms-policy.json";
 
 const TermsPolicyPage = () => {
+  const { meta, breadcrumb } = termsData;
+  const baseImageUrl = "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image";
+  
   return (
     <>
       <Head>
-        <title>Terms of Service - RapidScan AI Document Scanning</title>
-        <meta name="description" content="Review RapidScan AI's terms of service to understand our document scanning service agreements, user responsibilities, and usage policies." />
-        <meta name="keywords" content="RapidScan AI terms of service, usage policy, service agreement, document scanning terms, user guidelines, legal terms" />
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
+        <meta name="keywords" content={meta.keywords} />
         
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Terms of Service - RapidScan AI Document Scanning" />
-        <meta property="og:description" content="Review RapidScan AI's terms of service and usage policies" />
-        <meta property="og:image" content="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/logo-dark.png" />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:image" content={`${baseImageUrl}/logo-dark.png`} />
         
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="RapidScan AI Terms of Service" />
-        <meta name="twitter:description" content="Review RapidScan AI's terms of service and usage policies" />
-        <meta name="twitter:image" content="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/logo-dark.png" />
+        <meta name="twitter:title" content={meta.title} />
+        <meta name="twitter:description" content={meta.description} />
+        <meta name="twitter:image" content={`${baseImageUrl}/logo-dark.png`} />
       </Head>
 
       <main className="page-wrapper rbt-dashboard-page">
@@ -39,8 +43,8 @@ const TermsPolicyPage = () => {
             />
             <PopupMobileMenu />
             <Breadcrumb
-              title="Terms and Policy"
-              text="Terms and Policy"
+              title={breadcrumb.title}
+              text={breadcrumb.text}
             />
 
             <TermsPolicy />

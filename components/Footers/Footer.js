@@ -27,7 +27,7 @@ const Footer = () => {
                         alt="Logo"
                       />
                       <span className="fs-1 ms-2 fw-semibold " style={{ fontFamily: "'Poppins', sans-serif"  , color: '#805af5'}}>
-                        RapidScan.AI
+                        {FooterData.logo.text}
                       </span>
                     </div>
                   ) : (
@@ -40,12 +40,12 @@ const Footer = () => {
                         alt="ChatBot Logo"
                       />
                       <span className="fs-1 ms-2 fw-semibold" style={{ fontFamily: "'Poppins', sans-serif" }}>
-                        RapidScan.AI
+                        {FooterData.logo.text}
                       </span>
                     </div>
                   )}
                   <p className="b1 desc-text">
-                  🚀 Transform Your Document Workflow with AI Automation{" "}
+                  {FooterData.description}{" "}
                   </p>
                   {/* <h6 className="subtitle">Join a Newsletter</h6>
                   <form className="newsletter-form" action="#">

@@ -1,0 +1,97 @@
+{
+  "lastUpdated": "28 Feb 2025",
+  "introduction": [
+    "At RapidScan.AI, we prioritize the privacy and security of our users.",
+    "This Privacy Policy outlines how we collect, store, use, and protect your personal and invoice-related data when you access our services.",
+    "By using RapidScan.AI, you consent to the collection and processing of your data in accordance with this policy.",
+    "If you do not agree with any part of this Privacy Policy, please discontinue using our services immediately."
+  ],
+  "sections": [
+    {
+      "title": "Information We Collect",
+      "content": [
+        "When you use RapidScan.AI, we collect certain information to provide and improve our services. This includes personal details such as your name, email address, and login credentials, which are required to create and manage your account. Additionally, we collect invoice-related data when you upload documents through our platform. These files may contain invoice numbers, vendor details, transaction amounts, and other financial data, which are processed using OCR and AI technologies to extract relevant information.",
+        "We also collect automated data such as your IP address, device type, browser details, and usage patterns to improve user experience and optimize system performance. This data helps us analyze traffic, detect fraudulent activities, and enhance security measures."
+      ]
+    },
+    {
+      "title": "How We Use Your Information",
+      "content": [
+        "The information we collect is used for multiple purposes, all aimed at improving our services and providing you with a seamless experience. Your personal details are used to create and manage user accounts, while invoice data is processed to extract relevant details for easy access within the RapidScan.AI portal. We also use collected data to enhance our AI-powered OCR technology, ensuring accurate document scanning and improved automation.",
+        "Additionally, we may use your contact information to send service-related updates, important notifications, and customer support responses. If you opt in, we may send you promotional materials, newsletters, or feature updates. However, you can manage your communication preferences at any time by adjusting your account settings or contacting our support team."
+      ]
+    },
+    {
+      "title": "Data Storage & Security",
+      "content": [
+        "We take data security seriously and implement industry-standard measures to protect your information from unauthorized access, loss, or misuse. All user data, including invoice-related details, is stored securely using encrypted databases and access control mechanisms. We use firewalls, secure authentication protocols, and regular security audits to ensure that your information remains protected.",
+        "Although we take strong precautions, no system can be completely immune to cyber threats. Users are encouraged to keep their login credentials confidential and report any suspicious activity immediately. RapidScan.AI is not responsible for security breaches resulting from user negligence or weak password management."
+      ]
+    },
+    {
+      "title": "Sharing & Disclosure of Information",
+      "content": [
+        "RapidScan.AI does not sell, trade, or rent your personal data to third parties. Your information is used strictly for providing and enhancing our services. However, we may share certain data with trusted third-party service providers, such as cloud storage providers or payment processors, who help us operate our platform. These third parties are obligated to maintain the confidentiality and security of your data.",
+        "In some cases, we may disclose user information if required by law enforcement agencies, regulatory bodies, or legal proceedings. This includes cases where we must comply with legal obligations, prevent fraudulent activities, or protect the rights and safety of RapidScan.AI and its users."
+      ]
+    },
+    {
+      "title": "Data Retention & Deletion",
+      "content": [
+        "We retain your information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy. Invoice data and personal details remain stored within the RapidScan.AI portal for user accessibility and service continuity. If you wish to delete your account, you may request a complete data deletion through your account settings or by contacting our support team.",
+        "Once an account is deleted, all associated personal data, uploaded invoices, and extracted information will be permanently erased from our systems. However, some anonymized data may be retained for analytical or compliance purposes, as required by applicable laws."
+      ]
+    },
+    {
+      "title": "Cookies & Tracking Technologies",
+      "content": [
+        "RapidScan.AI uses cookies and similar tracking technologies to enhance user experience and improve platform functionality. Cookies help us remember user preferences, optimize page loading speeds, and analyze website traffic. By using our website, you consent to our use of cookies.",
+        "Users can manage or disable cookies through their browser settings, but doing so may affect certain functionalities of our platform. For more details on how we use cookies, refer to our Cookie Policy."
+      ]
+    },
+    {
+      "title": "Third-Party Links & External Services",
+      "content": [
+        "RapidScan.AI may contain links to external websites, third-party tools, or integrated services that operate independently from our platform. While we strive to partner with trusted service providers, we do not control or take responsibility for their privacy policies or security practices. Users should review the privacy policies of any external services they interact with through our platform."
+      ]
+    },
+    {
+      "title": "User Rights & Control Over Data",
+      "content": [
+        "We believe in user transparency and control over personal data. As a RapidScan.AI user, you have the right to:",
+        {
+          "type": "list",
+          "items": [
+            "Access and review the personal data stored in your account.",
+            "Request corrections or updates to inaccurate information.",
+            "Opt-out of marketing communications at any time.",
+            "Request deletion of your account and associated data."
+          ]
+        },
+        "To exercise any of these rights, users can contact our support team, and we will process requests in compliance with applicable data protection laws."
+      ]
+    },
+    {
+      "title": "Changes to This Privacy Policy",
+      "content": [
+        "RapidScan.AI reserves the right to modify or update this Privacy Policy at any time to reflect changes in our services, regulatory requirements, or security standards. Users will be notified of significant updates through email notifications or platform announcements. We encourage users to review this policy periodically to stay informed about how their data is handled. Continued use of our services after updates implies acceptance of the revised policy."
+      ]
+    },
+    {
+      "title": "Acknowledgment",
+      "content": [
+        "By using RapidScan.AI, you acknowledge that you have read, understood, and agreed to the terms of this Privacy Policy. We remain committed to ensuring your privacy, security, and data protection while providing a seamless document-processing experience."
+      ]
+    }
+  ],
+  "meta": {
+    "title": "Privacy Policy - RapidScan AI Document Scanning",
+    "description": "Read RapidScan AI's privacy policy to understand how we protect your data and maintain security while providing advanced document scanning services.",
+    "keywords": "RapidScan AI privacy policy, data protection, document security, privacy terms, data handling, security measures"
+  },
+  "breadcrumb": {
+    "title": "Privacy Policy",
+    "text": "Privacy Policy"
+  }
+}
+

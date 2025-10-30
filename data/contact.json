@@ -1,0 +1,31 @@
+{
+  "contact": {
+    "title": "Let's Connect",
+    "address": {
+      "title": "Location",
+      "icon": "fa-sharp fa-regular fa-location-dot",
+      "address": [
+        "9028 Telford Drive",
+        "Fishers,",
+        "IN 46037 US"
+      ]
+    },
+    "email": {
+      "title": "Our Email Address",
+      "icon": "fa-sharp fa-regular fa-envelope",
+      "email": "bot@rapidscan.ai",
+      "subject": "RapidScan.AI - Support Request",
+      "body": "Specify your query or issue here."
+    }
+  },
+  "meta": {
+    "title": "Contact RapidScan AI - Get in Touch With Our Team",
+    "description": "Have questions about RapidScan AI? Contact our team for support, demos, or partnership inquiries. We're here to help you with all your document scanning needs.",
+    "keywords": "contact RapidScan AI, support, customer service, document scanning help, AI consultation, business inquiries"
+  },
+  "breadcrumb": {
+    "title": "Get Started with an Enquiry",
+    "text": "Contact Us"
+  }
+}
+

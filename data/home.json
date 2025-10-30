@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "headline": {
+      "part1": "Transform Your",
+      "part2Animation": {
+        "desktop": ["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"],
+        "mobile": ["Invoices", "POs", "Receipts", "Quotations"]
+      },
+      "part3": "Workflow with AI Automation"
+    },
+    "description": {
+      "line1": "Say Goodbye to Manual Entry",
+      "line2": "Let AI Process Your Documents Instantly"
+    },
+    "cta": {
+      "prompt": "Unlock AI Power - Try Now Using",
+      "buttons": {
+        "whatsapp": {
+          "text": "Try with WhatsApp",
+          "color": "#25D366",
+          "hoverColor": "#128C7E"
+        },
+        "google": {
+          "text": "Join with Google",
+          "color": "#ffffff",
+          "borderColor": "#dadce0"
+        }
+      },
+      "popup": {
+        "message": "Redirecting you to WhatsApp...",
+        "instructions": [
+          "Say something to get started",
+          "Follow the instructions received on whatsapp"
+        ]
+      }
+    }
+  },
+  "ocrSection": {
+    "subtitle": "RapidScan AI unlocks the potential of OCR",
+    "title": {
+      "part1": "Effortless",
+      "animation": ["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"],
+      "part2": "processing just as you want."
+    }
+  },
+  "assistingSection": {
+    "subtitle": "Assisting Orginizations",
+    "title": {
+      "part1": "Simplifies handling",
+      "animation": ["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"],
+      "part2": "and boost efficiency for your business"
+    }
+  },
+  "collaborationSection": {
+    "subtitle": "Connect with the Applications You Already Use",
+    "title": "AI-Powered Document Processing for Effortless Reconciliation",
+    "marqueeItems": [
+      "/images/marquee/amazon.png",
+      "/images/marquee/discord.png",
+      "/images/marquee/gdocs.png",
+      "/images/marquee/gmail.png",
+      "/images/marquee/gsheets.png",
+      "/images/marquee/linkedin.png",
+      "/images/marquee/meta.png",
+      "/images/marquee/outlook.png",
+      "/images/marquee/slack.png",
+      "/images/marquee/twitter.png",
+      "/images/marquee/youtube.png"
+    ]
+  },
+  "pricingSection": {
+    "subtitle": "Pricing",
+    "title": "Pricing plans for everyone"
+  },
+  "testimonialSection": {
+    "subtitle": "Assisting individuals",
+    "title": "The opinions of the community"
+  },
+  "images": {
+    "dashboardLight": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/home-lite-dashboard.png",
+    "dashboardDark": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/home-dark-dashboard.png",
+    "bgShapeFour": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/bg-shape-four.png",
+    "bgShapeFive": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/bg-shape-five.png",
+    "splitBgShape": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/split-bg-shape.png"
+  }
+}
+

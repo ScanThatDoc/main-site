@@ -3,10 +3,11 @@ import Link from "next/link";
 import ContactForm from "./ContactForm";
 import CtaTwo from "@/components/CallToActions/Cta-Two";
 import { useAppContext } from "@/context/Context";
+import contactData from "../../data/contact.json";
 
 const Contact = () => {
-
   const { isLightTheme } = useAppContext();
+  const { contact } = contactData;
   
   return (
     <>
@@ -16,7 +17,7 @@ const Contact = () => {
             <div className="row mt--40 row--15">
               <div className="col-lg-8">
                 <div className="contact-details-box">
-                  <h3 className="title">Let's Connect</h3>
+                  <h3 className="title">{contact.title}</h3>
 
                   <div className="profile-details-tab">
                     <div className="tab-content">
@@ -33,25 +34,29 @@ const Contact = () => {
               <div className="col-lg-4 mt_md--30 mt_sm--30">
                 <div className="rainbow-address">
                   <div className="icon">
-                    <i className="fa-sharp fa-regular fa-location-dot"></i>
+                    <i className={contact.address.icon}></i>
                   </div>
                   <div className="inner">
-                    <h4 className="title">Location</h4>
+                    <h4 className="title">{contact.address.title}</h4>
                     <p className="b2">
-                    9028 Telford Drive
-                    Fishers,<br/> IN 46037 US
+                      {contact.address.address.map((line, index) => (
+                        <React.Fragment key={index}>
+                          {line}
+                          {index < contact.address.address.length - 1 && <br />}
+                        </React.Fragment>
+                      ))}
                     </p>
                   </div>
                 </div>
                 <div className="rainbow-address">
                   <div className="icon">
-                    <i className="fa-sharp fa-regular fa-envelope"></i>
+                    <i className={contact.email.icon}></i>
                   </div>
                   <div className="inner">
-                    <h4 className="title">Our Email Address</h4>
+                    <h4 className="title">{contact.email.title}</h4>
                     <p className="b2">
-                      <Link href="mailto:bot@rapidscan.ai?subject=RapidScan.AI%20-%20Support%20Request&body=Specify%20your%20query%20or%20issue%20here.">
-                        bot@rapidscan.ai
+                      <Link href={`mailto:${contact.email.email}?subject=${encodeURIComponent(contact.email.subject)}&body=${encodeURIComponent(contact.email.body)}`}>
+                        {contact.email.email}
                       </Link>
                     </p>
                   </div>

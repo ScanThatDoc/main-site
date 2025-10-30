@@ -5,6 +5,8 @@ import { useAppContext } from "@/context/Context";
 import logoLight from "../../public/images/logo/logo-1.png";
 import logoDark from "../../public/images/logo/logo-2.png";
 import Nav from "./Nav";
+import headerData from "../../data/header.json";
+import homeData from "../../data/home.json";
 
 const PopupMobileMenu = () => {
   const { activeMobileMenu, setActiveMobileMenu, isLightTheme } =
@@ -40,7 +42,7 @@ const PopupMobileMenu = () => {
                   alt="Corporate Logo"
                 />
                 <span className="fs-1 ms-2 fw-semibold" style={{ fontFamily: "'Poppins', sans-serif" }}>
-                  RapidScan.AI
+                  {headerData.logo.text}
                 </span>
               </Link>
             </div>
@@ -93,10 +95,9 @@ const PopupMobileMenu = () => {
                       `;
                 popup.innerHTML = `
                         <span >
-                        Redirecting you to WhatsApp...
+                        ${homeData.hero.cta.popup.message}
                         <ul>
-                          <li>Say something to get started</li>
-                          <li>Follow the instructions received on whatsapp</li>
+                          ${homeData.hero.cta.popup.instructions.map(instruction => `<li>${instruction}</li>`).join('')}
                         </ul>
                         </span>
                       `;
@@ -109,7 +110,7 @@ const PopupMobileMenu = () => {
                 }, 4000);
               }}
             >
-              Try with WhatsApp Now
+              {headerData.buttons.tryWithWhatsApp}
             </Link>
           </div>
         </div>

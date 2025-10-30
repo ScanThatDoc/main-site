@@ -1,0 +1,32 @@
+{
+  "cta": {
+    "subtitle": "Get Started with RapidScan.AI",
+    "title": {
+      "part1": "Experience",
+      "animation": ["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"],
+      "part2": "Automation with AI"
+    },
+    "description": [
+      "Automates document processing by fetching files from WhatsApp, Gmail or any other source",
+      "using OCR technology to extract data dynamically.",
+      "Then stores and displays the structured data in the Dashboard,",
+      "eliminating manual effort and streamlining workflows."
+    ],
+    "button": {
+      "text": "Try with WhatsApp Now",
+      "popup": {
+        "message": "Redirecting you to WhatsApp...",
+        "instructions": [
+          "Say something to get started",
+          "Follow the instructions received on whatsapp"
+        ]
+      }
+    },
+    "images": {
+      "light": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/CTAlight.jpeg",
+      "dark": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/CTA.jpeg",
+      "bgShape": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/bg-shape-tree.png"
+    }
+  }
+}
+

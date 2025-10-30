@@ -1,4 +1,12 @@
 {
+  "logo": {
+    "text": "RapidScan.AI"
+  },
+  "description": "🚀 Transform Your Document Workflow with AI Automation",
+  "copyright": {
+    "year": "2025",
+    "companyName": "RapidScan.AI"
+  },
   "footer": [
     {
       "links": [
