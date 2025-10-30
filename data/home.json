@@ -9,11 +9,14 @@
       "part3": "Workflow with AI Automation"
     },
     "description": {
-      "line1": "Say Goodbye to Manual Entry",
-      "line2": "Let AI Process Your Documents Instantly"
+      "line1": "Just upload or forward your documents — RapidScan handles the rest.",
+      "line2": "It reads, validates, and records every detail automatically."
     },
     "cta": {
-      "prompt": "Unlock AI Power - Try Now Using",
+      "bookDemo": {
+        "text": "Book a Demo",
+        "style": "primary"
+      },
       "buttons": {
         "whatsapp": {
           "text": "Try with WhatsApp",
@@ -52,20 +55,33 @@
     }
   },
   "collaborationSection": {
-    "subtitle": "Connect with the Applications You Already Use",
-    "title": "AI-Powered Document Processing for Effortless Reconciliation",
-    "marqueeItems": [
-      "/images/marquee/amazon.png",
-      "/images/marquee/discord.png",
-      "/images/marquee/gdocs.png",
-      "/images/marquee/gmail.png",
-      "/images/marquee/gsheets.png",
-      "/images/marquee/linkedin.png",
-      "/images/marquee/meta.png",
-      "/images/marquee/outlook.png",
-      "/images/marquee/slack.png",
-      "/images/marquee/twitter.png",
-      "/images/marquee/youtube.png"
+    "subtitle": "Streamlining document workflows across ERP ecosystems",
+    "title": "Powering seamless document automation for multi-ERP businesses",
+    "erpLogos": [
+      { "name": "SAP", "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" },
+      { "name": "Oracle", "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" },
+      { "name": "Microsoft Dynamics", "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" },
+      { "name": "SYSPRO", "url": "https://logo.clearbit.com/syspro.com" },
+      { "name": "Acumatica", "url": "https://logo.clearbit.com/acumatica.com" },
+      { "name": "Odoo", "url": "https://cdn.simpleicons.org/odoo/714B67" },
+      { "name": "QAD", "url": "https://logo.clearbit.com/qad.com" },
+      { "name": "Sage", "url": "https://logo.clearbit.com/sage.com" },
+      { "name": "Abas", "url": "https://logo.clearbit.com/abas-software.com" },
+      { "name": "Plex", "url": "https://logo.clearbit.com/plex.com" },
+      { "name": "Rootstock", "url": "https://logo.clearbit.com/rootstock.com" },
+      { "name": "IFS", "url": "https://logo.clearbit.com/ifs.com" },
+      { "name": "Priority", "url": "https://logo.clearbit.com/prioritysoftware.com" },
+      { "name": "HashMicro", "url": "https://logo.clearbit.com/hashmicro.com" },
+      { "name": "Deltek", "url": "https://logo.clearbit.com/deltek.com" },
+      { "name": "BatchMaster", "url": "https://logo.clearbit.com/batchmaster.com" },
+      { "name": "ERPNext", "url": "https://logo.clearbit.com/erpnext.com" },
+      { "name": "Kenandy", "url": "https://logo.clearbit.com/kenandy.com" },
+      { "name": "Visibility", "url": "https://logo.clearbit.com/visibility.com" },
+      { "name": "Zoho", "url": "https://cdn.simpleicons.org/zoho/FF0000" },
+      { "name": "QuickBooks", "url": "https://cdn.simpleicons.org/quickbooks/2CA01C" },
+      { "name": "Xero", "url": "https://cdn.simpleicons.org/xero/13B5EA" },
+      { "name": "FreshBooks", "url": "https://logo.clearbit.com/freshbooks.com" },
+      { "name": "Salesforce", "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg" }
     ]
   },
   "pricingSection": {

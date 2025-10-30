@@ -4,7 +4,8 @@
   },
   "buttons": {
     "joinWithGoogle": "Join with Google",
-    "tryWithWhatsApp": "Try with WhatsApp Now"
+    "tryWithWhatsApp": "Try with WhatsApp Now",
+    "bookDemo": "Book a Demo"
   },
   "navDashboardItem": [
     {

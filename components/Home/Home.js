@@ -41,7 +41,6 @@ const Home = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [isAnimated]);
 
-  const marqueeItems = homeData.collaborationSection.marqueeItems;
 
   return (
     <>
@@ -63,23 +62,55 @@ const Home = () => {
                 </span>
                 <span className="d-block">{homeData.hero.headline.part3} </span>
                 </h1>
-                <p className="description text-center"> 
+                <p className="description text-center mb-6"> 
                 {homeData.hero.description.line1} <br />{" "}
                 {homeData.hero.description.line2}
                 </p>
-                <div className="button-group">
-                  <h5 className="text-center">{homeData.hero.cta.prompt}</h5>
-                  <div className="d-flex flex-column flex-md-row justify-content-center gap-3 gap-md-4" style={{ 
-                    width: '100%',
-                    '@media (max-width: 767px)': {
-                      flexDirection: 'column',
-                      gap: '15px'
-                    },
-                    '@media (min-width: 768px)': {
-                      flexDirection: 'row',
-                      gap: '20px'
-                    }
-                  }}>
+                <div className="button-group mb-2">
+                  <div className="d-flex flex-column flex-md-row justify-content-center gap-3 gap-md-4 mb-2">
+                    <button 
+                      onClick={(e) => {
+                        e.preventDefault();
+                        window.open(process.env.NEXT_PUBLIC_CALENDLY_URL || 'https://calendly.com', "_blank");
+                      }}
+                      style={{
+                        background: 'linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%)',
+                        color: '#ffffff',
+                        border: 'none',
+                        padding: '12px 24px',
+                        borderRadius: '12px',
+                        fontWeight: '600',
+                        fontSize: '15px',
+                        position: 'relative',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '8px',
+                        textDecoration: 'none',
+                        boxShadow: '0 4px 12px rgba(139, 92, 246, 0.4), 0 2px 6px rgba(139, 92, 246, 0.3)',
+                        transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                        cursor: 'pointer',
+                        justifyContent: 'center',
+                        whiteSpace: 'nowrap',
+                        overflow: 'hidden',
+                        letterSpacing: '0.3px',
+                        width: 'auto'
+                      }}
+                      onMouseOver={(e) => {
+                        e.currentTarget.style.background = 'linear-gradient(135deg, #9D6DF9 0%, #8C4DF0 100%)';
+                        e.currentTarget.style.transform = 'translateY(-2px)';
+                        e.currentTarget.style.boxShadow = '0 6px 20px rgba(139, 92, 246, 0.5), 0 4px 10px rgba(139, 92, 246, 0.4)';
+                      }}
+                      onMouseOut={(e) => {
+                        e.currentTarget.style.background = 'linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%)';
+                        e.currentTarget.style.transform = 'translateY(0)';
+                        e.currentTarget.style.boxShadow = '0 4px 12px rgba(139, 92, 246, 0.4), 0 2px 6px rgba(139, 92, 246, 0.3)';
+                      }}
+                    >
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ transition: 'transform 0.3s ease' }}>
+                        <path d="M8 7V3M16 7V3M7 11H17M5 21H19C20.1 21 21 20.1 21 19V7C21 5.9 20.1 5 19 5H5C3.9 5 3 5.9 3 7V19C3 20.1 3.9 21 5 21Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      {homeData.hero.cta.bookDemo.text}
+                    </button>
                     <button 
                       onClick={(e) => {
                         e.preventDefault();
@@ -118,24 +149,20 @@ const Home = () => {
                         color: '#ffffff',
                         border: 'none',
                         padding: '12px 24px',
-                        borderRadius: '30px',
-                        fontWeight: '500',
+                        borderRadius: '12px',
+                        fontWeight: '600',
                         fontSize: '15px',
                         position: 'relative',
                         display: 'flex',
                         alignItems: 'center',
-                        gap: '12px',
-                        width: '240px',
+                        gap: '8px',
                         textDecoration: 'none',
                         boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
                         transition: 'all 0.2s ease',
                         cursor: 'pointer',
                         justifyContent: 'center',
-                        '@media (max-width: 767px)': {
-                          width: '100%',
-                          maxWidth: '240px',
-                          margin: '0 auto'
-                        }
+                        whiteSpace: 'nowrap',
+                        width: 'auto'
                       }}
                       onMouseOver={(e) => {
                         e.currentTarget.style.backgroundColor = homeData.hero.cta.buttons.whatsapp.hoverColor;
@@ -161,24 +188,20 @@ const Home = () => {
                         color: '#3c4043',
                         border: `1px solid ${homeData.hero.cta.buttons.google.borderColor}`,
                         padding: '12px 24px',
-                        borderRadius: '30px',
-                        fontWeight: '500',
+                        borderRadius: '12px',
+                        fontWeight: '600',
                         fontSize: '15px',
                         position: 'relative',
                         display: 'flex',
                         alignItems: 'center',
-                        gap: '12px',
-                        width: '240px',
+                        gap: '8px',
                         textDecoration: 'none',
                         boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
                         transition: 'all 0.2s ease',
                         cursor: 'pointer',
                         justifyContent: 'center',
-                        '@media (max-width: 767px)': {
-                          width: '100%',
-                          maxWidth: '240px',
-                          margin: '0 auto'
-                        }
+                        whiteSpace: 'nowrap',
+                        width: 'auto'
                       }}
                       onMouseOver={(e) => {
                         e.currentTarget.style.backgroundColor = '#e8eaed';
@@ -202,6 +225,83 @@ const Home = () => {
                       {homeData.hero.cta.buttons.google.text}
                     </button>
                   </div>
+
+                  <div className="rainbow-collobration-area rainbow-section-gap-big">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-lg-12">
+                          <div
+                            className="section-title text-center"
+                          >
+                            <h4 className="subtitle collabration-title-small">
+                              <span className="theme-gradient">{homeData.collaborationSection.subtitle}</span>
+                            </h4>
+                            <h2 className="title mb--10 collabration-title-large">
+                              {homeData.collaborationSection.title}
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-lg-12 mt--60" style={{
+                          overflowX: 'hidden',
+                          maxWidth: '100vw'
+                        }}>
+                          <div className="marquee-content-left mb--20">
+                            {[...Array(3)].map((_, i) => (
+                              homeData.collaborationSection.erpLogos.map((logo, index) => (
+                                <img
+                                  key={`left-${i}-${index}`}
+                                  src={logo.url}
+                                  alt={logo.name}
+                                  title={logo.name}
+                                  className="p-3"
+                                  style={{
+                                    height: '60px',
+                                    width: 'auto',
+                                    maxWidth: '120px',
+                                    objectFit: 'contain',
+                                    opacity: 0.7,
+                                    filter: 'none',
+                                    transition: 'all 0.3s ease'
+                                  }}
+                                  onError={(e) => {
+                                    e.target.style.display = 'none';
+                                  }}
+                                />
+                              ))
+                            ))}
+                          </div>
+                          <div className="marquee-content-right">
+                            {[...Array(3)].map((_, i) => (
+                              homeData.collaborationSection.erpLogos.map((logo, index) => (
+                                <img
+                                  key={`right-${i}-${index}`}
+                                  src={logo.url}
+                                  alt={logo.name}
+                                  title={logo.name}
+                                  className="p-3"
+                                  style={{
+                                    height: '60px',
+                                    width: 'auto',
+                                    maxWidth: '120px',
+                                    objectFit: 'contain',
+                                    opacity: 0.7,
+                                    filter: 'none',
+                                    transition: 'all 0.3s ease'
+                                  }}
+                                  onError={(e) => {
+                                    e.target.style.display = 'none';
+                                  }}
+                                />
+                              ))
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
                 <div className="inner-shape">
                   <Image
@@ -325,63 +425,6 @@ const Home = () => {
         </div>
         <div className="bg-shape">
           <Image src={homeData.images.splitBgShape} width={630} height={879} alt="Bg Shape" />
-        </div>
-      </div>
-
-      <div className="rainbow-collobration-area rainbow-section-gap-big">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="section-title text-center"
-                data-sal="slide-up"
-                data-sal-duration="700"
-                data-sal-delay="100"
-              >
-                <h4 className="subtitle ">
-                  <span className="theme-gradient">{homeData.collaborationSection.subtitle}</span>
-                </h4>
-                <h2 className="title mb--20">
-                  {homeData.collaborationSection.title}
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12 mt--60" style={{
-              overflowX: 'hidden',
-              maxWidth: '100vw'
-            }}>
-              <div className="marquee-content-left mb--20">
-                {[...Array(4)].map((_, i) => (
-                  marqueeItems.map((item, index) => (
-                    <Image
-                      key={`left-${i}-${index}`}
-                      src={item}
-                      width={80}
-                      height={80}
-                      className="p-4"
-                      alt="Marquee Item"
-                    />
-                  ))
-                ))}
-              </div>
-              <div className="marquee-content-right">
-                {[...Array(4)].map((_, i) => (
-                  marqueeItems.map((item, index) => (
-                    <Image
-                      key={`left-${i}-${index}`}
-                      src={item}
-                      width={80}
-                      height={80}
-                      className="p-4"
-                      alt="Marquee Item"
-                    />
-                  ))
-                ))}
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 

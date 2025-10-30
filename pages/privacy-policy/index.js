@@ -57,4 +57,4 @@ const PrivacyPolicyPage = () => {
   );
 };
 
-export default TermsPolicyPage;
+export default PrivacyPolicyPage;

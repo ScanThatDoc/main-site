@@ -1,5 +1,5 @@
 import React from "react";
-import privacyData from "../../data/privacy-policy.json";
+import privacyData from "@/data/privacy-policy.json";
 
 const PrivacyPolicy = () => {
   return (
