@@ -1,18 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import ContactForm from "./ContactForm";
-import CtaTwo from "@/components/CallToActions/Cta-Two";
-import { useAppContext } from "@/context/Context";
 import contactData from "../../data/contact.json";
 
 const Contact = () => {
-  const { isLightTheme } = useAppContext();
   const { contact } = contactData;
   
   return (
     <>
       <div className="main-content">
-        <div className="rainbow-contact-area rainbow-section-gapTop-big">
+        <div className="rainbow-contact-area rainbow-section-gapTop-big rainbow-section-gapBottom-big">
           <div className="container">
             <div className="row mt--40 row--15">
               <div className="col-lg-8">
@@ -67,11 +64,6 @@ const Contact = () => {
         </div>
       </div>
       
-      <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big">
-        <div className="container">
-          <CtaTwo isLightTheme={isLightTheme}/>
-        </div>
-      </div>
     </>
   );
 };

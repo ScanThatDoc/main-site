@@ -35,16 +35,34 @@
   ],
   "nav": [
     {
-      "link": "/",
+      "link": "/#why-it-matters",
       "isIcon": false,
       "isMenu": false,
-      "text": "Home"
+      "text": "Why it matters"
     },
     {
-      "link": "/utilize",
+      "link": "/#how-it-works",
       "isIcon": false,
       "isMenu": false,
-      "text": "How to use"
+      "text": "How It Works"
+    },
+    {
+      "link": "/#benefits",
+      "isIcon": false,
+      "isMenu": false,
+      "text": "Benefits"
+    },
+    {
+      "link": "/#pricing",
+      "isIcon": false,
+      "isMenu": false,
+      "text": "Pricing"
+    },
+    {
+      "link": "/#case-studies",
+      "isIcon": false,
+      "isMenu": false,
+      "text": "Case Studies"
     }
   ],
   "smallNavItem": [

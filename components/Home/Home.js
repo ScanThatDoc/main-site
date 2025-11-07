@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import shapeOne from "../../public/images/bg/icon-shape/icon-shape-one.png";
 import shapeTwo from "../../public/images/bg/icon-shape/icon-shape-two.png";
@@ -9,9 +8,7 @@ import TabStyleOne from "../TabStyles/TabStyle-One";
 import ServiceStyleOne from "../Services/ServiceStyle-One";
 import AdvanceTab from "../TabStyles/AdvanceTab";
 import Pricing from "../Pricing/Pricing";
-import ServiceTwo from "../Services/Service-Two";
 import Testimonial from "../Testimonials/Testimonial";
-import CtaTwo from "../CallToActions/Cta-Two";
 import { useAppContext } from "@/context/Context";
 import TextAnimation from "../Common/text-animation";
 import homeData from "../../data/home.json";
@@ -335,7 +332,32 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="rainbow-service-area rainbow-section-gap">
+
+            <div id="why-it-matters" className="rainbow-service-area rainbow-section-gap rainbow-section-gapBottom-big" style={{ scrollMarginTop: '120px' }}>
+              <div className="container">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div
+                    className="section-title text-left"
+                    data-sal="slide-up"
+                    data-sal-duration="400"
+                    data-sal-delay="150"
+                  >
+                    <h3 className="title text-center">
+                      <span className="theme-gradient">{homeData.assistingSection.subtitle}</span>
+                    </h3>
+                    <h2 className="title mb--60">
+                      {homeData.assistingSection.title.part1} <TextAnimation data={homeData.assistingSection.title.animation} className="d-block d-md-inline"/> 
+                      <span className="d-block">{homeData.assistingSection.title.part2} </span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <ServiceStyleOne />
+            </div>
+
+            <div id="how-it-works" className="rainbow-service-area rainbow-section-gap">
               <div className="container">
                 <div className="row">
                   <div className="col-lg-12">
@@ -345,11 +367,11 @@ const Home = () => {
                       data-sal-duration="700"
                       data-sal-delay="100"
                     >
-                      <h4 className="subtitle">
+                      <h3 className="title">
                         <span className="theme-gradient">
                           {homeData.ocrSection.subtitle}
                         </span>
-                      </h4>
+                      </h3>
                       <h2 className="title mb--0">
                         {homeData.ocrSection.title.part1} <TextAnimation data={homeData.ocrSection.title.animation} className="d-block d-md-inline"/>
                         <span className="d-block">{homeData.ocrSection.title.part2}</span>
@@ -360,65 +382,16 @@ const Home = () => {
                 <TabStyleOne />
               </div>
             </div>
-            <div className="col-lg-11 col-xl-11 justify-content-center mt-4">
-              <div className="slider-frame">
-                <Image
-                  className={isAnimated ? 'flip-animation' : ''}
-                  src={isLightTheme ? homeData.images.dashboardLight : homeData.images.dashboardDark}
-                  width={1055}
-                  height={898}
-                  alt="Banner Images"
-                  priority={true}
-                />
-              </div>
-            </div>
           </div>
-        </div>
-
-        <div className="bg-shape">
-          <Image
-            className="bg-shape-one"
-            width={640}
-            height={949}
-            src={homeData.images.bgShapeFour}
-            alt="Bg Shape"
-          />
-          <Image
-            className="bg-shape-two"
-            src={homeData.images.bgShapeFive}
-            width={626}
-            height={1004}
-            alt="Bg Shape"
-          />
         </div>
       </div>
 
-      <div className="rainbow-service-area rainbow-section-gap rainbow-section-gapBottom-big">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="section-title text-left"
-                data-sal="slide-up"
-                data-sal-duration="400"
-                data-sal-delay="150"
-              >
-                <h4 className="subtitle">
-                  <span className="theme-gradient">{homeData.assistingSection.subtitle}</span>
-                </h4>
-                <h2 className="title mb--60">
-                  {homeData.assistingSection.title.part1} <TextAnimation data={homeData.assistingSection.title.animation} className="d-block d-md-inline"/> 
-                  <span className="d-block">{homeData.assistingSection.title.part2} </span>
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <ServiceStyleOne />
-      </div>
 
-      <div className="rainbow-advance-tab-area aiwave-bg-gradient rainbow-section-gap-big">
+      <div id="benefits" className="rainbow-advance-tab-area aiwave-bg-gradient rainbow-section-gap-big" style={{ scrollMarginTop: '120px' }}>
         <div className="container">
+          <h3 className="title text-center">
+              <span className="theme-gradient">{homeData.benefitsSection?.title}</span>
+          </h3>
           <div className="html-tabs" data-tabs="true">
             <AdvanceTab />
           </div>
@@ -428,7 +401,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="aiwave-pricing-area wrapper ">
+      <div id="pricing" className="aiwave-pricing-area wrapper " style={{ scrollMarginTop: '120px' }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -438,12 +411,12 @@ const Home = () => {
                 data-sal-duration="400"
                 data-sal-delay="150"
               >
-                <h4 className="subtitle">
+                <h2 className="title">
                   <span className="theme-gradient">{homeData.pricingSection.subtitle}</span>
-                </h4>
-                <h2 className="title w-600 mb--40">
-                  {homeData.pricingSection.title}
                 </h2>
+                <h4 className="title w-600 mb--40">
+                  {homeData.pricingSection.title}
+                </h4>
               </div>
 
               {/* <nav className="aiwave-tab">
@@ -490,10 +463,50 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="aiwave-service-area rainbow-section-gap  mt--40">
+      <div id="case-studies" className="rainbow-section-gap">
         <div className="container">
-          <div className="row row--15 service-wrapper">
-            <ServiceTwo />
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center">
+                <h2 className="title mb--10">{homeData.caseStudies.title}</h2>
+                <p className="description" style={{ opacity: 0.8 }}>{homeData.caseStudies.subtitle}</p>
+              </div>
+            </div>
+          </div>
+          <div className="row mt--20">
+            {homeData.caseStudies.items.map((item, idx) => (
+              <div key={idx} className="col-12 col-md-6 col-lg-4 mt--30">
+                <div
+                  className="p-4 h-100"
+                  style={{
+                    background: 'rgba(255,255,255,0.04)',
+                    borderRadius: '16px',
+                    border: '1px solid rgba(255,255,255,0.08)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    height: '560px'
+                  }}
+                >
+                  <div style={{ height: '50%', marginBottom: '16px' }}>
+                    {item.imageUrl ? (
+                      <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+                        <img
+                          src={item.imageUrl}
+                          alt={item.company}
+                          style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }}
+                        />
+                      </div>
+                    ) : null}
+                  </div>
+                  <div style={{ height: '50%', display: 'flex', flexDirection: 'column' }}>
+                    <div className="mb-2" style={{ color: '#4F46E5', fontWeight: 800, fontSize: '28px' }}>{item.stat}</div>
+                    <h4 className="mb-2" style={{ fontWeight: 700 }}>{item.headline}</h4>
+                    <div className="mb-3" style={{ opacity: 0.8 }}>{item.company}</div>
+                    <p className="mb-4" style={{ opacity: 0.8, display: '-webkit-box', WebkitLineClamp: 6, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{item.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -519,9 +532,61 @@ const Home = () => {
         <Testimonial />
       </div>
 
-      <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big">
+      <div id="faq" className="rainbow-section-gap" style={{ paddingBottom: '120px' }}>
         <div className="container">
-          <CtaTwo isLightTheme={isLightTheme}/>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center">
+                <h2 className="title mb--10">FAQs</h2>
+                <p className="description" style={{ opacity: 0.8 }}>{homeData.faq.title}</p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-10 mx-auto">
+              {homeData.faq.items.map((item, idx) => (
+                <details
+                  key={idx}
+                  className="mb-3"
+                  style={{
+                    background: isLightTheme ? 'rgba(0,0,0,0.04)' : 'rgba(255,255,255,0.04)',
+                    border: isLightTheme ? '1px solid rgba(0,0,0,0.08)' : '1px solid rgba(255,255,255,0.08)',
+                    borderRadius: '12px'
+                  }}
+                >
+                  <summary
+                    style={{ cursor: 'pointer', fontWeight: 600, fontSize: '18px', outline: 'none', listStyle: 'none', padding: '16px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: isLightTheme ? '#111827' : '#F3F4F6' }}
+                    onClick={(e) => {
+                      const el = e.currentTarget.querySelector('[data-chevron]');
+                      if (el) {
+                        const open = e.currentTarget.parentElement?.hasAttribute('open');
+                        requestAnimationFrame(() => {
+                          el.style.transform = open ? 'rotate(0deg)' : 'rotate(180deg)';
+                        });
+                      }
+                    }}
+                  >
+                    <span>{item.q}</span>
+                    <span data-chevron style={{ transition: 'transform 0.2s ease', display: 'inline-block', color: isLightTheme ? '#111827' : '#F3F4F6' }}>⌄</span>
+                  </summary>
+                  <div className="mt-0" style={{ opacity: isLightTheme ? 0.9 : 0.85, padding: '0 20px 16px', color: isLightTheme ? '#374151' : '#E5E7EB' }}>{item.a}</div>
+                </details>
+              ))}
+              <div className="text-center mt-4">
+                <div style={{ opacity: 0.8, marginBottom: '12px' }}>Didn't find what you're looking for?</div>
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.open(process.env.NEXT_PUBLIC_CALENDLY_URL || 'https://calendly.com', "_blank");
+                  }}
+                  className="btn-default"
+                  style={{ cursor: 'pointer' }}
+                >
+                  Ask a question
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

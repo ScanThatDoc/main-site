@@ -2,53 +2,33 @@
   "serviceOne": [
     {
       "img": "/images/icons/service-icon-03.svg",
-      "title": "Ligntning Fast Processing",
-      "desc": "Speed matters when handling documents, and our AI-powered system ensures you never have to wait."
+      "title": "AI-Powered Data Extraction",
+      "desc": "Move beyond manual entry. Our AI instantly processes and extracts critical data from quotations, orders, and bills with unmatched accuracy."
     },
     {
       "img": "/images/icons/service-icon-03.svg",
-      "title": "WhatsApp and Gmail Bot",
-      "desc": "Simply forward documents from your preferred platform, and RapidScan AI will automatically process the data in real time."
-    },
-    {
-      "img": "/images/icons/service-icon-01.svg",
-      "title": "24*7 On Call Assistance",
-      "desc": "We understand that your business never stops, and neither do we! Our dedicated support team is available 24/7."
-    },
-    {
-      "img": "/images/icons/service-icon-01.svg",
-      "title": "Safe and Secured ",
-      "desc": "Security is our top priority. With Clerk Authentication, your data is protected with industry-leading security protocols."
+      "title": "Lightning Fast Processing",
+      "desc": "Speed is crucial for order-to-cash. Our real-time AI system ensures immediate document handling, eliminating bottlenecks and delays."
     },
     {
       "img": "/images/icons/service-icon-02.svg",
-      "title": "Multiple User Option",
-      "desc": "Our platform supports multiple users, allowing your team members to access, review, and manage records at ease."
+      "title": "Seamless ERP Integration",
+      "desc": "Connect effortlessly to your entire technology stack. We power order automation for businesses running multiple (20+) ERP systems."
+    },
+    {
+      "img": "/images/icons/service-icon-01.svg",
+      "title": "Mobile-First Capture Bot",
+      "desc": "Simplify document submission via WhatsApp, Gmail, or your preferred platform. Our smart bot automatically funnels data for processing."
+    },
+    {
+      "img": "/images/icons/service-icon-01.svg",
+      "title": "Safe and Secured Data",
+      "desc": "Security is our top priority. Your sensitive business documents and data are protected with industry-leading security protocols."
     },
     {
       "img": "/images/icons/service-icon-02.svg",
-      "title": "Connect everywhere",
-      "desc": "Stay connected and manage documents from anywhere, anytime! We have 99.99% uptime, you can access records on the go."
-    }
-  ],
-  "serviceTwo": [
-    {
-      "img": "/images/service/service-icon-03.png",
-      "imgLight": "/images/light/service/service-icon-03.png",
-      "title": "Free Trial",
-      "desc": "As a Launching Offer, 10 free credits are provided to all new users."
-    },
-    {
-      "img": "/images/service/service-icon-01.png",
-      "imgLight": "/images/light/service/service-icon-01.png",
-      "title": "Value For Money",
-      "desc": "We offer a range of subscription plans to suit your business needs, from basic to advanced features."
-    },
-    {
-      "img": "/images/service/service-icon-02.png",
-      "imgLight": "/images/light/service/service-icon-02.png",
-      "title": "Upgrade Anytime",
-      "desc": "No hidden charges on Upgrading your plans."
+      "title": "Centralized Team Management",
+      "desc": "Scale your operations with ease. Our platform supports multiple users, allowing your team to access, review, and manage records collaboratively."
     }
   ]
 }

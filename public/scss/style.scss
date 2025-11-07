@@ -199,3 +199,42 @@
     RTL Styles
 ***************************************/
 // @import './rtl/rtl';
+
+/* Section-specific overrides */
+#benefits.rainbow-advance-tab-area {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+#pricing.aiwave-pricing-area {
+  padding-top: 60px !important; 
+}
+
+/* Why It Matters: adjust animated heading size and spacing */
+#why-it-matters {
+  .section-title {
+    h2.title:nth-of-type(2) {
+      font-size: 40px;
+      line-height: 1.25;
+      margin-bottom: 90px !important; // add extra bottom space under animated heading
+
+      /* Slightly smaller size for the animated word(s) */
+      .cd-headline {
+        font-size: 0.9em; // 10% smaller than the surrounding heading text
+      }
+
+      @media #{$md-layout} {
+        font-size: 34px;
+        margin-bottom: 70px !important;
+        .cd-headline { font-size: 0.9em; }
+      }
+
+      @media #{$sm-layout} {
+        font-size: 28px;
+        line-height: 1.35;
+        margin-bottom: 50px !important;
+        .cd-headline { font-size: 0.9em; }
+      }
+    }
+  }
+}

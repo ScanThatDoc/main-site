@@ -19,6 +19,21 @@ const Nav = () => {
     }));
   };
   const isActive = (href) => router.pathname === href;
+  const handleAnchorClick = (e, href) => {
+    if (href && href.startsWith("/#")) {
+      const id = href.split("#")[1];
+      if (router.pathname === "/") {
+        e.preventDefault();
+        const el = document.getElementById(id);
+        if (el) {
+          const header = document.querySelector("header.rainbow-header");
+          const headerHeight = header ? header.offsetHeight : 0;
+          const top = el.getBoundingClientRect().top + window.pageYOffset - headerHeight - 16;
+          window.scrollTo({ top, behavior: "smooth" });
+        }
+      }
+    }
+  };
 
   return (
     <>
@@ -50,6 +65,7 @@ const Nav = () => {
                 <Link
                   href={data.link}
                   className={isActive(data.link) ? "active" : ""}
+                  onClick={(e) => handleAnchorClick(e, data.link)}
                 >
                   {data.text}
                   {data.isIcon ? (

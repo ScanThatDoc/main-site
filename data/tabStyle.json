@@ -1,76 +1,52 @@
 {
   "TabStyleOne": [
-    
     {
-      "title": "Seamless Whatsapp Integration – Smart, Fast, and Reliable!",
+      "title": "Seamless WhatsApp Integration – Smart, Fast, and Reliable!",
       "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/whatsapp+gif+video.mp4",
       "imgLight": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/whatsapp+gif+video.mp4",
-      "menuId": "photo-generator",
+      "menuId": "whatsapp-integration",
       "text": "WhatsApp Bot",
-      "target": "photo-generate",
+      "target": "whatsapp-bot",
       "iconImg": "/images/whatsapp-icon.svg",
       "isSelect": true,
       "subItem": [
-        {
-          "text": "Uploads documents Instantly"
-        },
-        {
-          "text": "AI-Powered Data Extraction"
-        },
-        {
-          "text": "Real-Time Data Access"
-        },
-        {
-          "text": "Secure & Scalable"
-        }
+        { "text": "Send invoices directly via WhatsApp to +60 10-836 6750" },
+        { "text": "AI automatically extracts key data (Invoice No, Date, Amount, Vendor)" },
+        { "text": "Receive processed data instantly within WhatsApp" },
+        { "text": "No setup or extra apps — just chat and upload" }
       ]
     },
     {
-      "title": "Seamless Email Integration – Smart, Fast, and Reliable!",
+      "title": "Smart Email Integration – Secure and Efficient!",
       "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/email+gif+video.mp4",
       "imgLight": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/email+gif+video.mp4",
-      "menuId": "text-generator",
+      "menuId": "email-integration",
       "text": "Email Bot",
-      "target": "text-generate",
+      "target": "email-bot",
       "iconImg": "/images/email-icon.svg",
       "isSelect": false,
       "subItem": [
-        {
-          "text": "Uploads documents Instantly"
-        },
-        {
-          "text": "AI-Powered Data Extraction"
-        },
-        {
-          "text": "Real-Time Data Access"
-        },
-        {
-          "text": "Secure & Scalable"
-        }
+        { "text": "Register your account to activate email processing" },
+        { "text": "Forward invoices to docs@rapidscan.ai from your registered email" },
+        { "text": "AI automatically detects and downloads invoice attachments" },
+        { "text": "Data extraction and structuring done automatically" },
+        { "text": "View processed results instantly inside your RapidScan Portal" }
       ]
     },
     {
-      "title": "Manually Upload Invoice and get processed instantly",
+      "title": "Upload Your Invoice via RapidScan Portal",
       "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/front+manual+gif+video.mp4",
       "imgLight": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/front+manual+gif+video.mp4",
-      "menuId": "code-generator",
+      "menuId": "manual-upload",
       "text": "Upload via RapidScan",
-      "target": "code-generate",
+      "target": "manual-upload",
       "iconImg": "/images/upload-icon.svg",
       "isSelect": false,
       "subItem": [
-        {
-          "text": "No More Manual Entry"
-        },
-        {
-          "text": "AI-Powered Data Extraction"
-        },
-        {
-          "text": "Real-Time Data Access"
-        },
-        {
-          "text": "Secure & Scalable"
-        }
+        { "text": "Log in to the RapidScan Portal" },
+        { "text": "Upload invoices in PDF or image format" },
+        { "text": "AI extracts and structures invoice data instantly" },
+        { "text": "Manage, review, and export from one dashboard" }
       ]
     }
   ],
@@ -82,36 +58,38 @@
       "menuText": "AI-Powered OCR Technology",
       "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/ocrDark.jpeg",
       "subTitle": "Say Goodbye to Manual Data Entry",
-      "title": "Extract Documents Data with AI Precision",
-      "desc": "Tired of manually entering data? Our advanced AI-powered OCR technology scans and extracts key information instantly, reducing errors and saving time. Simply upload any document, and let AI do the work for you."},
+      "title": "Extract Data from Any Document with AI Accuracy",
+      "desc": "Manual data entry is time-consuming and error-prone. RapidScan.AI’s intelligent OCR technology automatically detects and extracts key details — invoices, POs, delivery notes, and more — with unmatched precision and speed."
+    },
     {
       "tabId": "profile",
       "target": "profile-tab",
       "isSelect": false,
       "menuText": "Smart Data Structuring",
       "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/sortingDark.jpeg",
-      "subTitle": "Turn Unstructured Documents into Organized Data",
-      "title": "Every record, Perfectly Sorted",
-      "desc": "Our AI-powered system automatically organizes documents data into a structured format, making it easy to analyze and search. No more messy spreadsheets!"
+      "subTitle": "Turn Raw Documents into Organized Insights",
+      "title": "Every Line, Perfectly Structured by AI",
+      "desc": "No more unorganized data chaos. Our AI engine automatically categorizes, validates, and formats extracted information into clean, searchable structures ready for ERP or analytics use."
     },
     {
-      "tabId": "contact",
-      "target": "contact-tab",
+      "tabId": "mobile",
+      "target": "mobile-tab",
       "isSelect": false,
       "menuText": "Mobile & Web Accessibility",
       "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/responsiveDark.jpeg",
-      "subTitle": "Manage records from Anywhere",
-      "title": "Your Data, Always at Your Fingertips",
-      "desc": "Stay in control, whether you're at the office or on the go. Our web and mobile-friendly platform ensures upload, review, and manage records from any device, giving you the flexibility to work from anywhere"
+      "subTitle": "Access, Review, and Approve on the Go",
+      "title": "Your Data, Wherever You Are",
+      "desc": "Stay connected with a platform built for mobility. Whether on desktop, tablet, or mobile, RapidScan.AI gives you instant access to scan, verify, and manage documents securely — anytime, anywhere."
     },
     {
-      "tabId": "contact",
-      "target": "contact-tab",
+      "tabId": "integration",
+      "target": "integration-tab",
       "isSelect": false,
-      "menuText": "Seamless Integration",
+      "menuText": "Seamless ERP & Accounting Integration",
       "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/erpdark.jpeg",
-      "subTitle": "Comming soon!",
-      "title": "Connect Your Accounting & ERP Tools",
-      "desc": "Our system intelligently organizes extracted data, making it searchable, structured, and ready for export. Whether you need CSV, Excel, or API integration, your data is always in the right format."}
+      "subTitle": "Work Smarter with Connected Systems",
+      "title": "Sync Your Data Effortlessly",
+      "desc": "RapidScan.AI integrates smoothly with leading ERP and accounting systems, keeping your document data in sync and workflow uninterrupted — from extraction to automation, all in one flow."
+    }
   ]
 }
