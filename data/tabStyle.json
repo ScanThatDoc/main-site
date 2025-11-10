@@ -2,8 +2,8 @@
   "TabStyleOne": [
     {
       "title": "Seamless WhatsApp Integration – Smart, Fast, and Reliable!",
-      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/whatsapp+gif+video.mp4",
-      "imgLight": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/whatsapp+gif+video.mp4",
+      "img": "https://r2.rapidscan.ai/rapidscan/main-site-image/whatsapp%20gif%20video.mp4",
+      "imgLight": "https://r2.rapidscan.ai/rapidscan/main-site-image/whatsapp%20gif%20video.mp4",
       "menuId": "whatsapp-integration",
       "text": "WhatsApp Bot",
       "target": "whatsapp-bot",
@@ -18,8 +18,8 @@
     },
     {
       "title": "Smart Email Integration – Secure and Efficient!",
-      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/email+gif+video.mp4",
-      "imgLight": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/email+gif+video.mp4",
+      "img": "https://r2.rapidscan.ai/rapidscan/main-site-image/email%20gif%20video.mp4",
+      "imgLight": "https://r2.rapidscan.ai/rapidscan/main-site-image/email%20gif%20video.mp4",
       "menuId": "email-integration",
       "text": "Email Bot",
       "target": "email-bot",
@@ -35,8 +35,8 @@
     },
     {
       "title": "Upload Your Invoice via RapidScan Portal",
-      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/front+manual+gif+video.mp4",
-      "imgLight": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/front+manual+gif+video.mp4",
+      "img": "https://r2.rapidscan.ai/rapidscan/main-site-image/front%20manual%20gif%20video.mp4",
+      "imgLight": "https://r2.rapidscan.ai/rapidscan/main-site-image/front%20manual%20gif%20video.mp4",
       "menuId": "manual-upload",
       "text": "Upload via RapidScan",
       "target": "manual-upload",
@@ -56,7 +56,7 @@
       "target": "home-tab",
       "isSelect": true,
       "menuText": "AI-Powered OCR Technology",
-      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/ocrDark.jpeg",
+      "img": "https://r2.rapidscan.ai/rapidscan/main-site-image/ocrDark.jpeg",
       "subTitle": "Say Goodbye to Manual Data Entry",
       "title": "Extract Data from Any Document with AI Accuracy",
       "desc": "Manual data entry is time-consuming and error-prone. RapidScan.AI’s intelligent OCR technology automatically detects and extracts key details — invoices, POs, delivery notes, and more — with unmatched precision and speed."
@@ -66,7 +66,7 @@
       "target": "profile-tab",
       "isSelect": false,
       "menuText": "Smart Data Structuring",
-      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/sortingDark.jpeg",
+      "img": "https://r2.rapidscan.ai/rapidscan/main-site-image/sortingDark.jpeg",
       "subTitle": "Turn Raw Documents into Organized Insights",
       "title": "Every Line, Perfectly Structured by AI",
       "desc": "No more unorganized data chaos. Our AI engine automatically categorizes, validates, and formats extracted information into clean, searchable structures ready for ERP or analytics use."
@@ -76,7 +76,7 @@
       "target": "mobile-tab",
       "isSelect": false,
       "menuText": "Mobile & Web Accessibility",
-      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/responsiveDark.jpeg",
+      "img": "https://r2.rapidscan.ai/rapidscan/main-site-image/responsiveDark.jpeg",
       "subTitle": "Access, Review, and Approve on the Go",
       "title": "Your Data, Wherever You Are",
       "desc": "Stay connected with a platform built for mobility. Whether on desktop, tablet, or mobile, RapidScan.AI gives you instant access to scan, verify, and manage documents securely — anytime, anywhere."
@@ -86,7 +86,7 @@
       "target": "integration-tab",
       "isSelect": false,
       "menuText": "Seamless ERP & Accounting Integration",
-      "img": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/erpdark.jpeg",
+      "img": "https://r2.rapidscan.ai/rapidscan/main-site-image/erpdark.jpeg",
       "subTitle": "Work Smarter with Connected Systems",
       "title": "Sync Your Data Effortlessly",
       "desc": "RapidScan.AI integrates smoothly with leading ERP and accounting systems, keeping your document data in sync and workflow uninterrupted — from extraction to automation, all in one flow."

@@ -12,7 +12,7 @@ import privacyData from "../../data/privacy-policy.json";
 
 const PrivacyPolicyPage = () => {
   const { meta, breadcrumb } = privacyData;
-  const baseImageUrl = "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image";
+  const baseImageUrl = "https://r2.rapidscan.ai/rapidscan/main-site-image";
   
   return (
     <>

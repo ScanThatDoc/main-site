@@ -396,9 +396,6 @@ const Home = () => {
             <AdvanceTab />
           </div>
         </div>
-        <div className="bg-shape">
-          <Image src={homeData.images.splitBgShape} width={630} height={879} alt="Bg Shape" />
-        </div>
       </div>
 
       <div id="pricing" className="aiwave-pricing-area wrapper " style={{ scrollMarginTop: '120px' }}>

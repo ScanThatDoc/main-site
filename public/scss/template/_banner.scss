@@ -607,7 +607,7 @@
         .slider-frame {
             position: relative;
             overflow: hidden;
-            background: url("https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/slider-main-bg.png");
+            background: url("https://r2.rapidscan.ai/rapidscan/main-site-image/slider-main-bg.png");
             background-position: top center;
             background-size: 100% 100%;
             background-repeat: no-repeat;
@@ -637,7 +637,7 @@
                 top: -40%;
                 left: 50%;
                 transform: translateX(-50%);
-                background: url("https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/main-banner-bg-shape.png");
+                background: url("https://r2.rapidscan.ai/rapidscan/main-site-image/main-banner-bg-shape.png");
                 background-size: 100% 100%;
                 z-index: -5;
             }
@@ -1401,7 +1401,7 @@
     // }
 
     &.bg-banner1 {
-        background-image: url("https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/main-banner-bg.png");
+        background-image: url("https://r2.rapidscan.ai/rapidscan/main-site-image/main-banner-bg.png");
         background-size: unset;
     }
 

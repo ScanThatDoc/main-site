@@ -625,7 +625,7 @@ const SolutionPage = () => {
         <Context>
           <HeaderTop />
           <Header
-            headerTransparent="header-not-transparent"
+            headerTransparent="header-transparent"
             headerSticky="header-sticky"
             btnClass="rainbow-gradient-btn"
           />

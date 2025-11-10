@@ -154,21 +154,21 @@
         "headline": "Faster Invoice Entry in the First Week",
         "company": "F&B Distributor",
         "description": "The finance team started sending invoices over WhatsApp on day one. RapidScan automatically captured Supplier, Amount, and Due Date, and synced them to their accounting system — cutting manual entry time by 95% in just the first week.",
-        "imageUrl": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/whatsapp.png"
+        "imageUrl": "https://r2.rapidscan.ai/rapidscan/main-site-image/whatsapp.png"
       },
       {
         "stat": "60%",
         "headline": "Fewer Accounts Payable Exceptions",
         "company": "Industrial Parts Manufacturer",
         "description": "Using RapidScan’s email ingestion, attachments are auto-detected, totals and line items validated, and mismatches flagged before reaching ERP. This proactive validation reduced AP exceptions by 60% within the first month.",
-        "imageUrl": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/email.png"
+        "imageUrl": "https://r2.rapidscan.ai/rapidscan/main-site-image/email.png"
       },
       {
         "stat": "Under 60s",
         "headline": "From Upload to Structured Data Instantly",
         "company": "Construction Contractor",
         "description": "Field teams simply drag-and-drop PDFs or photos into the RapidScan Portal. The AI extracts, validates, and structures every data point in under a minute — with zero setup, zero training, and full export flexibility.",
-        "imageUrl": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/upload.png"
+        "imageUrl": "https://r2.rapidscan.ai/rapidscan/main-site-image/upload.png"
       }
     ]
   },
@@ -215,13 +215,6 @@
       "a": "RapidScan offers flexible pricing based on document volume and feature usage. You can start with a free trial for WhatsApp or Portal uploads. For enterprise pricing or ERP integrations, contact us at bot@rapidscan.ai for a custom plan."
     }
   ]
-},
-  "images": {
-    "dashboardLight": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/home-lite-dashboard.png",
-    "dashboardDark": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/home-dark-dashboard.png",
-    "bgShapeFour": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/bg-shape-four.png",
-    "bgShapeFive": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/bg-shape-five.png",
-    "splitBgShape": "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/split-bg-shape.png"
-  }
+}
 }
 

@@ -2,7 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['dev-docscanner.s3.ap-south-1.amazonaws.com'],
+    domains: [
+      'r2.rapidscan.ai',
+    ],
   },
 };
 
