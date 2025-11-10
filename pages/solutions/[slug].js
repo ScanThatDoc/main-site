@@ -164,19 +164,19 @@ const SolutionPageContent = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
-              <div className="section-title text-center mb--60">
+              <div className="section-title text-center" style={{ paddingTop: "50px", marginBottom: "70px" }}>
                 <span className="theme-gradient fw-semibold text-uppercase letter-spacing-1">
                   {solution.hero.badge}
                 </span>
-                <h1 className="title mt--10">{solution.hero.title}</h1>
+                <h1 className="title" style={{ marginTop: "30px" }}>{solution.hero.title}</h1>
                 <p
-                  className="description mt--20"
-                  style={{ fontSize: "1.50rem", lineHeight: "1.8" }}
+                  className="description"
+                  style={{ fontSize: "1.50rem", lineHeight: "1.8", marginTop: "20px" }}
                 >
                   {solution.hero.description}
                 </p>
                 
-                <div className="button-group mt--40 d-flex flex-column flex-md-row justify-content-center gap-3">
+                <div className="button-group d-flex flex-column flex-md-row justify-content-center gap-3" style={{ marginTop: "40px" }}>
                   {heroButtons.map(({ key, label, env, fallbackUrl, variant }) => {
                     const preset = buttonPresets[variant] ?? buttonPresets.primary;
                     return (
