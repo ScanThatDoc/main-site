@@ -1,4 +1,12 @@
 {
+  "logo": {
+    "text": "RapidScan.AI"
+  },
+  "buttons": {
+    "joinWithGoogle": "Join with Google",
+    "tryWithWhatsApp": "Try with WhatsApp Now",
+    "bookDemo": "Book a Demo"
+  },
   "navDashboardItem": [
     {
       "link": "/profile-details",
@@ -27,16 +35,78 @@
   ],
   "nav": [
     {
-      "link": "/",
+      "link": "/#why-it-matters",
       "isIcon": false,
       "isMenu": false,
-      "text": "Home"
+      "text": "Why it matters"
     },
     {
-      "link": "/utilize",
+      "link": "/#how-it-works",
       "isIcon": false,
       "isMenu": false,
-      "text": "How to use"
+      "text": "How It Works"
+    },
+    {
+      "link": "/#benefits",
+      "isIcon": false,
+      "isMenu": false,
+      "text": "Benefits"
+    },
+    {
+      "link": "#",
+      "isIcon": true,
+      "isMenu": true,
+      "dropdown": true,
+      "text": "Solutions",
+      "subItem": [
+        {
+          "link": "/solutions/manufacturing-distribution",
+          "title": "For Manufacturing & Distribution",
+          "badge": ""
+        },
+        {
+          "link": "/solutions/accounting-finance",
+          "title": "For Accounting & Finance",
+          "badge": ""
+        },
+        {
+          "link": "/solutions/logistics-supply-chain",
+          "title": "For Logistics & Supply Chain",
+          "badge": ""
+        },
+        {
+          "link": "/solutions/small-medium-businesses",
+          "title": "For Small & Medium Businesses (SMBs)",
+          "badge": ""
+        },
+        {
+          "link": "/solutions/construction-field-ops",
+          "title": "For Construction & Field Ops",
+          "badge": ""
+        },
+        {
+          "link": "/solutions/procurement-operations",
+          "title": "For Procurement & Operations",
+          "badge": ""
+        },
+        {
+          "link": "/solutions/it-automation-teams",
+          "title": "For IT & Automation Teams",
+          "badge": ""
+        }
+      ]
+    },
+    {
+      "link": "/#pricing",
+      "isIcon": false,
+      "isMenu": false,
+      "text": "Pricing"
+    },
+    {
+      "link": "/#case-studies",
+      "isIcon": false,
+      "isMenu": false,
+      "text": "Case Studies"
     }
   ],
   "smallNavItem": [

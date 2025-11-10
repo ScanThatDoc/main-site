@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import footerData from "../../data/footer.json";
 
 const Copyright = () => {
   return (
@@ -28,12 +29,12 @@ const Copyright = () => {
             <div className="col-lg-6 col-md-4 col-sm-12 col-12">
               <div className="copyright-right text-center text-lg-end">
                 <p className="copyright-text">
-                  Copyright © 2025{" "}
+                  Copyright © {footerData.copyright.year}{" "}
                   <Link
                     href="#footer"
                     className="btn-read-more"
                   >
-                    <span>RapidScan.AI</span>
+                    <span>{footerData.copyright.companyName}</span>
                   </Link>
                 </p>
               </div>

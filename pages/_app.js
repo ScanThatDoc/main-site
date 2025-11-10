@@ -24,7 +24,31 @@ export default function App({ Component, pageProps }) {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
 
     const handleStart = (url) => url !== Router.asPath && setLoading(true);
-    const handleComplete = () => setLoading(false);
+    const scrollToHash = (hash, attempt = 0) => {
+      if (typeof window === "undefined") return;
+
+      const target = document.getElementById(hash);
+      if (target) {
+        const header = document.querySelector("header.rainbow-header");
+        const headerHeight = header ? header.offsetHeight : 0;
+        const top =
+          target.getBoundingClientRect().top + window.pageYOffset - headerHeight - 16;
+        window.scrollTo({ top, behavior: "smooth" });
+      } else if (attempt < 5) {
+        setTimeout(() => scrollToHash(hash, attempt + 1), 100);
+      }
+    };
+
+    const handleComplete = (url) => {
+      setLoading(false);
+
+      if (typeof window !== "undefined" && url?.includes("#")) {
+        const hash = url.split("#")[1];
+        if (hash) {
+          scrollToHash(hash);
+        }
+      }
+    };
 
     Router.events.on("routeChangeStart", handleStart);
     Router.events.on("routeChangeComplete", handleComplete);

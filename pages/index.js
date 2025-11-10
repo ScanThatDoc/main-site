@@ -3,7 +3,7 @@ import HomePage from "./home";
 import Head from 'next/head';
 
 export default function Home() {
-  const baseImageUrl = "https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image";
+  const baseImageUrl = "https://r2.rapidscan.ai/rapidscan/main-site-image";
 
   return (
     <>

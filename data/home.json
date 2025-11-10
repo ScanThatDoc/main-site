@@ -1,0 +1,220 @@
+{
+  "hero": {
+    "headline": {
+      "part1": "Transform Your",
+      "part2Animation": {
+        "desktop": ["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"],
+        "mobile": ["Invoices", "POs", "Receipts", "Quotations"]
+      },
+      "part3": "Workflow with AI Automation"
+    },
+    "description": {
+      "line1": "Just upload or forward your documents — RapidScan handles the rest.",
+      "line2": "It reads, validates, and records every detail automatically."
+    },
+    "cta": {
+      "bookDemo": {
+        "text": "Book a Demo",
+        "style": "primary"
+      },
+      "buttons": {
+        "whatsapp": {
+          "text": "Try with WhatsApp",
+          "color": "#25D366",
+          "hoverColor": "#128C7E"
+        },
+        "google": {
+          "text": "Join with Google",
+          "color": "#ffffff",
+          "borderColor": "#dadce0"
+        }
+      },
+      "popup": {
+        "message": "Redirecting you to WhatsApp...",
+        "instructions": [
+          "Say something to get started",
+          "Follow the instructions received on whatsapp"
+        ]
+      }
+    }
+  },
+  "solutionsSection": {
+    "id": "solutions",
+    "subtitle": "Solutions",
+    "title": "Industry-ready automation for every operations team",
+    "description": "RapidScan adapts to your workflows—whether you run a factory floor, finance back office, or distributed field team.",
+    "items": [
+      {
+        "name": "For Manufacturing & Distribution",
+        "category": "Industry",
+        "description": "Convert supplier invoices, POs, and delivery dockets into ERP-ready data with zero manual keying.",
+        "link": "/solutions/manufacturing-distribution"
+      },
+      {
+        "name": "For Accounting & Finance",
+        "category": "Finance",
+        "description": "Automate AP, AR, and reconciliation workflows with human-in-the-loop controls and audit trails.",
+        "link": "/solutions/accounting-finance"
+      },
+      {
+        "name": "For Logistics & Supply Chain",
+        "category": "Operations",
+        "description": "Streamline waybills, manifests, and customs paperwork across ports, warehouses, and partners.",
+        "link": "/solutions/logistics-supply-chain"
+      },
+      {
+        "name": "For Small & Medium Businesses (SMBs)",
+        "category": "SMBs",
+        "description": "Get plug-and-play automation for invoices, approvals, and compliance—built for lean teams.",
+        "link": "/solutions/small-medium-businesses"
+      },
+      {
+        "name": "For Healthcare & Insurance",
+        "category": "Healthcare",
+        "description": "Capture claims, policies, and clinical documents with healthcare-grade accuracy and privacy.",
+        "link": "/solutions/healthcare-insurance"
+      },
+      {
+        "name": "For Construction & Field Ops",
+        "category": "Field Ops",
+        "description": "Ingest job cards, delivery challans, and site reports from mobile crews in seconds.",
+        "link": "/solutions/construction-field-ops"
+      },
+      {
+        "name": "For Procurement & Operations",
+        "category": "Procurement",
+        "description": "Digitize sourcing packs, supplier onboarding, and compliance records end-to-end.",
+        "link": "/solutions/procurement-operations"
+      },
+      {
+        "name": "For IT & Automation Teams",
+        "category": "IT",
+        "description": "Embed RapidScan via APIs, webhooks, and workflow builders to serve every business unit.",
+        "link": "/solutions/it-automation-teams"
+      }
+    ]
+  },
+  "ocrSection": {
+    "subtitle": "How It Works",
+    "title": {
+      "part1": "Effortless",
+      "animation": ["Scanning", "Extraction", "Integration", "Automation"],
+      "part2": "that’s how RapidScan works."
+    } 
+
+  },
+  "assistingSection": {
+    "subtitle": "Why It Matters",
+    "title": {
+      "part1": "Simplifies handling",
+      "animation": ["Invoices", "Purchase Orders", "Receipts", "Quotations", "Delivery Notes", "Bills of Landing"],
+      "part2": "and boost efficiency for your business"
+    }
+  },
+  "collaborationSection": {
+    "subtitle": "Streamlining document workflows across ERP ecosystems",
+    "title": "Powering seamless document automation for multi-ERP businesses",
+    "erpLogos": [
+      { "name": "SAP", "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" },
+      { "name": "Oracle", "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" },
+      { "name": "Microsoft Dynamics", "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" },
+      { "name": "SYSPRO", "url": "https://logo.clearbit.com/syspro.com" },
+      { "name": "Acumatica", "url": "https://logo.clearbit.com/acumatica.com" },
+      { "name": "Odoo", "url": "https://cdn.simpleicons.org/odoo/714B67" },
+      { "name": "QAD", "url": "https://logo.clearbit.com/qad.com" },
+      { "name": "Sage", "url": "https://logo.clearbit.com/sage.com" },
+      { "name": "Abas", "url": "https://logo.clearbit.com/abas-software.com" },
+      { "name": "Plex", "url": "https://logo.clearbit.com/plex.com" },
+      { "name": "Rootstock", "url": "https://logo.clearbit.com/rootstock.com" },
+      { "name": "IFS", "url": "https://logo.clearbit.com/ifs.com" },
+      { "name": "Priority", "url": "https://logo.clearbit.com/prioritysoftware.com" },
+      { "name": "HashMicro", "url": "https://logo.clearbit.com/hashmicro.com" },
+      { "name": "Deltek", "url": "https://logo.clearbit.com/deltek.com" },
+      { "name": "BatchMaster", "url": "https://logo.clearbit.com/batchmaster.com" },
+      { "name": "ERPNext", "url": "https://logo.clearbit.com/erpnext.com" },
+      { "name": "Kenandy", "url": "https://logo.clearbit.com/kenandy.com" },
+      { "name": "Visibility", "url": "https://logo.clearbit.com/visibility.com" },
+      { "name": "Zoho", "url": "https://cdn.simpleicons.org/zoho/FF0000" },
+      { "name": "QuickBooks", "url": "https://cdn.simpleicons.org/quickbooks/2CA01C" },
+      { "name": "Xero", "url": "https://cdn.simpleicons.org/xero/13B5EA" },
+      { "name": "FreshBooks", "url": "https://logo.clearbit.com/freshbooks.com" },
+      { "name": "Salesforce", "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg" }
+    ]
+  },
+  "pricingSection": {
+    "subtitle": "Pricing",
+    "title": "Pricing plans for everyone"
+  },
+  "caseStudies": {
+    "title": "Case Studies",
+    "subtitle": "Real business impact delivered through RapidScan’s WhatsApp, Email, and Portal workflows.",
+    "items": [
+      {
+        "stat": "95%",
+        "headline": "Faster Invoice Entry in the First Week",
+        "company": "F&B Distributor",
+        "description": "The finance team started sending invoices over WhatsApp on day one. RapidScan automatically captured Supplier, Amount, and Due Date, and synced them to their accounting system — cutting manual entry time by 95% in just the first week.",
+        "imageUrl": "https://r2.rapidscan.ai/rapidscan/main-site-image/whatsapp.png"
+      },
+      {
+        "stat": "60%",
+        "headline": "Fewer Accounts Payable Exceptions",
+        "company": "Industrial Parts Manufacturer",
+        "description": "Using RapidScan’s email ingestion, attachments are auto-detected, totals and line items validated, and mismatches flagged before reaching ERP. This proactive validation reduced AP exceptions by 60% within the first month.",
+        "imageUrl": "https://r2.rapidscan.ai/rapidscan/main-site-image/email.png"
+      },
+      {
+        "stat": "Under 60s",
+        "headline": "From Upload to Structured Data Instantly",
+        "company": "Construction Contractor",
+        "description": "Field teams simply drag-and-drop PDFs or photos into the RapidScan Portal. The AI extracts, validates, and structures every data point in under a minute — with zero setup, zero training, and full export flexibility.",
+        "imageUrl": "https://r2.rapidscan.ai/rapidscan/main-site-image/upload.png"
+      }
+    ]
+  },
+  "testimonialSection": {
+    "subtitle": "Assisting individuals",
+    "title": "The opinions of the community"
+  },
+  "benefitsSection": {
+    "title": "Benefits"
+  },
+  "faq": {
+  "title": "Frequently Asked Questions",
+  "items": [
+    {
+      "q": "How do I send invoices through WhatsApp?",
+      "a": "Simply save our WhatsApp number +60 10-836 6750 and send your invoice as a PDF or clear photo. RapidScan instantly extracts key details — Supplier, Date, Invoice Number, Total, and Due Date — and replies with a confirmation or direct access link to your Portal data."
+    },
+    {
+      "q": "Can I process invoices automatically via email?",
+      "a": "Yes. Once your company is registered, you’ll receive a dedicated RapidScan address (e.g., docs@rapidscan.ai) to forward invoices. The system detects attachments, downloads them, validates totals and line items, and can push structured results directly to your ERP via webhooks."
+    },
+    {
+      "q": "Can I manually upload documents to RapidScan?",
+      "a": "Yes, you can log into the RapidScan Portal and upload invoices, POs, or delivery notes directly from your device. Simply drag and drop your files, and our AI will extract and structure the data within seconds — no manual entry required."
+    },
+    {
+      "q": "Which file formats are supported?",
+      "a": "RapidScan supports PDF, PNG, and JPG formats. You can upload single or multi-page files. Mobile photos are perfectly acceptable as long as the text is clearly readable."
+    },
+    {
+      "q": "Does RapidScan integrate with my ERP system?",
+      "a": "Yes. RapidScan integrates with popular ERPs such as Tally, Odoo, SAP, NetSuite, Zoho Books, QuickBooks, Xero and others. We also support custom webhook integrations for bespoke ERP and accounting systems."
+    },
+    {
+      "q": "How secure is my data with RapidScan?",
+      "a": "Data security is a top priority. All files and extracted data are encrypted in transit and at rest, and access is restricted to authorized workspaces. Full audit logs and optional regional data storage ensure compliance with enterprise security standards."
+    },
+    {
+      "q": "How fast can we go live with RapidScan?",
+      "a": "You can start instantly — no setup required. Simply sign up and begin sending invoices via WhatsApp (+60 10-836 6750), Email (docs@rapidscan.ai), or directly through the RapidScan Portal. For ERP and webhook integrations, setup typically takes 1–3 business days depending on your workflow."
+    },    
+    {
+      "q": "What does RapidScan cost?",
+      "a": "RapidScan offers flexible pricing based on document volume and feature usage. You can start with a free trial for WhatsApp or Portal uploads. For enterprise pricing or ERP integrations, contact us at bot@rapidscan.ai for a custom plan."
+    }
+  ]
+}
+}
+

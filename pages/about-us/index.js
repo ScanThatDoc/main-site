@@ -10,24 +10,28 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import BackToTop from "../backToTop";
 import About from "@/components/About/about";
 import Head from 'next/head';
+import aboutPageData from "../../data/about-page.json";
 
 const AboutPage = () => {
+  const { meta, breadcrumb } = aboutPageData;
+  const baseImageUrl = "https://r2.rapidscan.ai/rapidscan/main-site-image";
+  
   return (
     <>
       <Head>
-        <title>About RapidScan AI - Our Story & Mission</title>
-        <meta name="description" content="Learn about RapidScan AI's journey, our mission to revolutionize document scanning, and our commitment to innovation in AI-powered document analysis." />
-        <meta name="keywords" content="about RapidScan AI, company mission, document scanning innovation, AI technology, company history, document analysis team" />
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
+        <meta name="keywords" content={meta.keywords} />
         
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="About RapidScan AI - Our Story & Mission" />
-        <meta property="og:description" content="Learn about RapidScan AI's journey and mission in AI-powered document scanning" />
-        <meta property="og:image" content="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/logo-dark.png" />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:image" content={`${baseImageUrl}/logo-dark.png`} />
         
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About RapidScan AI" />
-        <meta name="twitter:description" content="Learn about RapidScan AI's journey and mission in AI-powered document scanning" />
-        <meta name="twitter:image" content="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/logo-dark.png" />
+        <meta name="twitter:title" content={meta.title} />
+        <meta name="twitter:description" content={meta.description} />
+        <meta name="twitter:image" content={`${baseImageUrl}/logo-dark.png`} />
       </Head>
 
       <main className="page-wrapper">
@@ -40,8 +44,8 @@ const AboutPage = () => {
           />
           <PopupMobileMenu />
           <Breadcrumb
-            title="About RapidScan.AI"
-            text="About Us"
+            title={breadcrumb.title}
+            text={breadcrumb.text}
           />
           <About />
           <BackToTop />

@@ -15,14 +15,14 @@
 .marquee-content-left {
     display: flex;
     gap: 10px;
-    animation: marquee-left 20s linear infinite;
+    animation: marquee-left 50s linear infinite;
     width: max-content;
 }
 
 .marquee-content-right {
     display: flex;
     gap: 10px;
-    animation: marquee-right 20s linear infinite;
+    animation: marquee-right 50s linear infinite;
     width: max-content;
 }
 
@@ -128,22 +128,22 @@
 }
 
 .display-one {
-    font-size: 75px;
+    font-size: 56px;
 
     @media #{$lg-layout} {
-        font-size: 70px;
+        font-size: 52px;
     }
 
     @media #{$md-layout} {
-        font-size: 65px;
+        font-size: 48px;
     }
 
     @media #{$sm-layout} {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     @media #{$large-mobile} {
-        font-size: 41px;
+        font-size: 34px;
         margin-bottom: 15px !important;
     }
 
@@ -427,31 +427,31 @@
         .description {
             font-family: var(--font-primary);
             padding: 0 22%;
-            font-size: 24px;
+            font-size: 19px;
             line-height: 1.7;
             margin-bottom: 80px;
             color: var(--color-link);
 
             @media #{$lg-layout} {
                 padding: 0 14%;
-                font-size: 22px;
+                font-size: 18px;
                 margin-bottom: 35px;
             }
 
             @media #{$md-layout} {
                 padding: 0 1%;
-                font-size: 20px;
+                font-size: 18px;
                 margin-bottom: 30px;
             }
 
             @media #{$sm-layout} {
                 padding: 0 1%;
-                font-size: 20px;
+                font-size: 18px;
                 margin-bottom: 30px;
             }
 
             @media #{$large-mobile} {
-                font-size: 18px;
+                font-size: 17px;
                 margin-bottom: 25px;
             }
         }
@@ -481,22 +481,22 @@
         .header-caption {
             span {
                 color: var(--color-white);
-                font-size: 75px;
+                font-size: 56px;
 
                 @media #{$lg-layout} {
-                    font-size: 60px;
+                    font-size: 48px;
                 }
 
                 @media #{$md-layout} {
-                    font-size: 55px;
+                    font-size: 44px;
                 }
 
                 @media #{$sm-layout} {
-                    font-size: 55px;
+                    font-size: 44px;
                 }
 
                 @media #{$large-mobile} {
-                    font-size: 46px;
+                    font-size: 36px;
                 }
             }
         }
@@ -607,7 +607,7 @@
         .slider-frame {
             position: relative;
             overflow: hidden;
-            background: url("https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/slider-main-bg.png");
+            background: url("https://r2.rapidscan.ai/rapidscan/main-site-image/slider-main-bg.png");
             background-position: top center;
             background-size: 100% 100%;
             background-repeat: no-repeat;
@@ -637,7 +637,7 @@
                 top: -40%;
                 left: 50%;
                 transform: translateX(-50%);
-                background: url("https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/main-banner-bg-shape.png");
+                background: url("https://r2.rapidscan.ai/rapidscan/main-site-image/main-banner-bg-shape.png");
                 background-size: 100% 100%;
                 z-index: -5;
             }
@@ -1401,7 +1401,7 @@
     // }
 
     &.bg-banner1 {
-        background-image: url("https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/main-banner-bg.png");
+        background-image: url("https://r2.rapidscan.ai/rapidscan/main-site-image/main-banner-bg.png");
         background-size: unset;
     }
 

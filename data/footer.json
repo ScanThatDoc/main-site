@@ -1,4 +1,12 @@
 {
+  "logo": {
+    "text": "RapidScan.AI"
+  },
+  "description": "🚀 Transform Your Document Workflow with AI Automation",
+  "copyright": {
+    "year": "2025",
+    "companyName": "RapidScan.AI"
+  },
   "footer": [
     {
       "links": [
@@ -29,16 +37,16 @@
           "title": "Services",
           "innerItem": [
             {
-              "link": "#footer",
+              "link": "/utilize",
               "text": "WhatsApp Integration"
             },
             {
-              "link": "#footer",
+              "link": "/utilize",
               "text": "Email Integration"
             },
             {
-              "link": "#footer",
-              "text": "ERP Integration (Coming Soon)"
+              "link": "/utilize",
+              "text": "ERP Integration"
             }
           ]
         }

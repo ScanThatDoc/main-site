@@ -1,23 +1,39 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Sal from "sal.js";
 import AdvanceTabData from "../../data/tabStyle.json";
 
 const AdvanceTab = () => {
+  const tabs = AdvanceTabData ? AdvanceTabData.advanceTab : [];
+  const initialIndex = useMemo(() => {
+    const idx = tabs.findIndex((t) => t.isSelect);
+    return idx >= 0 ? idx : 0;
+  }, [tabs]);
+
+  const [activeIndex, setActiveIndex] = useState(initialIndex);
+
   useEffect(() => {
     Sal();
   }, []);
+
+  useEffect(() => {
+    if (!tabs.length) return;
+    const intervalId = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % tabs.length);
+    }, 8000);
+    return () => clearInterval(intervalId);
+  }, [tabs.length]);
   return (
     <>
       <div className="row row--30">
         <div className="col-lg-12">
           <div className="tab-content">
-            {AdvanceTabData &&
-              AdvanceTabData.advanceTab.map((data, index) => (
+            {tabs &&
+              tabs.map((data, index) => (
                 <div
                   className={`tab-pane fade ${
-                    data.isSelect ? "show active" : ""
+                    index === activeIndex ? "show active" : ""
                   } advance-tab-content-1 right-top`}
                   id={`${data.tabId}-${index + 1}`}
                   role="tabpanel"
@@ -92,20 +108,22 @@ const AdvanceTab = () => {
               id="myTab-3"
               role="tablist"
             >
-              {AdvanceTabData &&
-                AdvanceTabData.advanceTab.map((list, i) => (
+              {tabs &&
+                tabs.map((list, i) => (
                   <li className="col-lg-3 nav-item" role="presentation" key={i}>
                     <a
                       href="#"
                       className={`nav-link tab-button ${
-                        list.isSelect ? "active" : ""
+                        i === activeIndex ? "active" : ""
                       }`}
                       id={`${list.target}-${i + 1}`}
-                      data-bs-toggle="tab"
-                      data-bs-target={`#${list.tabId}-${i + 1}`}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setActiveIndex(i);
+                      }}
                       role="tab"
                       aria-controls={`${list.tabId}-${i + 1}`}
-                      aria-selected={list.isSelect}
+                      aria-selected={i === activeIndex}
                     >
                       <div className="tab">
                         <div className="count-text">

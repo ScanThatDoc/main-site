@@ -182,16 +182,16 @@
 
                 ul {
                     li {
-                        font-size: 24px;
-                        line-height: 36px;
+                        font-size: 20px;
+                        line-height: 32px;
 
                         @media #{$md-layout} {
-                            font-size: 20px;
+                            font-size: 18px;
                             line-height: var(--line-height-b1);
                         }
 
                         @media #{$sm-layout} {
-                            font-size: var(--font-size-b1);
+                            font-size: 16px;
                             line-height: var(--line-height-b1);
                             display: flex;
                             align-items: baseline;

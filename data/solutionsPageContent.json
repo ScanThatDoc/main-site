@@ -1,0 +1,58 @@
+{
+  "buttons": {
+    "bookDemo": {
+      "label": "Book a Demo",
+      "env": "NEXT_PUBLIC_CALENDLY_URL",
+      "fallbackUrl": "https://calendly.com/bot-rapidscan/30min",
+      "variant": "primary"
+    },
+    "tryNow": {
+      "label": "Try Now",
+      "env": "NEXT_PUBLIC_WEBSITE_URL",
+      "fallbackUrl": "https://app.rapidscan.ai",
+      "variant": "secondary"
+    }
+  },
+  "sections": {
+    "hero": {
+      "buttonOrder": [
+        "bookDemo",
+        "tryNow"
+      ]
+    },
+    "keyFeatures": {
+      "title": "Key Features & Benefits",
+      "descriptionTemplate": "Discover how RapidScan's AI can transform your {{solutionTitleLower}} practice"
+    },
+    "howItWorks": {
+      "titleTemplate": "How It Works for {{solutionTitle}}",
+      "description": "Get started in three simple steps"
+    },
+    "useCases": {
+      "title": "Real-World Use Cases",
+      "description": "See how professionals like you are transforming their practice with RapidScan"
+    },
+    "results": {
+      "title": "Proven Results",
+      "description": "Real metrics from professionals using RapidScan"
+    },
+    "challenges": {
+      "title": "Common Challenges We Solve",
+      "descriptionTemplate": "See how RapidScan addresses the biggest obstacles facing {{solutionTitleLower}} today",
+      "labels": {
+        "challenge": "Challenge",
+        "solution": "Solution"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "descriptionTemplate": "Everything you need to know about RapidScan for {{solutionTitleLower}}"
+    },
+    "cta": {
+      "titleTemplate": "Ready to Transform Your {{solutionTitle}} Practice?",
+      "description": "Join thousands of professionals who are already using RapidScan to amplify their impact",
+      "primaryButton": "bookDemo"
+    }
+  }
+}
+

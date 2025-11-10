@@ -9,24 +9,28 @@ import Copyright from "@/components/Footers/Copyright";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import BackToTop from "../backToTop";
 import Contact from "@/components/Contact/Contact";
+import contactData from "../../data/contact.json";
 
 const ContactPage = () => {
+  const { meta, breadcrumb } = contactData;
+  const baseImageUrl = "https://r2.rapidscan.ai/rapidscan/main-site-image";
+  
   return (
     <>
       <Head>
-        <title>Contact RapidScan AI - Get in Touch With Our Team</title>
-        <meta name="description" content="Have questions about RapidScan AI? Contact our team for support, demos, or partnership inquiries. We're here to help you with all your document scanning needs." />
-        <meta name="keywords" content="contact RapidScan AI, support, customer service, document scanning help, AI consultation, business inquiries" />
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
+        <meta name="keywords" content={meta.keywords} />
         
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Contact RapidScan AI - Get in Touch With Our Team" />
-        <meta property="og:description" content="Contact our team for support, demos, or partnership inquiries" />
-        <meta property="og:image" content="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/logo-dark.png" />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:image" content={`${baseImageUrl}/logo-dark.png`} />
         
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Contact RapidScan AI" />
-        <meta name="twitter:description" content="Contact our team for support, demos, or partnership inquiries" />
-        <meta name="twitter:image" content="https://dev-docscanner.s3.ap-south-1.amazonaws.com/main+site+image/logo-dark.png" />
+        <meta name="twitter:title" content={meta.title} />
+        <meta name="twitter:description" content={meta.description} />
+        <meta name="twitter:image" content={`${baseImageUrl}/logo-dark.png`} />
       </Head>
 
       <main className="page-wrapper">
@@ -39,8 +43,8 @@ const ContactPage = () => {
           />
           <PopupMobileMenu />
           <Breadcrumb
-            title="Get Started with an Enquiry"
-            text="Contact Us"
+            title={breadcrumb.title}
+            text={breadcrumb.text}
           />
 
           <Contact />

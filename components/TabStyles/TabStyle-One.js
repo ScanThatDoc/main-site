@@ -59,11 +59,11 @@ const TabStyleOne = () => {
                     aria-labelledby={`${tab.menuId}-tab`}
                     key={index}
                   >
-                    <div className="inner">
+                    <div className="inner" style={{ display: 'block', width: '100%' }}>
                       <div className="row">
-                        <div className="col-xl-6">
-                          <div className="section-title">
-                            <h2 className="title">{tab.title}</h2>
+                        <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+                          <div className="section-title text-start">
+                            <h3 className="title">{tab.title}</h3>
                             <div className="features-section">
                               <ul className="list-style--1">
                                 {tab.subItem.map((item, i) => (
@@ -121,7 +121,7 @@ const TabStyleOne = () => {
                             
                           </div>
                         </div>
-                        <div className="col-xl-6 mt_md--30 mt_sm--30">
+                        <div className="col-12 col-md-6 col-lg-6 col-xl-6 mt_md--30 mt_sm--30">
                           <div className="export-img">
                             <div className="inner-without-padding">
                               <div 
