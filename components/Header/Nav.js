@@ -18,7 +18,15 @@ const Nav = () => {
       [subTitle]: !prevState[subTitle],
     }));
   };
-  const isActive = (href) => router.pathname === href;
+  const isActive = (href) => {
+    if (!href) return false;
+
+    if (href.includes('#')) {
+      return router.asPath === href;
+    }
+
+    return router.asPath === href;
+  };
   const handleAnchorClick = (e, href) => {
     if (href && href.startsWith("/#")) {
       const id = href.split("#")[1];
@@ -39,8 +47,10 @@ const Nav = () => {
     <>
       <ul className="mainmenu">
         {MenuData &&
-          MenuData.nav.map((data, index) => (
-            <li
+          MenuData.nav.map((data, index) => {
+            const isSolutionsMenu = data.text === "Solutions";
+            return (
+              <li
               className={`${
                 data.dropdown
                   ? "has-dropdown has-menu-child-item position-relative"
@@ -81,7 +91,7 @@ const Nav = () => {
               !data.dashboard &&
               !data.upcoming ? (
                 <ul
-                  className={`submenu ${
+                  className={`submenu ${isSolutionsMenu ? "submenu--solutions" : ""} ${
                     !sectionStates[data.text] ? "d-block" : ""
                   }`}
                 >
@@ -89,7 +99,7 @@ const Nav = () => {
                     data.subItem.map((innerData, innerIndex) => (
                       <li key={innerIndex}>
                         <Link
-                          className={`${
+                          className={`submenu-link ${
                             isActive(innerData.link) ? "active" : ""
                           } ${innerData.isDisable ? "disabled" : ""}`}
                           href={!innerData.isDisable ? innerData.link : "#"}
@@ -134,10 +144,12 @@ const Nav = () => {
                 ""
               )}
             </li>
-          ))}
+            );
+          })}
       </ul>
     </>
   );
 };
+
 
 export default Nav;

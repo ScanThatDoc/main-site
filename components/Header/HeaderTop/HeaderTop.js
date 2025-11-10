@@ -15,7 +15,9 @@ const HeaderTop = () => {
               <div className="col-lg-12">
                 <div className="inner">
                   <div className="content">
-                    <span className="rainbow-badge">Limited Time Offer</span>
+                    <Link href="/#pricing" className="rainbow-badge">
+                      Limited Time Offer
+                    </Link>
                     <span className="news-text">
                       Intro price. Get RapidScan.AI for FREE today.
                     </span>

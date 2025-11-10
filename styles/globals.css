@@ -125,3 +125,18 @@ a {
 .advance-tab-button .nav-link.tab-button.active {
   box-shadow: 0 6px 18px rgba(128, 90, 245, 0.25);
 }
+
+/* Solutions dropdown refinements */
+.submenu--solutions {
+  min-width: 280px;
+  padding: 12px 0;
+}
+
+.submenu--solutions li a.submenu-link {
+  display: block;
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+

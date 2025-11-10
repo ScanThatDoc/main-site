@@ -1,0 +1,962 @@
+{
+  "solutions": [
+    {
+      "slug": "manufacturing-distribution",
+      "meta": {
+        "title": "RapidScan for Manufacturing & Distribution | AI Invoice & Document Automation",
+        "description": "Automate supplier invoices, purchase orders, and delivery dockets with RapidScan.AI. Sync data directly to your ERP, eliminate manual entry, and gain full visibility across your manufacturing operations."
+      },
+      "hero": {
+        "badge": "Industry Solution",
+        "title": "For Manufacturing & Distribution",
+        "subtitle": "Use Cases",
+        "description": "Automate invoices, POs, and delivery docs with AI — RapidScan eliminates manual entry and syncs data to your ERP in real time."
+      },
+      "keyFeatures": [
+        {
+          "icon": "📄",
+          "title": "AI Invoice Processing",
+          "description": "Automatically capture, extract, and validate supplier invoices in seconds. RapidScan matches invoice data against purchase orders and delivery notes for 100% accuracy."
+        },
+        {
+          "icon": "📦",
+          "title": "Purchase Order Automation",
+          "description": "Digitize and process purchase orders with AI-driven precision. Track vendor performance, fulfillment status, and pricing consistency across all sites."
+        },
+        {
+          "icon": "🚚",
+          "title": "Delivery Note Digitization",
+          "description": "Field and warehouse teams simply photograph delivery notes via WhatsApp or upload PDFs. RapidScan extracts item codes, quantities, and batch details automatically."
+        },
+        {
+          "icon": "🔄",
+          "title": "3-Way Match Validation",
+          "description": "Automatically reconcile purchase orders, delivery notes, and invoices. Detect mismatches instantly and prevent costly payment or inventory errors."
+        },
+        {
+          "icon": "📊",
+          "title": "Real-Time Inventory Sync",
+          "description": "Keep stock levels accurate across multiple sites with automated updates from processed delivery documents and invoices."
+        },
+        {
+          "icon": "🔗",
+          "title": "Seamless ERP Integration",
+          "description": "Integrate effortlessly with SAP, Oracle, Microsoft Dynamics, and other manufacturing ERPs to sync validated data and streamline workflows."
+        }
+      ],
+      "howItWorks": [
+        {
+          "title": "Capture Documents Anywhere",
+          "description": "Receive supplier invoices, delivery notes, and POs via WhatsApp, email, or direct upload through the portal. On-site teams can capture paperwork instantly from mobile devices."
+        },
+        {
+          "title": "AI Extraction & Validation",
+          "description": "RapidScan’s AI extracts all relevant data points, validates them against your ERP records, and flags any discrepancies or exceptions automatically."
+        },
+        {
+          "title": "Sync to ERP Automatically",
+          "description": "Approved documents flow directly into your ERP, updating inventory, accounts payable, and procurement records in real-time — no manual input required."
+        }
+      ],
+      "useCases": [
+        {
+          "title": "Automated Supplier Invoice Processing",
+          "description": "Process hundreds of supplier invoices daily with zero manual effort. RapidScan captures invoice data, matches it with POs, and routes exceptions for approval — reducing AP workload by 80%."
+        },
+        {
+          "title": "Warehouse Delivery Note Capture",
+          "description": "Warehouse teams photograph delivery notes via WhatsApp. RapidScan extracts item codes, quantities, and batch numbers, updating ERP inventory instantly."
+        },
+        {
+          "title": "Multi-Site Purchase Order Tracking",
+          "description": "Centralize PO management across multiple plants and warehouses. RapidScan consolidates data, monitors fulfillment status, and provides cross-site visibility."
+        },
+        {
+          "title": "Vendor Compliance & Quality Tracking",
+          "description": "Automatically capture, validate, and store supplier compliance certificates, quality checklists, and audit documents — ensuring readiness for inspections."
+        }
+      ],
+      "results": [
+        {
+          "stat": "80%",
+          "title": "Faster Accounts Payable Processing",
+          "description": "Reduce invoice processing time from days to minutes with AI automation."
+        },
+        {
+          "stat": "95%",
+          "title": "Data Accuracy",
+          "description": "Ensure near-perfect accuracy with automated validation and ERP syncing."
+        },
+        {
+          "stat": "60%",
+          "title": "Operational Cost Savings",
+          "description": "Cut data entry and reconciliation costs through end-to-end automation."
+        },
+        {
+          "stat": "3×",
+          "title": "Higher Processing Throughput",
+          "description": "Process three times more documents with the same team size."
+        }
+      ],
+      "challenges": [
+        {
+          "challenge": "Manual data entry from supplier invoices causes bottlenecks and frequent errors in accounts payable.",
+          "solution": "RapidScan automates data capture and validation across WhatsApp, email, and portal uploads — syncing directly to your ERP and reducing processing time by up to 80%."
+        },
+        {
+          "challenge": "Delivery notes from warehouse and field teams often go missing or are entered incorrectly.",
+          "solution": "Warehouse teams can simply photograph or upload delivery notes. RapidScan extracts all data accurately and updates ERP systems in real time."
+        },
+        {
+          "challenge": "3-way matching between POs, delivery notes, and invoices is time-consuming and error-prone.",
+          "solution": "RapidScan automates 3-way matching and flags mismatches before posting to your ERP — improving accuracy and reducing exceptions by 60%."
+        },
+        {
+          "challenge": "Multiple ERP systems across sites make centralized visibility difficult.",
+          "solution": "RapidScan integrates with all major manufacturing ERPs (SAP, Oracle, Dynamics, etc.), creating a unified view of procurement and supply chain documentation."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Which ERP systems does RapidScan integrate with?",
+          "answer": "RapidScan integrates with SAP, Oracle, Microsoft Dynamics, SYSPRO, Acumatica, Odoo, QAD, Sage, and more. Custom API and webhook integrations are also supported."
+        },
+        {
+          "question": "Can RapidScan process multi-page invoices with detailed line items?",
+          "answer": "Yes. RapidScan processes both single and multi-page invoices, extracting header information, totals, and line items with precision."
+        },
+        {
+          "question": "Is data from RapidScan secure for manufacturing and supplier documents?",
+          "answer": "Yes. All files and extracted data are encrypted in transit and at rest. Access is role-based, ensuring compliance with enterprise data security standards."
+        }
+      ]
+    },    
+    {
+      "slug": "accounting-finance",
+      "meta": {
+        "title": "RapidScan for Accounting & Finance | AI-Powered AP & AR Automation",
+        "description": "Automate accounts payable, receivables, and reconciliation with AI-powered accuracy. RapidScan eliminates manual entry, enforces approvals, and provides complete audit trails for compliance and faster month-end close."
+      },
+      "hero": {
+        "badge": "Finance Solution",
+        "title": "For Accounting & Finance",
+        "subtitle": "Use Cases",
+        "description": "Automate AP, AR, and reconciliations with AI — RapidScan speeds up closing, ensures compliance, and removes manual work."
+      },
+      "keyFeatures": [
+        {
+          "icon": "💰",
+          "title": "AI-Driven Accounts Payable Automation",
+          "description": "Extract, validate, and process vendor invoices automatically. Match them to POs and route for approval—reducing AP cycle time by up to 70%."
+        },
+        {
+          "icon": "📨",
+          "title": "Accounts Receivable Management",
+          "description": "Capture customer invoices and receipts instantly, reconcile payments, and keep AR ledgers current with real-time updates."
+        },
+        {
+          "icon": "🧾",
+          "title": "Expense Report Digitization",
+          "description": "Employees snap and send receipts via WhatsApp or email. RapidScan extracts amount, category, and date automatically—ready for instant reporting."
+        },
+        {
+          "icon": "✅",
+          "title": "Smart Multi-Level Approvals",
+          "description": "Set approval workflows by vendor, GL code, or amount. RapidScan routes documents automatically and maintains a full audit trail of every decision."
+        },
+        {
+          "icon": "📊",
+          "title": "Automated Reconciliation",
+          "description": "Match invoices, payments, and statements in seconds. AI flags exceptions for quick review, cutting reconciliation time drastically."
+        },
+        {
+          "icon": "🔐",
+          "title": "Compliance & Audit Visibility",
+          "description": "Maintain secure, timestamped audit logs for every transaction. Fully compliant with SOX, GDPR, and financial reporting regulations."
+        }
+      ],
+      "howItWorks": [
+        {
+          "title": "Capture Financial Documents Instantly",
+          "description": "Receive invoices, receipts, and bank statements via WhatsApp, email, or portal upload. RapidScan detects and processes all documents automatically."
+        },
+        {
+          "title": "AI Extraction & Policy Validation",
+          "description": "RapidScan extracts vendor details, amounts, and GL codes, then validates against POs, contracts, and approval rules."
+        },
+        {
+          "title": "Automated Approval & Posting",
+          "description": "Once validated, documents flow through approval workflows and sync automatically with your accounting systems like QuickBooks, Xero, or SAP."
+        }
+      ],
+      "useCases": [
+        {
+          "title": "End-to-End AP Automation",
+          "description": "Capture vendor invoices via email or WhatsApp. RapidScan extracts and matches data with POs, routes for approval, and posts directly to ERP—cutting processing time by 80%."
+        },
+        {
+          "title": "Expense Report Automation",
+          "description": "Employees simply send receipt photos through WhatsApp. RapidScan extracts key fields, fills expense reports, and routes them to managers for instant approval."
+        },
+        {
+          "title": "Bank Statement Reconciliation",
+          "description": "Upload statements to RapidScan. AI automatically matches transactions against invoices and payments, flagging discrepancies and reducing reconciliation time by 60%."
+        },
+        {
+          "title": "Multi-Entity Finance Consolidation",
+          "description": "Centralize invoice capture and posting across multiple legal entities. RapidScan routes documents to the right accounting system automatically."
+        }
+      ],
+      "results": [
+        {
+          "stat": "70%",
+          "title": "Faster AP Cycles",
+          "description": "Process invoices in hours instead of days."
+        },
+        {
+          "stat": "50%",
+          "title": "Reduced Close Time",
+          "description": "Cut month-end close duration by half."
+        },
+        {
+          "stat": "90%",
+          "title": "Touchless Invoice Processing",
+          "description": "Automate the majority of finance workflows with zero manual intervention."
+        },
+        {
+          "stat": "100%",
+          "title": "Audit Compliance",
+          "description": "Maintain complete audit visibility and traceability for every transaction."
+        }
+      ],
+      "challenges": [
+        {
+          "challenge": "Manual invoice entry slows down payments and increases error rates.",
+          "solution": "RapidScan automates invoice extraction, validation, and posting—reducing AP cycle time by up to 70%."
+        },
+        {
+          "challenge": "Expense reporting is slow and inconsistent due to manual receipt handling.",
+          "solution": "Employees send receipt images via WhatsApp. RapidScan extracts and categorizes them instantly, populating reports automatically."
+        },
+        {
+          "challenge": "Bank reconciliation consumes excessive time at month-end.",
+          "solution": "RapidScan automatically matches transactions to invoices and flags exceptions—cutting reconciliation time by over 60%."
+        },
+        {
+          "challenge": "Maintaining audit trails and compliance across systems is difficult.",
+          "solution": "RapidScan logs every action, edit, and approval, ensuring SOX and GDPR compliance with minimal effort."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Which accounting systems integrate with RapidScan?",
+          "answer": "RapidScan integrates with QuickBooks, Xero, Zoho Books, Tally, SAP, Oracle Financials, NetSuite, and other major platforms. Custom API integrations are available."
+        },
+        {
+          "question": "Can RapidScan handle multi-currency transactions?",
+          "answer": "Yes. RapidScan automatically detects currency symbols and codes, applies exchange rates, and maintains accuracy for global operations."
+        },
+        {
+          "question": "How do approval workflows function in RapidScan?",
+          "answer": "You can configure approval rules based on vendor, department, GL code, or amount. RapidScan routes documents automatically and records all approval actions."
+        },
+        {
+          "question": "Is RapidScan compliant with global finance regulations?",
+          "answer": "Absolutely. RapidScan adheres to SOX, GDPR, and financial audit standards with encryption, access controls, and complete audit trails."
+        }
+      ]
+    },
+    {
+      "slug": "logistics-supply-chain",
+      "meta": {
+        "title": "RapidScan for Logistics & Supply Chain | AI Shipment & Document Automation",
+        "description": "Automate waybills, proofs of delivery, and customs documentation with RapidScan.AI. Eliminate manual entry, accelerate freight billing, and ensure total logistics visibility across partners and warehouses."
+      },
+      "hero": {
+        "badge": "Operations Solution",
+        "title": "For Logistics & Supply Chain",
+        "subtitle": "Use Cases",
+        "description": "Automate waybills, PODs, and customs docs with AI — RapidScan connects teams, reduces delays, and boosts shipment accuracy."
+      },
+      "keyFeatures": [
+        {
+          "icon": "📋",
+          "title": "Automated Waybill & BOL Capture",
+          "description": "Instantly capture and digitize waybills, bills of lading, and shipping manifests from carriers, freight forwarders, and partners."
+        },
+        {
+          "icon": "🌍",
+          "title": "Smart Customs Documentation",
+          "description": "Extract and validate data from customs declarations, invoices, and packing lists to speed up clearance and reduce compliance risks."
+        },
+        {
+          "icon": "📦",
+          "title": "Digital Proof of Delivery (POD)",
+          "description": "Drivers simply snap a photo of signed PODs and send via WhatsApp. RapidScan extracts signatures, timestamps, and delivery details automatically."
+        },
+        {
+          "icon": "🚛",
+          "title": "Freight Invoice Reconciliation",
+          "description": "Cross-check freight invoices with contracts and waybills to detect rate mismatches, overcharges, and accessorial errors instantly."
+        },
+        {
+          "icon": "📍",
+          "title": "End-to-End Visibility",
+          "description": "Share real-time shipment documents securely with customers, brokers, and internal stakeholders for faster coordination."
+        },
+        {
+          "icon": "🔗",
+          "title": "TMS & WMS Integration",
+          "description": "Integrate seamlessly with SAP TM, Oracle SCM, Manhattan, Blue Yonder, and other logistics platforms to keep your data synchronized."
+        }
+      ],
+      "howItWorks": [
+        {
+          "title": "Capture Shipment Documents Instantly",
+          "description": "Receive waybills, PODs, and customs documents via WhatsApp, email, or secure portal uploads from carriers, freight forwarders, and drivers."
+        },
+        {
+          "title": "AI-Powered Data Extraction",
+          "description": "RapidScan automatically extracts shipment numbers, consignee information, item descriptions, weights, and customs codes — validating accuracy against your TMS or ERP."
+        },
+        {
+          "title": "Sync & Notify Automatically",
+          "description": "Processed documents flow into your TMS or WMS in real time, triggering automated status updates and customer notifications."
+        }
+      ],
+      "useCases": [
+        {
+          "title": "Automated Waybill Processing",
+          "description": "Eliminate manual waybill entry by capturing shipment data directly from carrier emails. RapidScan extracts shipment IDs, consignee details, and items — reducing processing time by up to 75%."
+        },
+        {
+          "title": "Proof of Delivery Digitization",
+          "description": "Drivers upload signed PODs via WhatsApp. RapidScan extracts signature, timestamp, and delivery details — instantly updating your TMS and notifying customers."
+        },
+        {
+          "title": "Customs Clearance Automation",
+          "description": "Freight forwarders upload customs forms and invoices. RapidScan extracts HS codes, values, and origins, pre-filling forms to speed up border clearance by 50%."
+        },
+        {
+          "title": "Freight Billing Audit & Recovery",
+          "description": "RapidScan compares freight invoices with contracted rates and actual waybills — flagging overcharges and recovering 5-10% in billing errors."
+        }
+      ],
+      "results": [
+        {
+          "stat": "75%",
+          "title": "Faster Document Turnaround",
+          "description": "Process waybills, manifests, and customs forms in minutes instead of hours."
+        },
+        {
+          "stat": "50%",
+          "title": "Faster Customs Clearance",
+          "description": "Cut customs processing time with AI-driven data extraction and validation."
+        },
+        {
+          "stat": "10%",
+          "title": "Freight Cost Recovery",
+          "description": "Recover up to 10% of freight billing errors through automated audits."
+        },
+        {
+          "stat": "100%",
+          "title": "POD Digitization",
+          "description": "Ensure every proof of delivery is captured, stored, and searchable in real time."
+        }
+      ],
+      "challenges": [
+        {
+          "challenge": "Manual entry of waybills and bills of lading leads to errors and delays in shipment tracking.",
+          "solution": "RapidScan captures waybill data automatically from email or portal uploads, syncing to your TMS and reducing processing time by 75%."
+        },
+        {
+          "challenge": "Paper-based PODs get lost or delayed, causing billing disputes and customer complaints.",
+          "solution": "Drivers can photograph signed PODs and send via WhatsApp. RapidScan extracts key details, timestamps, and updates your TMS instantly."
+        },
+        {
+          "challenge": "Manual customs paperwork causes clearance delays and compliance risks.",
+          "solution": "RapidScan extracts HS codes, declared values, and origins from customs forms, pre-filling entries and cutting clearance time by 50%."
+        },
+        {
+          "challenge": "Freight invoice auditing is slow and prone to oversight.",
+          "solution": "RapidScan matches freight invoices to contracts and rate cards automatically, identifying overcharges and improving financial control."
+        }
+      ],
+      "faq": [
+        {
+          "question": "How does RapidScan help logistics teams manage shipping documents?",
+          "answer": "RapidScan automatically captures waybills, PODs, and freight invoices from email or WhatsApp, extracts all key data, and organizes them in one dashboard for faster validation and tracking."
+        },
+        {
+          "question": "Can RapidScan work for drivers and field teams?",
+          "answer": "Yes. Drivers can simply photograph PODs or delivery notes using WhatsApp. RapidScan extracts shipment details and updates your system in real time."
+        },
+        {
+          "question": "Does RapidScan support customs or cross-border shipments?",
+          "answer": "Yes. RapidScan can process customs paperwork like invoices, packing lists, and declarations—extracting HS codes and shipment values for faster clearance."
+        },
+        {
+          "question": "How quickly can logistics teams start using RapidScan?",
+          "answer": "You can get started in minutes—no IT setup needed. Upload or send documents via WhatsApp or email, and RapidScan will begin extracting data instantly."
+        }
+      ]
+    },
+    {
+      "slug": "small-medium-businesses",
+      "meta": {
+        "title": "RapidScan for Small & Medium Businesses | Smart Invoice & Document Automation",
+        "description": "Simplify invoice management, approvals, and expense tracking with RapidScan.AI. Start instantly through WhatsApp, email, or portal — no setup, no training, just results."
+      },
+      "hero": {
+        "badge": "SMB Solution",
+        "title": "For Small & Medium Businesses (SMBs)",
+        "subtitle": "Use Cases",
+        "description": "Empower your small business with plug-and-play document automation. Process invoices, receipts, and approvals via WhatsApp, email, or portal — with zero setup or technical training required."
+      },
+      "keyFeatures": [
+        {
+          "icon": "⚡",
+          "title": "Instant, No-Code Setup",
+          "description": "Start in minutes — no installation or configuration needed. Send your first invoice via WhatsApp or email and watch RapidScan do the rest."
+        },
+        {
+          "icon": "💸",
+          "title": "Transparent, Flexible Pricing",
+          "description": "Pay only for what you process. No contracts, no surprises — just simple, affordable plans built for small businesses."
+        },
+        {
+          "icon": "📱",
+          "title": "Mobile-First Experience",
+          "description": "Run your business from anywhere. Upload invoices or receipts directly from your smartphone using WhatsApp or mobile browser."
+        },
+        {
+          "icon": "🔄",
+          "title": "Quick Approval Flows",
+          "description": "Set up simple approval rules by amount or vendor in minutes. Route invoices to managers or owners with automatic reminders."
+        },
+        {
+          "icon": "📊",
+          "title": "Smart Spending Insights",
+          "description": "View vendor-wise and monthly spending reports. Export to Excel or sync directly with QuickBooks or Xero for easy bookkeeping."
+        },
+        {
+          "icon": "🤝",
+          "title": "Human-Backed Support",
+          "description": "Get friendly support from real people via WhatsApp or email — no bots, no queues, just fast help when you need it."
+        }
+      ],
+      "howItWorks": [
+        {
+          "title": "Sign Up & Send Documents",
+          "description": "Create your account in under two minutes. Send invoices via WhatsApp (+60 10-836 6750) or forward to docs@rapidscan.ai — processing starts instantly."
+        },
+        {
+          "title": "AI Organizes & Extracts",
+          "description": "RapidScan extracts vendor names, amounts, due dates, and line items automatically, organizing everything neatly in your secure dashboard."
+        },
+        {
+          "title": "Approve & Sync with Accounting",
+          "description": "Approve invoices directly in the portal or on WhatsApp. Approved records sync with QuickBooks, Xero, or can be exported as Excel files."
+        }
+      ],
+      "useCases": [
+        {
+          "title": "Invoice Management for Small Businesses",
+          "description": "Retail and service businesses use RapidScan to capture invoices sent via WhatsApp or email. Data is extracted, organized, and ready for payment — eliminating missed due dates and paper clutter."
+        },
+        {
+          "title": "Freelancer & Consultant Expense Tracking",
+          "description": "Freelancers snap photos of receipts and send them via WhatsApp. RapidScan categorizes and logs each expense, simplifying monthly bookkeeping and tax prep."
+        },
+        {
+          "title": "Restaurant Vendor Bill Automation",
+          "description": "Restaurants receive daily supplier bills by email. RapidScan reads item names, quantities, and totals, flags mismatches, and organizes bills for faster vendor reconciliation."
+        },
+        {
+          "title": "Quotation & PO Management for Service Providers",
+          "description": "Agencies and contractors upload or forward client quotations. RapidScan organizes them by status, helping teams convert approved quotes into invoices effortlessly."
+        }
+      ],
+      "results": [
+        {
+          "stat": "2 min",
+          "title": "Instant Setup",
+          "description": "Go live in just two minutes — no onboarding or training required."
+        },
+        {
+          "stat": "90%",
+          "title": "Time Saved on Manual Tasks",
+          "description": "Free up hours weekly by automating invoice and receipt entry."
+        },
+        {
+          "stat": "$500+",
+          "title": "Monthly Cost Savings",
+          "description": "Save hundreds monthly by avoiding late fees and manual data entry costs."
+        },
+        {
+          "stat": "100%",
+          "title": "Mobile-Ready Experience",
+          "description": "Manage your business anytime, anywhere, directly from your phone."
+        }
+      ],
+      "challenges": [
+        {
+          "challenge": "Small teams lose hours every week on manual invoice entry and document filing.",
+          "solution": "RapidScan automates invoice capture through WhatsApp or email, extracting and organizing all data in one searchable dashboard — saving up to 10 hours weekly."
+        },
+        {
+          "challenge": "Missed payments and late fees occur due to scattered documents and unread invoices.",
+          "solution": "RapidScan centralizes all invoices, tracks due dates, and sends automatic reminders so you never miss a payment again."
+        },
+        {
+          "challenge": "Traditional accounting tools are expensive and complex to set up.",
+          "solution": "RapidScan provides a plug-and-play solution with affordable, flexible pricing — no IT help or training required."
+        },
+        {
+          "challenge": "Expense tracking and tax prep are stressful for small business owners.",
+          "solution": "RapidScan organizes receipts and invoices by category, making monthly accounting and tax season simple and stress-free."
+        }
+      ],
+      "faq": [
+        {
+          "question": "How much does RapidScan cost for small businesses?",
+          "answer": "RapidScan offers flexible pay-as-you-go pricing. You can scale up anytime with no long-term commitment."
+        },
+        {
+          "question": "Do I need technical setup or integrations to start?",
+          "answer": "Not at all. Start sending documents via WhatsApp or email instantly — no installation required. Optional integrations with QuickBooks, Xero, and Zoho Books are available."
+        },
+        {
+          "question": "Can I manage everything from my smartphone?",
+          "answer": "Yes. RapidScan is fully mobile-optimized. Capture, upload, and approve invoices directly through WhatsApp or your phone’s browser."
+        },
+        {
+          "question": "What if RapidScan misreads a document?",
+          "answer": "You can quickly review and correct extracted data before approval. RapidScan learns from your edits, improving accuracy over time."
+        },
+        {
+          "question": "Can I share my RapidScan portal with my accountant or team?",
+          "answer": "Yes. You can grant access to your accountant or bookkeeper to review and export documents securely anytime."
+        }
+      ]
+    },    
+    {
+      "slug": "construction-field-ops",
+      "meta": {
+        "title": "RapidScan for Construction & Field Ops | Document Scanning Automation",
+        "description": "Automate invoice, PO, and delivery document capture for construction projects. RapidScan extracts key data instantly — reducing paperwork, delays, and manual entry errors."
+      },
+      "hero": {
+        "badge": "Field Ops Solution",
+        "title": "For Construction & Field Operations",
+        "subtitle": "Use Cases",
+        "description": "Digitize invoices, POs, and delivery challans instantly. RapidScan captures and extracts key details from your field and vendor documents — giving teams real-time visibility into project costs and materials."
+      },
+      "keyFeatures": [
+        {
+          "icon": "📄",
+          "title": "Invoice & PO Scanning",
+          "description": "Extract supplier names, amounts, and item details from invoices and purchase orders sent via WhatsApp or email."
+        },
+        {
+          "icon": "📦",
+          "title": "Delivery Challan Capture",
+          "description": "Digitize delivery notes from vendors and subcontractors to track received materials automatically."
+        },
+        {
+          "icon": "🚧",
+          "title": "Field Document Automation",
+          "description": "On-site teams can scan material receipts, site bills, and equipment rental slips using their phones — no scanners or apps needed."
+        },
+        {
+          "icon": "📊",
+          "title": "Project Cost Insights",
+          "description": "All extracted data is organized by project or site, giving finance and procurement instant cost visibility."
+        },
+        {
+          "icon": "🧾",
+          "title": "Multi-Format Support",
+          "description": "Process PDFs, images, and even handwritten bills or dockets with AI-driven accuracy."
+        },
+        {
+          "icon": "🔗",
+          "title": "ERP & Accounting Sync",
+          "description": "Export structured data to Excel, Tally, QuickBooks, or integrate via API with your ERP system."
+        }
+      ],
+      "howItWorks": [
+        {
+          "title": "1. Upload or Send Documents",
+          "description": "Teams and vendors send invoices, challans, or POs via WhatsApp, email, or portal upload — RapidScan auto-detects and queues them for processing."
+        },
+        {
+          "title": "2. AI Extraction",
+          "description": "RapidScan reads key data such as supplier name, material description, quantity, and total amount, validating it automatically."
+        },
+        {
+          "title": "3. Review & Sync",
+          "description": "Approved documents are available in your dashboard for download or export to ERP/accounting systems — no manual data entry needed."
+        }
+      ],
+      "useCases": [
+        {
+          "title": "Vendor Invoice Automation",
+          "description": "Vendors send invoices via email or WhatsApp. RapidScan extracts details like vendor name, total, tax, and PO number — ready for approval and payment."
+        },
+        {
+          "title": "Material Receipt Digitization",
+          "description": "Site teams photograph material challans upon delivery. RapidScan extracts item quantities and supplier details, updating procurement logs instantly."
+        },
+        {
+          "title": "Purchase Order Capture",
+          "description": "Procurement teams upload POs or receive them via email. RapidScan reads order numbers, vendor info, and totals for organized tracking."
+        },
+        {
+          "title": "Subcontractor Bill Processing",
+          "description": "Subcontractors send bills via WhatsApp or email. RapidScan extracts payment details, helping streamline approval and avoid manual errors."
+        }
+      ],
+      "results": [
+        {
+          "stat": "85%",
+          "title": "Less Manual Entry",
+          "description": "Automate invoice and delivery document data entry across sites."
+        },
+        {
+          "stat": "3x",
+          "title": "Faster Processing",
+          "description": "Cut invoice and PO handling time from days to minutes."
+        },
+        {
+          "stat": "95%",
+          "title": "Data Accuracy",
+          "description": "Ensure consistent, error-free extraction across all document types."
+        },
+        {
+          "stat": "100%",
+          "title": "Real-time Visibility",
+          "description": "Access all project financial documents instantly from one dashboard."
+        }
+      ],
+      "challenges": [
+        {
+          "challenge": "Field and procurement teams handle piles of paper invoices and delivery challans daily.",
+          "solution": "RapidScan allows teams to capture and send documents via WhatsApp or email, automatically extracting and organizing them for instant visibility."
+        },
+        {
+          "challenge": "Manual entry of POs and invoices leads to delays and data mismatches.",
+          "solution": "RapidScan extracts all key details — supplier, PO, and amount — directly into your system, removing manual entry steps."
+        },
+        {
+          "challenge": "Delivery notes often get misplaced between site and office.",
+          "solution": "Site staff can photograph challans instantly. RapidScan digitizes and stores them securely with searchable project tags."
+        },
+        {
+          "challenge": "Subcontractor and vendor billing takes too long to verify.",
+          "solution": "RapidScan reads and validates all supporting documents, helping finance teams reconcile payments faster and more accurately."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can field teams scan documents with their phones?",
+          "answer": "Yes. Site staff can simply photograph invoices, challans, or receipts via WhatsApp or upload them directly — RapidScan extracts data automatically."
+        },
+        {
+          "question": "Does RapidScan support handwritten or stamped documents?",
+          "answer": "Yes. RapidScan’s OCR engine can read both printed and handwritten content with high accuracy, even from field-scanned documents."
+        },
+        {
+          "question": "How does RapidScan help construction finance teams?",
+          "answer": "By organizing invoices, POs, and challans digitally, RapidScan ensures faster approvals, fewer errors, and instant cost visibility across projects."
+        },
+        {
+          "question": "Is any setup or training required for site teams?",
+          "answer": "No setup needed. Teams can start immediately using WhatsApp or email to send documents for processing."
+        },
+        {
+          "question": "Can data be synced with accounting or ERP software?",
+          "answer": "Yes. RapidScan allows data export to Excel or integration with systems like Tally, QuickBooks, or your ERP via API or webhook."
+        }
+      ]
+    },         
+    {
+      "slug": "procurement-operations",
+      "meta": {
+        "title": "RapidScan for Procurement & Operations | Document Digitization & Automation",
+        "description": "Digitize and automate supplier documents like POs, quotations, and delivery notes with RapidScan.AI. Simplify procurement data capture, validation, and tracking — all from WhatsApp, email, or portal."
+      },
+      "hero": {
+        "badge": "Procurement Solution",
+        "title": "For Procurement & Operations",
+        "subtitle": "Use Cases",
+        "description": "Automate document-heavy procurement workflows. RapidScan captures and extracts key data from invoices, purchase orders, and quotations — giving procurement teams instant visibility, fewer errors, and faster approvals."
+      },
+      "keyFeatures": [
+        {
+          "icon": "📦",
+          "title": "Purchase Order Digitization",
+          "description": "Extract PO numbers, supplier details, and item data automatically from scanned or emailed purchase orders."
+        },
+        {
+          "icon": "💬",
+          "title": "Quotation Capture",
+          "description": "Suppliers can send quotes via email or WhatsApp — RapidScan reads prices, quantities, and terms instantly for easy comparison."
+        },
+        {
+          "icon": "📄",
+          "title": "Invoice & Bill Extraction",
+          "description": "Process incoming vendor invoices automatically. RapidScan validates totals and references against corresponding POs."
+        },
+        {
+          "icon": "🧾",
+          "title": "Delivery Note Tracking",
+          "description": "Capture delivery challans and goods received notes to ensure accurate matching with POs and invoices."
+        },
+        {
+          "icon": "📊",
+          "title": "Spend Data Export",
+          "description": "Get structured, export-ready data for spend tracking by supplier, category, or project — directly in Excel or your ERP."
+        },
+        {
+          "icon": "🔒",
+          "title": "Secure Document Handling",
+          "description": "All procurement data is encrypted and stored securely, accessible only by authorized users."
+        }
+      ],
+      "howItWorks": [
+        {
+          "title": "1. Collect Procurement Documents",
+          "description": "Suppliers and teams send invoices, quotations, and POs via WhatsApp, email, or upload. RapidScan automatically captures all attachments."
+        },
+        {
+          "title": "2. Extract & Validate Key Data",
+          "description": "AI reads and structures data — vendor name, PO number, item codes, quantities, prices — and flags any mismatches or missing fields."
+        },
+        {
+          "title": "3. Review & Export for Analysis",
+          "description": "Procurement teams review processed data in the dashboard, approve, and export to ERP or analytics systems in seconds."
+        }
+      ],
+      "useCases": [
+        {
+          "title": "Supplier Quotation Automation",
+          "description": "Procurement teams receive multiple supplier quotes via email. RapidScan extracts price, quantity, and terms, organizing them for quick comparison — cutting evaluation time significantly."
+        },
+        {
+          "title": "Purchase Order Management",
+          "description": "POs received from ERP or vendors are uploaded to RapidScan. AI extracts vendor info, line items, and totals — ensuring accurate data for tracking and reporting."
+        },
+        {
+          "title": "Invoice-to-PO Matching",
+          "description": "RapidScan compares invoice data with linked POs, verifying totals and line items automatically for faster approvals."
+        },
+        {
+          "title": "Delivery Challan Digitization",
+          "description": "Warehouse or field teams photograph delivery challans on-site. RapidScan extracts item details and delivery dates, helping validate supplier performance and inventory."
+        }
+      ],
+      "results": [
+        {
+          "stat": "80%",
+          "title": "Faster Document Turnaround",
+          "description": "Cut document processing time from days to minutes with AI-powered extraction."
+        },
+        {
+          "stat": "90%",
+          "title": "Data Accuracy",
+          "description": "Minimize human error in invoice and PO data entry."
+        },
+        {
+          "stat": "3x",
+          "title": "Faster Vendor Reconciliation",
+          "description": "Match POs, invoices, and delivery notes automatically for quick verification."
+        },
+        {
+          "stat": "100%",
+          "title": "Centralized Visibility",
+          "description": "Access all procurement documents and extracted data from a single secure dashboard."
+        }
+      ],
+      "challenges": [
+        {
+          "challenge": "Procurement teams waste hours entering supplier invoices, POs, and quotations manually.",
+          "solution": "RapidScan automates data extraction from emails and PDFs, turning documents into structured, ready-to-use data instantly."
+        },
+        {
+          "challenge": "Tracking delivery notes and validating invoices against POs is slow and inconsistent.",
+          "solution": "RapidScan automatically matches invoices and delivery challans with POs, flagging any discrepancies early in the process."
+        },
+        {
+          "challenge": "Vendors use different formats for invoices and quotations, making comparison difficult.",
+          "solution": "RapidScan standardizes and structures extracted data, making cross-vendor comparison quick and accurate."
+        },
+        {
+          "challenge": "Procurement data is scattered across emails and paper folders.",
+          "solution": "RapidScan centralizes all documents and extracted data in one searchable, secure dashboard for instant access."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can RapidScan process different document types from suppliers?",
+          "answer": "Yes. RapidScan supports invoices, POs, quotations, and delivery notes — even if formats or templates vary between vendors."
+        },
+        {
+          "question": "Can vendors send documents directly through WhatsApp or email?",
+          "answer": "Absolutely. Vendors can forward their invoices or POs via WhatsApp or email, and RapidScan processes them automatically."
+        },
+        {
+          "question": "Does RapidScan validate invoices against purchase orders?",
+          "answer": "Yes. RapidScan matches key fields like PO number, quantity, and total to verify accuracy before export or approval."
+        },
+        {
+          "question": "Can RapidScan handle scanned PDFs or images?",
+          "answer": "Yes. RapidScan uses OCR and AI to extract data from both scanned PDFs and image files, even from phone captures."
+        },
+        {
+          "question": "How can procurement teams export or use the data?",
+          "answer": "Extracted data can be exported to Excel, integrated into ERP/accounting software, or used for spend analysis directly from the dashboard."
+        }
+      ]
+    },      
+    {
+      "slug": "it-automation-teams",
+      "meta": {
+        "title": "RapidScan for IT & Automation Teams | AI APIs & Webhook Integration",
+        "description": "Empower your IT and automation teams with RapidScan’s developer-first APIs, webhooks, and workflow integrations. Build and scale document automation faster."
+      },
+      "hero": {
+        "badge": "IT Solution",
+        "title": "For IT & Automation Teams",
+        "subtitle": "Use Cases",
+        "description": "Embed RapidScan into your tech stack with developer-friendly APIs, webhooks, and automation tools. Build secure, scalable document workflows that serve every department—without managing custom OCR pipelines."
+      },
+      "keyFeatures": [
+        {
+          "icon": "🔌",
+          "title": "Developer-Ready RESTful API",
+          "description": "Easily upload, extract, and retrieve documents using simple REST endpoints. Includes SDKs, sample scripts, and full API documentation."
+        },
+        {
+          "icon": "🪝",
+          "title": "Real-Time Webhooks",
+          "description": "Receive instant callbacks when documents are processed. Push structured data directly into your ERP, CRM, or custom systems."
+        },
+        {
+          "icon": "🔄",
+          "title": "No-Code & Low-Code Automation",
+          "description": "Connect RapidScan to 1,000+ apps via Zapier, Make, or n8n — automating workflows in minutes without writing extra code."
+        },
+        {
+          "icon": "🛠️",
+          "title": "Custom Field Extraction",
+          "description": "Train RapidScan to extract domain-specific data such as project IDs, internal codes, or custom line items tailored to your business."
+        },
+        {
+          "icon": "📊",
+          "title": "High-Volume Batch Processing",
+          "description": "Upload hundreds or thousands of files via API or SFTP. RapidScan processes them in parallel for large-scale data migration or archival use cases."
+        },
+        {
+          "icon": "🔐",
+          "title": "Enterprise-Grade Security",
+          "description": "Built for IT compliance: API keys, OAuth 2.0, IP whitelisting, encryption, and role-based access control ensure safe and scalable deployments."
+        }
+      ],
+      "howItWorks": [
+        {
+          "title": "Connect RapidScan via API or Webhooks",
+          "description": "Use the REST API to send documents directly from your system, or configure webhooks to receive real-time extraction updates automatically."
+        },
+        {
+          "title": "Configure Custom Extraction Rules",
+          "description": "Define custom fields, validations, and workflow rules within RapidScan’s configuration interface or via API for advanced control."
+        },
+        {
+          "title": "Automate Cross-System Workflows",
+          "description": "Integrate RapidScan with your ERP, CRM, or RPA tools through APIs, Zapier, or n8n — creating fully automated, end-to-end document pipelines."
+        }
+      ],
+      "useCases": [
+        {
+          "title": "Unified ERP Integration Across Departments",
+          "description": "IT teams integrate RapidScan with ERP systems like SAP, Oracle, or NetSuite. All business units — finance, logistics, and procurement — send documents via WhatsApp or email. RapidScan extracts data and syncs it automatically across systems."
+        },
+        {
+          "title": "Workflow Automation via Zapier or n8n",
+          "description": "IT teams build automation workflows connecting RapidScan with Slack, Google Sheets, or Salesforce. Every processed document triggers actions — like alerts, data updates, or reports — across connected tools."
+        },
+        {
+          "title": "Bulk Data Migration & Document Archiving",
+          "description": "Migrate legacy documents effortlessly. Upload thousands of historical invoices or contracts via API or SFTP — RapidScan extracts and structures all data for import into your new ERP or DMS."
+        },
+        {
+          "title": "Industry-Specific Custom Extraction",
+          "description": "Train RapidScan to capture unique data fields such as batch numbers, asset IDs, or inspection notes. Perfect for IT-led automation in manufacturing, logistics, and finance operations."
+        }
+      ],
+      "results": [
+        {
+          "stat": "100+",
+          "title": "API Endpoints Available",
+          "description": "Comprehensive APIs for upload, extraction, validation, and data retrieval."
+        },
+        {
+          "stat": "1000+",
+          "title": "App Integrations Supported",
+          "description": "Connect RapidScan to your favorite tools via Zapier, Make, or n8n."
+        },
+        {
+          "stat": "10x",
+          "title": "Faster Integration Deployment",
+          "description": "Reduce development effort by 90% with ready-to-use automation APIs."
+        },
+        {
+          "stat": "99.9%",
+          "title": "API Uptime",
+          "description": "High availability and performance for enterprise-scale deployments."
+        }
+      ],
+      "challenges": [
+        {
+          "challenge": "Building custom OCR systems from scratch takes months and heavy maintenance.",
+          "solution": "RapidScan provides a developer-first API for data extraction and automation, eliminating the need to build and maintain in-house OCR systems."
+        },
+        {
+          "challenge": "Integrating multiple departments and systems is complex and time-consuming.",
+          "solution": "RapidScan’s webhooks and API endpoints enable centralized integration across ERPs, CRMs, and other apps, reducing complexity and improving standardization."
+        },
+        {
+          "challenge": "Off-the-shelf document solutions lack customization for specific data fields or formats.",
+          "solution": "RapidScan supports advanced field training and configuration via API, letting teams define and extract business-specific data with accuracy."
+        },
+        {
+          "challenge": "Migrating or processing thousands of historical documents manually is inefficient.",
+          "solution": "Use RapidScan’s batch upload API and parallel processing engine to handle large-scale document processing or data migration tasks quickly."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Which programming languages can I use to integrate with RapidScan?",
+          "answer": "RapidScan’s RESTful API is language-agnostic and works with Python, Node.js, Java, .NET, PHP, and more. SDKs and code samples are available for common stacks."
+        },
+        {
+          "question": "How can I connect RapidScan to my ERP or CRM?",
+          "answer": "Use RapidScan’s webhooks to receive data in real-time, or poll the API to fetch processed results. You can then sync data with your ERP, CRM, or data lake."
+        },
+        {
+          "question": "Can I define custom data fields for my documents?",
+          "answer": "Yes. You can define and train custom extraction fields using sample documents and configure rules via the RapidScan dashboard or API."
+        },
+        {
+          "question": "How can I process large document batches programmatically?",
+          "answer": "Upload documents in bulk via API or SFTP endpoints. RapidScan processes them in parallel, returning results through webhook callbacks or data exports."
+        },
+        {
+          "question": "What security standards does RapidScan follow for integrations?",
+          "answer": "RapidScan ensures enterprise-grade security with OAuth 2.0, API key authentication, IP whitelisting, role-based access, and full encryption at rest and in transit."
+        }
+      ]
+    }    
+  ]
+}
+

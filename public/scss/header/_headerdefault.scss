@@ -116,6 +116,22 @@
     }
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .rainbow-header {
+        .mainmenu-nav {
+            display: none !important;
+        }
+
+        .mobile-menu-bar {
+            display: flex !important;
+        }
+
+        .header-btn {
+            display: none !important;
+        }
+    }
+}
+
 
 
 .hamberger-button {

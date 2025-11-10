@@ -12,17 +12,21 @@ const PopupMobileMenu = () => {
   const { activeMobileMenu, setActiveMobileMenu, isLightTheme } =
     useAppContext();
 
-  const handleResize = () => {
-    if (window.innerWidth > 992) {
-      setActiveMobileMenu(true);
-    }
-  };
+  const MOBILE_MENU_BREAKPOINT = 1200;
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const handleResize = () => {
+      if (window.innerWidth >= MOBILE_MENU_BREAKPOINT) {
+        setActiveMobileMenu(true);
+      }
+    };
+
     window.addEventListener("resize", handleResize);
     handleResize();
     return () => window.removeEventListener("resize", handleResize);
-  }, [activeMobileMenu]);
+  }, [setActiveMobileMenu]);
 
   return (
     <>

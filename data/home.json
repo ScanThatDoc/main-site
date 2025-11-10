@@ -38,6 +38,62 @@
       }
     }
   },
+  "solutionsSection": {
+    "id": "solutions",
+    "subtitle": "Solutions",
+    "title": "Industry-ready automation for every operations team",
+    "description": "RapidScan adapts to your workflows—whether you run a factory floor, finance back office, or distributed field team.",
+    "items": [
+      {
+        "name": "For Manufacturing & Distribution",
+        "category": "Industry",
+        "description": "Convert supplier invoices, POs, and delivery dockets into ERP-ready data with zero manual keying.",
+        "link": "/solutions/manufacturing-distribution"
+      },
+      {
+        "name": "For Accounting & Finance",
+        "category": "Finance",
+        "description": "Automate AP, AR, and reconciliation workflows with human-in-the-loop controls and audit trails.",
+        "link": "/solutions/accounting-finance"
+      },
+      {
+        "name": "For Logistics & Supply Chain",
+        "category": "Operations",
+        "description": "Streamline waybills, manifests, and customs paperwork across ports, warehouses, and partners.",
+        "link": "/solutions/logistics-supply-chain"
+      },
+      {
+        "name": "For Small & Medium Businesses (SMBs)",
+        "category": "SMBs",
+        "description": "Get plug-and-play automation for invoices, approvals, and compliance—built for lean teams.",
+        "link": "/solutions/small-medium-businesses"
+      },
+      {
+        "name": "For Healthcare & Insurance",
+        "category": "Healthcare",
+        "description": "Capture claims, policies, and clinical documents with healthcare-grade accuracy and privacy.",
+        "link": "/solutions/healthcare-insurance"
+      },
+      {
+        "name": "For Construction & Field Ops",
+        "category": "Field Ops",
+        "description": "Ingest job cards, delivery challans, and site reports from mobile crews in seconds.",
+        "link": "/solutions/construction-field-ops"
+      },
+      {
+        "name": "For Procurement & Operations",
+        "category": "Procurement",
+        "description": "Digitize sourcing packs, supplier onboarding, and compliance records end-to-end.",
+        "link": "/solutions/procurement-operations"
+      },
+      {
+        "name": "For IT & Automation Teams",
+        "category": "IT",
+        "description": "Embed RapidScan via APIs, webhooks, and workflow builders to serve every business unit.",
+        "link": "/solutions/it-automation-teams"
+      }
+    ]
+  },
   "ocrSection": {
     "subtitle": "How It Works",
     "title": {

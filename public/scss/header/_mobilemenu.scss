@@ -1,6 +1,12 @@
 /*------------------------------
     Popup Menu Styles  
 --------------------------------*/
+@media (min-width: 1200px) {
+    .popup-mobile-menu {
+        display: none;
+    }
+}
+
 .popup-mobile-menu {
     z-index: 9999;
     position: fixed;

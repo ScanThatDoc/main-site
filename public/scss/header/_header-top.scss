@@ -32,6 +32,14 @@
         }
 
         .content {
+            .rainbow-badge {
+                color: #fff;
+
+                &:hover,
+                &:focus {
+                    color: #fff;
+                }
+            }
             .news-text {
                 display: inline-block;
                 margin-left: 15px;
